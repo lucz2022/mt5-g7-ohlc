@@ -1,6 +1,6 @@
 # EURAUD candidate evidence
 
-JSON SHA-256: 687f9f729a86d9798034bd940dd2655353757493f1c3cc8bcd9351431ecc774c
+JSON SHA-256: c56d856e1bd0307e66d29fa18e2f022e4b780f92ce80a7ee98fae192e909b71c
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "EURAUD",
-  "as_of_utc": "2026-11-16T06:45:00Z",
+  "as_of_utc": "2026-11-16T07:00:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
@@ -74,12 +74,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "path": "ohlc/pairs/EURAUD/H1.json",
-      "sha256": "fe7e1be75b53cb5f87fbb557b53bbf09cff6a9b707fa4432a1a73b20bae217dd",
+      "sha256": "8b9a346a638053d799f6330ccc63d04a3b58715e11579ffd9878133ea535589e",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURAUD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-16T06:01:11Z",
+      "retrieved_at_utc": "2026-11-16T07:01:13Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -102,12 +102,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/EURAUD/M15.json",
-      "sha256": "320a665895d251c6c6f9a51e63f1d2dc04cf1a07c5ecab70fa855489bbc7e2f5",
+      "sha256": "568c489b6f8e56365a7a9ed4d6438294df242641e0be5fb40be5cc526fdacf47",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURAUD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-16T06:46:13Z",
+      "retrieved_at_utc": "2026-11-16T07:01:13Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -186,28 +186,28 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T06:00:00Z",
-      "close": 1.63178,
+      "last_closed_bar_utc": "2026-11-16T07:00:00Z",
+      "close": 1.6295,
       "ema": {
-        "20": 1.627913207226316,
-        "50": 1.6261819536692985,
-        "200": 1.6187911645231148
+        "20": 1.6280643303476192,
+        "50": 1.6263120731332477,
+        "200": 1.618897712727906
       },
-      "ema20_change_5bars": 0.0011706342410662263,
-      "atr14": 0.002028256895710275,
+      "ema20_change_5bars": 0.0010810500276312585,
+      "atr14": 0.0021512385460166943,
       "trend": "BUY"
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T06:45:00Z",
+      "last_closed_bar_utc": "2026-11-16T07:00:00Z",
       "close": 1.6295,
       "ema": {
-        "20": 1.6297035512518634,
-        "50": 1.6285944645165344,
-        "200": 1.6262525665229342
+        "20": 1.6296841654183525,
+        "50": 1.6286299757119644,
+        "200": 1.6262848856156473
       },
-      "ema20_change_5bars": 0.0008978896319984386,
-      "atr14": 0.0012087509802336598,
+      "ema20_change_5bars": 0.0006495191908555409,
+      "atr14": 0.0011816973387884062,
       "trend": "BUY"
     },
     "W1": {
@@ -241,9 +241,9 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "EURAUD",
-    "tick_time_utc": "2026-11-16T06:46:09Z",
-    "bid": 1.6291600000000002,
-    "ask": 1.62931,
+    "tick_time_utc": "2026-11-16T07:01:10Z",
+    "bid": 1.6292900000000001,
+    "ask": 1.62944,
     "digits": 5,
     "point": 1e-05,
     "spread_points": 15.0,
@@ -252,11 +252,11 @@ Publisher-calculated, not independently recomputed by reader.
     "spread_rounding_deviation_points": 1.3e-11
   },
   "rtv": {
-    "value": 1.009733939000649,
+    "value": 1.0292018170019468,
     "baseline_median": 770.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-16T06:45:00Z"
+    "last_closed_bar_utc": "2026-11-16T07:00:00Z"
   }
 }
 ```
