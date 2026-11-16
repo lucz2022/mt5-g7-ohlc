@@ -2,7 +2,7 @@
 
 Algorithm: zones-1.0; not backtested; all enabled=0.
 Read this index then individual evidence cards. No live execution authorization.
-as_of_utc: 2026-11-16T07:15:00Z
+as_of_utc: 2026-11-16T07:30:00Z
 
 | Symbol | Result | Direction | Mode | Zone | Invalidation | Evidence |
 |---|---|---|---|---|---|---|
@@ -23,7 +23,7 @@ as_of_utc: 2026-11-16T07:15:00Z
 | EURCAD | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [EURCAD](evidence/EURCAD.md) |
 | GBPCAD | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [GBPCAD](evidence/GBPCAD.md) |
 | GBPCHF | TECHNICAL_CANDIDATE  | BUY | PULLBACK | 1.10531 - 1.10561 | 1.10506 | [GBPCHF](evidence/GBPCHF.md) |
-| AUDCAD | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 0.96474 - 0.96512 | 0.96544 | [AUDCAD](evidence/AUDCAD.md) |
+| AUDCAD | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 0.96715 - 0.96753 | 0.96785 | [AUDCAD](evidence/AUDCAD.md) |
 | AUDCHF | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 0.56882 - 0.56912 | 0.56937 | [AUDCHF](evidence/AUDCHF.md) |
 | CADCHF | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [CADCHF](evidence/CADCHF.md) |
 | CHFJPY | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 190.493 - 190.553 | 190.603 | [CHFJPY](evidence/CHFJPY.md) |
