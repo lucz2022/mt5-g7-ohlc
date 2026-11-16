@@ -2,7 +2,7 @@
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "EURCHF",
-  "as_of_utc": "2026-11-16T11:00:00Z",
+  "as_of_utc": "2026-11-16T11:15:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
@@ -95,12 +95,12 @@
     },
     "M15": {
       "path": "ohlc/pairs/EURCHF/M15.json",
-      "sha256": "12982975206f7c32048185aa103619ebd05dd32c62cd89366aca42935ab06a89",
+      "sha256": "bec39a36740b41e691db48731761b0abce1194abb03035de1e92224f11d0c589",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURCHF",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-16T11:01:10Z",
+      "retrieved_at_utc": "2026-11-16T11:16:10Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -192,15 +192,15 @@
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T11:00:00Z",
-      "close": 0.92494,
+      "last_closed_bar_utc": "2026-11-16T11:15:00Z",
+      "close": 0.92501,
       "ema": {
-        "20": 0.9249191934432244,
-        "50": 0.9248374781917269,
-        "200": 0.9243055545825712
+        "20": 0.9249278416867268,
+        "50": 0.9248442437528357,
+        "200": 0.9243125622970716
       },
-      "ema20_change_5bars": 0.00011609267840595461,
-      "atr14": 0.000334534312697164,
+      "ema20_change_5bars": 8.313147093874651e-05,
+      "atr14": 0.0003299247189330803,
       "trend": "BUY"
     },
     "W1": {
@@ -234,21 +234,21 @@
   },
   "quote": {
     "broker_symbol": "EURCHF",
-    "tick_time_utc": "2026-11-16T11:01:06Z",
-    "bid": 0.92491,
-    "ask": 0.92506,
+    "tick_time_utc": "2026-11-16T11:16:07Z",
+    "bid": 0.92506,
+    "ask": 0.92519,
     "digits": 5,
     "point": 1e-05,
-    "spread_points": 15.0,
+    "spread_points": 13.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": 2e-12
+    "spread_rounding_deviation_points": 4e-12
   },
   "rtv": {
-    "value": 0.7935483870967742,
+    "value": 0.7306451612903225,
     "baseline_median": 620.0,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-16T11:00:00Z"
+    "last_closed_bar_utc": "2026-11-16T11:15:00Z"
   }
 }
