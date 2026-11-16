@@ -1,6 +1,6 @@
 # EURAUD candidate evidence
 
-JSON SHA-256: 8ff083955b52d92467d49e866fda3a14dd1fbba009b494666e690533617b3155
+JSON SHA-256: ae9945eeef4e00173e7669eb173b97ad1a1ebce37103abc87a7ad1c00b59d30f
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "EURAUD",
-  "as_of_utc": "2026-11-16T06:00:00Z",
+  "as_of_utc": "2026-11-16T06:15:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
@@ -102,12 +102,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/EURAUD/M15.json",
-      "sha256": "bbcfe695f45767221e5b6b09e8eda206be3188b09846b883a7bde913242c9614",
+      "sha256": "c2ada7a1e47db7351b62733ffb8d581893bbdf3b399f405f0d72ac34bf3ff916",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURAUD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-16T06:01:11Z",
+      "retrieved_at_utc": "2026-11-16T06:16:10Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -199,15 +199,15 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T06:00:00Z",
-      "close": 1.63178,
+      "last_closed_bar_utc": "2026-11-16T06:15:00Z",
+      "close": 1.63239,
       "ema": {
-        "20": 1.629296108491545,
-        "50": 1.6282973126212958,
-        "200": 1.626109376862794
+        "20": 1.6295907648256835,
+        "50": 1.6284578101655587,
+        "200": 1.626171876588096
       },
-      "ema20_change_5bars": 0.0011522577463094485,
-      "atr14": 0.0011129825624766432,
+      "ema20_change_5bars": 0.001262518913327737,
+      "atr14": 0.0010999123794425882,
       "trend": "BUY"
     },
     "W1": {
@@ -241,22 +241,22 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "EURAUD",
-    "tick_time_utc": "2026-11-16T06:01:08Z",
-    "bid": 1.63218,
-    "ask": 1.6323400000000001,
+    "tick_time_utc": "2026-11-16T06:16:07Z",
+    "bid": 1.6323400000000001,
+    "ask": 1.63246,
     "digits": 5,
     "point": 1e-05,
-    "spread_points": 16.0,
+    "spread_points": 12.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": -1.6e-11
+    "spread_rounding_deviation_points": 1e-11
   },
   "rtv": {
-    "value": 1.1512005191434134,
+    "value": 1.2783906554185593,
     "baseline_median": 770.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-16T06:00:00Z"
+    "last_closed_bar_utc": "2026-11-16T06:15:00Z"
   }
 }
 ```
