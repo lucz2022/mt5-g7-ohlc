@@ -1,6 +1,6 @@
 # GBPUSD candidate evidence
 
-JSON SHA-256: 17d9511bfced75c448f9990075d375f7bd5e5f3959b90aa5715f3894cc19995b
+JSON SHA-256: 2be0187adaeecac9499b433fff9013b4d4f524ddeda747c2738e278d8e27008b
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "GBPUSD",
-  "as_of_utc": "2026-11-16T10:00:00Z",
+  "as_of_utc": "2026-11-16T10:15:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -100,12 +100,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/GBPUSD/M15.json",
-      "sha256": "381fe5ee3a2a9c0f569ef72439375ec045795a61b7a4c55ec1a3ce2c917752f4",
+      "sha256": "859f4874d7b94e8d11edb24083701ff4554343693dccb380cefa5e0de53384d8",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "GBPUSD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-16T10:01:08Z",
+      "retrieved_at_utc": "2026-11-16T10:16:09Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -197,15 +197,15 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T10:00:00Z",
-      "close": 1.3189,
+      "last_closed_bar_utc": "2026-11-16T10:15:00Z",
+      "close": 1.31913,
       "ema": {
-        "20": 1.3204192318562467,
-        "50": 1.3208501809681015,
-        "200": 1.323347678918684
+        "20": 1.3202964478699375,
+        "50": 1.320782722890921,
+        "200": 1.3233057086659397
       },
-      "ema20_change_5bars": -0.0002713988589744254,
-      "atr14": 0.0007398209844644432,
+      "ema20_change_5bars": -0.0004874561105006059,
+      "atr14": 0.0007484051998598461,
       "trend": "SELL"
     },
     "W1": {
@@ -238,7 +238,7 @@ Publisher-calculated, not independently recomputed by reader.
       "risk_pct": 0.75,
       "factor_group": "USD_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 1.025,
+      "distance_atr": 0.8578,
       "pivot": {
         "side": "LOW",
         "level": 1.3205200000000001,
@@ -255,7 +255,7 @@ Publisher-calculated, not independently recomputed by reader.
         "EA_LIVE_CHECKS"
       ],
       "m15_direction_confirmed": true,
-      "valid_until_utc": "2026-11-17T10:00:00Z"
+      "valid_until_utc": "2026-11-17T10:15:00Z"
     }
   ],
   "enabled": 0,
@@ -274,9 +274,9 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "GBPUSD",
-    "tick_time_utc": "2026-11-16T10:01:04Z",
-    "bid": 1.31867,
-    "ask": 1.31876,
+    "tick_time_utc": "2026-11-16T10:16:07Z",
+    "bid": 1.31918,
+    "ask": 1.31927,
     "digits": 5,
     "point": 1e-05,
     "spread_points": 9.0,
@@ -285,11 +285,11 @@ Publisher-calculated, not independently recomputed by reader.
     "spread_rounding_deviation_points": 8e-12
   },
   "rtv": {
-    "value": 0.8440890919474586,
+    "value": 1.0108509423186751,
     "baseline_median": 875.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-16T10:00:00Z"
+    "last_closed_bar_utc": "2026-11-16T10:15:00Z"
   }
 }
 ```
