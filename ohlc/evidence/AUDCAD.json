@@ -2,7 +2,7 @@
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "AUDCAD",
-  "as_of_utc": "2026-11-16T15:15:00Z",
+  "as_of_utc": "2026-11-16T15:30:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -93,12 +93,12 @@
     },
     "M15": {
       "path": "ohlc/pairs/AUDCAD/M15.json",
-      "sha256": "31c743bd37fa29bd9ef0b9bcf4f299566f50abeb8b39e31e167801b612498336",
+      "sha256": "a72899caff08f552ac437133a00a322af7ca4b71f3f92903c7fa639ab756f391",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "AUDCAD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-16T15:16:12Z",
+      "retrieved_at_utc": "2026-11-16T15:31:14Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -190,15 +190,15 @@
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T15:15:00Z",
-      "close": 0.96449,
+      "last_closed_bar_utc": "2026-11-16T15:30:00Z",
+      "close": 0.96458,
       "ema": {
-        "20": 0.964872171417132,
-        "50": 0.9651376126918527,
-        "200": 0.9676964516231357
+        "20": 0.9648443455678813,
+        "50": 0.9651157455274664,
+        "200": 0.9676654358397941
       },
-      "ema20_change_5bars": -3.0396411084931962e-05,
-      "atr14": 0.0006233997664794713,
+      "ema20_change_5bars": -9.035865764828177e-05,
+      "atr14": 0.0006210140688738012,
       "trend": "SELL"
     },
     "W1": {
@@ -231,7 +231,7 @@
       "risk_pct": 0.5,
       "factor_group": "CAD_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 0.7765,
+      "distance_atr": 0.7005,
       "pivot": {
         "side": "HIGH",
         "level": 0.96559,
@@ -248,7 +248,7 @@
         "EA_LIVE_CHECKS"
       ],
       "m15_direction_confirmed": true,
-      "valid_until_utc": "2026-11-17T15:15:00Z"
+      "valid_until_utc": "2026-11-17T15:30:00Z"
     }
   ],
   "enabled": 0,
@@ -267,21 +267,21 @@
   },
   "quote": {
     "broker_symbol": "AUDCAD",
-    "tick_time_utc": "2026-11-16T15:16:09Z",
-    "bid": 0.96422,
-    "ask": 0.96434,
+    "tick_time_utc": "2026-11-16T15:31:08Z",
+    "bid": 0.96451,
+    "ask": 0.96464,
     "digits": 5,
     "point": 1e-05,
-    "spread_points": 12.0,
+    "spread_points": 13.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": -1e-12
+    "spread_rounding_deviation_points": -7e-12
   },
   "rtv": {
-    "value": 2.1572052401746724,
-    "baseline_median": 801.5,
+    "value": 1.3876063183475091,
+    "baseline_median": 823.0,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-16T15:15:00Z"
+    "last_closed_bar_utc": "2026-11-16T15:30:00Z"
   }
 }
