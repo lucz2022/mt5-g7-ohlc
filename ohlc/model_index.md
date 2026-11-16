@@ -2,7 +2,7 @@
 
 Algorithm: zones-1.0; not backtested; all enabled=0.
 Read this index then individual evidence cards. No live execution authorization.
-as_of_utc: 2026-11-16T23:15:00Z
+as_of_utc: 2026-11-16T23:30:00Z
 
 | Symbol | Result | Direction | Mode | Zone | Invalidation | Evidence |
 |---|---|---|---|---|---|---|
@@ -26,4 +26,4 @@ as_of_utc: 2026-11-16T23:15:00Z
 | AUDCAD | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 0.96393 - 0.96427 | 0.96455 | [AUDCAD](evidence/AUDCAD.md) |
 | AUDCHF | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 0.56695 - 0.56721 | 0.56743 | [AUDCHF](evidence/AUDCHF.md) |
 | CADCHF | TECHNICAL_CANDIDATE  | BUY | PULLBACK | 0.58607 - 0.58627 | 0.58591 | [CADCHF](evidence/CADCHF.md) |
-| CHFJPY | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 190.395 - 190.451 | 190.498 | [CHFJPY](evidence/CHFJPY.md) |
+| CHFJPY | WATCH NO_VALID_NEARBY_ZONE | - | - | - - - | - | [CHFJPY](evidence/CHFJPY.md) |
