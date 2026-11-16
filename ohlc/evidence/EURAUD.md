@@ -1,6 +1,6 @@
 # EURAUD candidate evidence
 
-JSON SHA-256: bf2c00c8d61f773933e64f70cfef2b705d10a6ec94d3a7e4ce6c4023821d68ab
+JSON SHA-256: 942d2dd3235efc83d13c451a738c4d3fb05ad52b317a9765aa4dcdad9dfc0125
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "EURAUD",
-  "as_of_utc": "2026-11-16T08:45:00Z",
+  "as_of_utc": "2026-11-16T09:00:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
@@ -74,12 +74,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "path": "ohlc/pairs/EURAUD/H1.json",
-      "sha256": "e1d8d1c65a2bcc68105da68c3eda7f9d770cc3511c24cc19d83cec4f1a83638e",
+      "sha256": "ced147de2e4466c081caa9ad14334892f75918b132b411b19de92c9ffb28fcb1",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURAUD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-16T08:01:10Z",
+      "retrieved_at_utc": "2026-11-16T09:01:14Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -102,12 +102,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/EURAUD/M15.json",
-      "sha256": "e3523198b8307801460f800d89455b275f231fed46b5dfca5e55c077d36c398c",
+      "sha256": "4631a70baf292c704565be7fd91ff8712ef13c923318c286a373fa6d57530758",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURAUD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-16T08:46:11Z",
+      "retrieved_at_utc": "2026-11-16T09:01:14Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -186,28 +186,28 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T08:00:00Z",
-      "close": 1.6305800000000001,
+      "last_closed_bar_utc": "2026-11-16T09:00:00Z",
+      "close": 1.63073,
       "ema": {
-        "20": 1.6283039179335603,
-        "50": 1.6264794428142968,
-        "200": 1.6190139446306608
+        "20": 1.6285349733684593,
+        "50": 1.6266461313313831,
+        "200": 1.6191305156976168
       },
-      "ema20_change_5bars": 0.001202854786904517,
-      "atr14": 0.0021382929355869325,
+      "ema20_change_5bars": 0.0012997257595801504,
+      "atr14": 0.002111272011616436,
       "trend": "BUY"
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T08:45:00Z",
-      "close": 1.6305100000000001,
+      "last_closed_bar_utc": "2026-11-16T09:00:00Z",
+      "close": 1.63073,
       "ema": {
-        "20": 1.630081033426744,
-        "50": 1.6290720961438214,
-        "200": 1.6265646861176617
+        "20": 1.630142839767054,
+        "50": 1.6291371119813187,
+        "200": 1.6266061343339682
       },
-      "ema20_change_5bars": 0.00038184132691343464,
-      "atr14": 0.0011727540011554987,
+      "ema20_change_5bars": 0.00033976120054068915,
+      "atr14": 0.0011289858582158125,
       "trend": "BUY"
     },
     "W1": {
@@ -241,9 +241,9 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "EURAUD",
-    "tick_time_utc": "2026-11-16T08:46:09Z",
-    "bid": 1.6305100000000001,
-    "ask": 1.6306699999999998,
+    "tick_time_utc": "2026-11-16T09:01:10Z",
+    "bid": 1.6307800000000001,
+    "ask": 1.6309399999999998,
     "digits": 5,
     "point": 1e-05,
     "spread_points": 16.0,
@@ -252,11 +252,11 @@ Publisher-calculated, not independently recomputed by reader.
     "spread_rounding_deviation_points": 2.8e-11
   },
   "rtv": {
-    "value": 1.6575429662635264,
-    "baseline_median": 785.5,
+    "value": 1.515762925598991,
+    "baseline_median": 793.0,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-16T08:45:00Z"
+    "last_closed_bar_utc": "2026-11-16T09:00:00Z"
   }
 }
 ```
