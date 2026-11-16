@@ -1,6 +1,6 @@
 # EURGBP candidate evidence
 
-JSON SHA-256: 222b66a9a8d98349e5fe0f369af18627dec2fdcbb674b556b6ea86a69fb5f2ee
+JSON SHA-256: fe3925a553d663f2d496f13d881d0460d210ef624dabf7f0e6adca9666bf8733
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "EURGBP",
-  "as_of_utc": "2026-11-16T20:00:00Z",
+  "as_of_utc": "2026-11-16T20:15:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -100,12 +100,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/EURGBP/M15.json",
-      "sha256": "539286d1752c90035aeda1463d14f5da5000050fbc2726a90c7b596041d29b69",
+      "sha256": "25014c6334ce3158d05e1338d21800615275eea3dafdfcc22fc0ba0dcef28a93",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURGBP",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-16T20:01:09Z",
+      "retrieved_at_utc": "2026-11-16T20:16:10Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -197,15 +197,15 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T20:00:00Z",
-      "close": 0.83441,
+      "last_closed_bar_utc": "2026-11-16T20:15:00Z",
+      "close": 0.83444,
       "ema": {
-        "20": 0.834332699413546,
-        "50": 0.8343631551573265,
-        "200": 0.8347301683486271
+        "20": 0.8343429185170178,
+        "50": 0.8343661686805686,
+        "200": 0.8347272785814032
       },
-      "ema20_change_5bars": -1.106867794076205e-05,
-      "atr14": 0.0002465092733029265,
+      "ema20_change_5bars": 1.569976757731517e-05,
+      "atr14": 0.00023961575378128773,
       "trend": "NEUTRAL"
     },
     "W1": {
@@ -238,7 +238,7 @@ Publisher-calculated, not independently recomputed by reader.
       "risk_pct": 0.5,
       "factor_group": "GBP_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 0.79,
+      "distance_atr": 0.7276,
       "pivot": {
         "side": "HIGH",
         "level": 0.83486,
@@ -255,7 +255,7 @@ Publisher-calculated, not independently recomputed by reader.
         "EA_LIVE_CHECKS"
       ],
       "m15_direction_confirmed": false,
-      "valid_until_utc": "2026-11-17T20:00:00Z"
+      "valid_until_utc": "2026-11-17T20:15:00Z"
     }
   ],
   "enabled": 0,
@@ -274,22 +274,22 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "EURGBP",
-    "tick_time_utc": "2026-11-16T20:01:04Z",
-    "bid": 0.83442,
-    "ask": 0.83455,
+    "tick_time_utc": "2026-11-16T20:16:07Z",
+    "bid": 0.83437,
+    "ask": 0.83448,
     "digits": 5,
     "point": 1e-05,
-    "spread_points": 13.0,
+    "spread_points": 11.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": 4e-12
+    "spread_rounding_deviation_points": -5e-12
   },
   "rtv": {
-    "value": 0.5709188224799286,
-    "baseline_median": 560.5,
+    "value": 0.41935483870967744,
+    "baseline_median": 558.0,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-16T20:00:00Z"
+    "last_closed_bar_utc": "2026-11-16T20:15:00Z"
   }
 }
 ```
