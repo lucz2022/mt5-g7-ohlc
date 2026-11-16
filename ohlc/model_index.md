@@ -2,7 +2,7 @@
 
 Algorithm: zones-1.0; not backtested; all enabled=0.
 Read this index then individual evidence cards. No live execution authorization.
-as_of_utc: 2026-11-16T23:00:00Z
+as_of_utc: 2026-11-16T23:15:00Z
 
 | Symbol | Result | Direction | Mode | Zone | Invalidation | Evidence |
 |---|---|---|---|---|---|---|
@@ -14,7 +14,7 @@ as_of_utc: 2026-11-16T23:00:00Z
 | AUDUSD | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 0.67405 - 0.67431 | 0.67453 | [AUDUSD](evidence/AUDUSD.md) |
 | EURJPY | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 175.482 - 175.536 | 175.581 | [EURJPY](evidence/EURJPY.md) |
 | GBPJPY | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [GBPJPY](evidence/GBPJPY.md) |
-| EURGBP | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 0.83386 - 0.83402 | 0.83415 | [EURGBP](evidence/EURGBP.md) |
+| EURGBP | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 0.83447 - 0.83463 | 0.83476 | [EURGBP](evidence/EURGBP.md) |
 | AUDJPY | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 107.482 - 107.532 | 107.574 | [AUDJPY](evidence/AUDJPY.md) |
 | CADJPY | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 111.576 - 111.612 | 111.642 | [CADJPY](evidence/CADJPY.md) |
 | GBPAUD | TECHNICAL_CANDIDATE  | BUY | BREAKOUT | 1.9563 - 1.95694 | 1.95576 | [GBPAUD](evidence/GBPAUD.md) |
@@ -24,6 +24,6 @@ as_of_utc: 2026-11-16T23:00:00Z
 | GBPCAD | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [GBPCAD](evidence/GBPCAD.md) |
 | GBPCHF | TECHNICAL_CANDIDATE  | BUY | PULLBACK | 1.10531 - 1.10561 | 1.10506 | [GBPCHF](evidence/GBPCHF.md) |
 | AUDCAD | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 0.96393 - 0.96427 | 0.96455 | [AUDCAD](evidence/AUDCAD.md) |
-| AUDCHF | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 0.5652 - 0.56546 | 0.56568 | [AUDCHF](evidence/AUDCHF.md) |
+| AUDCHF | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 0.56695 - 0.56721 | 0.56743 | [AUDCHF](evidence/AUDCHF.md) |
 | CADCHF | TECHNICAL_CANDIDATE  | BUY | PULLBACK | 0.58607 - 0.58627 | 0.58591 | [CADCHF](evidence/CADCHF.md) |
-| CHFJPY | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 189.739 - 189.795 | 189.842 | [CHFJPY](evidence/CHFJPY.md) |
+| CHFJPY | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 190.395 - 190.451 | 190.498 | [CHFJPY](evidence/CHFJPY.md) |
