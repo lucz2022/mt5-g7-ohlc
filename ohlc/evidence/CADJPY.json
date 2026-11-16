@@ -2,7 +2,7 @@
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "CADJPY",
-  "as_of_utc": "2026-11-16T07:00:00Z",
+  "as_of_utc": "2026-11-16T07:15:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -93,12 +93,12 @@
     },
     "M15": {
       "path": "ohlc/pairs/CADJPY/M15.json",
-      "sha256": "1a9c4e5129878f9efe0d50d7911fa4b8eb050d3947e1e04a3679ab04a6a7c29d",
+      "sha256": "74130bc464491995ac5c9b287a4815c7d1f37ae040f1d67f8d9112becc2b4d92",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "CADJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-16T07:01:12Z",
+      "retrieved_at_utc": "2026-11-16T07:16:08Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -190,15 +190,15 @@
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T07:00:00Z",
-      "close": 111.742,
+      "last_closed_bar_utc": "2026-11-16T07:15:00Z",
+      "close": 111.736,
       "ema": {
-        "20": 111.79070944004896,
-        "50": 111.87924482560226,
-        "200": 112.01573533697851
+        "20": 111.78549901718715,
+        "50": 111.87362738146099,
+        "200": 112.01295179377415
       },
-      "ema20_change_5bars": -0.0365025586689427,
-      "atr14": 0.06660692626767406,
+      "ema20_change_5bars": -0.03150231498618439,
+      "atr14": 0.0683492886771265,
       "trend": "SELL"
     },
     "W1": {
@@ -231,7 +231,7 @@
       "risk_pct": 0.5,
       "factor_group": "JPY_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 2.1726,
+      "distance_atr": 2.2198,
       "pivot": {
         "side": "HIGH",
         "level": 112.037,
@@ -248,7 +248,7 @@
         "EA_LIVE_CHECKS"
       ],
       "m15_direction_confirmed": true,
-      "valid_until_utc": "2026-11-17T07:00:00Z"
+      "valid_until_utc": "2026-11-17T07:15:00Z"
     }
   ],
   "enabled": 0,
@@ -267,21 +267,21 @@
   },
   "quote": {
     "broker_symbol": "CADJPY",
-    "tick_time_utc": "2026-11-16T07:01:10Z",
-    "bid": 111.692,
-    "ask": 111.705,
+    "tick_time_utc": "2026-11-16T07:16:05Z",
+    "bid": 111.718,
+    "ask": 111.731,
     "digits": 3,
     "point": 0.001,
     "spread_points": 13.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": -5e-12
+    "spread_rounding_deviation_points": 9e-12
   },
   "rtv": {
-    "value": 1.0637738330046023,
+    "value": 1.4687705456936226,
     "baseline_median": 760.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-16T07:00:00Z"
+    "last_closed_bar_utc": "2026-11-16T07:15:00Z"
   }
 }
