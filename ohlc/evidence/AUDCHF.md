@@ -1,6 +1,6 @@
 # AUDCHF candidate evidence
 
-JSON SHA-256: dab80ea5329f7d82694a5f2c0435c3b156fa6ff37c9fbbfe45811517e1542efa
+JSON SHA-256: 1cf74437ee499bfc871a2a3aaeb06be49a26acf0cff8b99f5826284dfde11eb1
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "AUDCHF",
-  "as_of_utc": "2026-11-16T09:15:00Z",
+  "as_of_utc": "2026-11-16T09:30:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -100,12 +100,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/AUDCHF/M15.json",
-      "sha256": "e619253199064fe8bb3bc17f78ff77a6f60ded6feb57c2152218190cac446cfb",
+      "sha256": "18e160bb7319a4017e1a1204b45545bd0379ac205985a7aa99c26e6e957b5e31",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "AUDCHF",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-16T09:16:11Z",
+      "retrieved_at_utc": "2026-11-16T09:31:12Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -197,15 +197,15 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T09:15:00Z",
-      "close": 0.56734,
+      "last_closed_bar_utc": "2026-11-16T09:30:00Z",
+      "close": 0.56728,
       "ema": {
-        "20": 0.5672328929268053,
-        "50": 0.5675850953050489,
-        "200": 0.5681688329357706
+        "20": 0.5672373793147286,
+        "50": 0.5675731307832822,
+        "200": 0.5681599872598166
       },
-      "ema20_change_5bars": 2.3699419090972285e-05,
-      "atr14": 0.0004695695091080006,
+      "ema20_change_5bars": 5.8585188701276714e-05,
+      "atr14": 0.00045817168702886,
       "trend": "NEUTRAL"
     },
     "W1": {
@@ -238,7 +238,7 @@ Publisher-calculated, not independently recomputed by reader.
       "risk_pct": 0.5,
       "factor_group": "CHF_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 1.4924,
+      "distance_atr": 1.5529,
       "pivot": {
         "side": "HIGH",
         "level": 0.56897,
@@ -255,7 +255,7 @@ Publisher-calculated, not independently recomputed by reader.
         "EA_LIVE_CHECKS"
       ],
       "m15_direction_confirmed": false,
-      "valid_until_utc": "2026-11-17T09:15:00Z"
+      "valid_until_utc": "2026-11-17T09:30:00Z"
     }
   ],
   "enabled": 0,
@@ -274,22 +274,22 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "AUDCHF",
-    "tick_time_utc": "2026-11-16T09:16:07Z",
-    "bid": 0.56722,
-    "ask": 0.56734,
+    "tick_time_utc": "2026-11-16T09:31:08Z",
+    "bid": 0.56733,
+    "ask": 0.56744,
     "digits": 5,
     "point": 1e-05,
-    "spread_points": 12.0,
+    "spread_points": 11.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": -1e-12
+    "spread_rounding_deviation_points": -5e-12
   },
   "rtv": {
-    "value": 1.1589008363201911,
-    "baseline_median": 837.0,
+    "value": 0.9052132701421801,
+    "baseline_median": 844.0,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-16T09:15:00Z"
+    "last_closed_bar_utc": "2026-11-16T09:30:00Z"
   }
 }
 ```
