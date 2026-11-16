@@ -1,6 +1,6 @@
 # GBPJPY candidate evidence
 
-JSON SHA-256: 7ac630af671178d513a05ae3678c538b11f1332cbb1ab8c97545e7cc59dbacea
+JSON SHA-256: 0c19da8b3e87999fb54f51997af82ef3476d9d39a5ff1b67a79da05e1b42559b
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "GBPJPY",
-  "as_of_utc": "2026-11-16T07:45:00Z",
+  "as_of_utc": "2026-11-16T08:00:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
@@ -74,12 +74,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "path": "ohlc/pairs/GBPJPY/H1.json",
-      "sha256": "df6d01cc6138ce73fd7a88a7ba9176604d17cb2bf57d87254344f0f27cbeb109",
+      "sha256": "653c25f2cc4ae473ea1baf341f53db37ca8e0b60a5b5b5982d4fd26d5209485c",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "GBPJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-16T07:01:12Z",
+      "retrieved_at_utc": "2026-11-16T08:01:09Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -102,12 +102,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/GBPJPY/M15.json",
-      "sha256": "b9a666b740918b0f4d0f795f8eb17ddefe422dbc7799880f551b382a0b796ed8",
+      "sha256": "bf47d54d513570ec1e933240ffdda588026dcab73dd1d416b6cb1f7b086cdf3d",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "GBPJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-16T07:46:11Z",
+      "retrieved_at_utc": "2026-11-16T08:01:09Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -186,28 +186,28 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T07:00:00Z",
-      "close": 210.566,
+      "last_closed_bar_utc": "2026-11-16T08:00:00Z",
+      "close": 210.619,
       "ema": {
-        "20": 211.06275711041235,
-        "50": 211.36794640642273,
-        "200": 211.70688906038654
+        "20": 211.0204945284683,
+        "50": 211.33857595911203,
+        "200": 211.69606887046535
       },
-      "ema20_change_5bars": -0.20717900336666162,
-      "atr14": 0.2271867966419332,
+      "ema20_change_5bars": -0.22297147923652005,
+      "atr14": 0.22995916831036592,
       "trend": "SELL"
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T07:45:00Z",
-      "close": 210.524,
+      "last_closed_bar_utc": "2026-11-16T08:00:00Z",
+      "close": 210.619,
       "ema": {
-        "20": 210.71072006062036,
-        "50": 210.90132715170972,
-        "200": 211.34974083607042
+        "20": 210.70198481675175,
+        "50": 210.8902554987015,
+        "200": 211.34246970347922
       },
-      "ema20_change_5bars": -0.08706838657005278,
-      "atr14": 0.13082571132965035,
+      "ema20_change_5bars": -0.0825856830871885,
+      "atr14": 0.13398101766324755,
       "trend": "SELL"
     },
     "W1": {
@@ -241,9 +241,9 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "GBPJPY",
-    "tick_time_utc": "2026-11-16T07:46:08Z",
-    "bid": 210.497,
-    "ask": 210.514,
+    "tick_time_utc": "2026-11-16T08:01:07Z",
+    "bid": 210.647,
+    "ask": 210.664,
     "digits": 3,
     "point": 0.001,
     "spread_points": 17.0,
@@ -252,11 +252,11 @@ Publisher-calculated, not independently recomputed by reader.
     "spread_rounding_deviation_points": 4e-12
   },
   "rtv": {
-    "value": 1.4569822741028966,
+    "value": 1.4215304798962387,
     "baseline_median": 1156.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-16T07:45:00Z"
+    "last_closed_bar_utc": "2026-11-16T08:00:00Z"
   }
 }
 ```
