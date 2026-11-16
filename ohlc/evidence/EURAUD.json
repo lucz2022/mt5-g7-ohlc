@@ -2,7 +2,7 @@
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "EURAUD",
-  "as_of_utc": "2026-11-16T17:45:00Z",
+  "as_of_utc": "2026-11-16T18:00:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
@@ -39,12 +39,12 @@
     },
     "H4": {
       "path": "ohlc/pairs/EURAUD/H4.json",
-      "sha256": "d30e34a4df8e9de518241504a0c136c103364002db34f725431a4ef78358cefb",
+      "sha256": "1af7d091a4ae82bfabf2079246e384bd50776ec2df78dbaaf514d5966ac51b9a",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURAUD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-16T14:01:12Z",
+      "retrieved_at_utc": "2026-11-16T18:01:10Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -67,12 +67,12 @@
     },
     "H1": {
       "path": "ohlc/pairs/EURAUD/H1.json",
-      "sha256": "6dd9a93b36140d043e52427797b5ac45555ce341eded95b57a8ce0e0e17381cd",
+      "sha256": "c50675cb2657ef091b27e9ac922605ba52a8e653fa5a16f2c533043336f9cfe5",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURAUD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-16T17:01:11Z",
+      "retrieved_at_utc": "2026-11-16T18:01:10Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -95,12 +95,12 @@
     },
     "M15": {
       "path": "ohlc/pairs/EURAUD/M15.json",
-      "sha256": "7885649b5476de547ee70d1f1002bbbd472d37faed57bc534a71deaef6acde0d",
+      "sha256": "cc1a5ef63f68d362598dff6d5b1fdcea69451c46c4bd3b19916dc134232c6028",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURAUD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-16T17:46:09Z",
+      "retrieved_at_utc": "2026-11-16T18:01:10Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -166,41 +166,41 @@
     },
     "H4": {
       "bars_used": 500,
-      "last_closed_bar_utc": "2026-11-16T14:00:00Z",
-      "close": 1.6312600000000002,
+      "last_closed_bar_utc": "2026-11-16T18:00:00Z",
+      "close": 1.6311499999999999,
       "ema": {
-        "20": 1.6262021150713466,
-        "50": 1.6199204148699649,
-        "200": 1.6116288163885744
+        "20": 1.626673342207409,
+        "50": 1.6203607907560225,
+        "200": 1.6118280767700823
       },
-      "ema20_change_5bars": 0.0025103314128571697,
-      "atr14": 0.0039149304707519015,
+      "ema20_change_5bars": 0.0026979188973470514,
+      "atr14": 0.003836721151412467,
       "trend": "BUY"
     },
     "H1": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T17:00:00Z",
-      "close": 1.63066,
+      "last_closed_bar_utc": "2026-11-16T18:00:00Z",
+      "close": 1.6311499999999999,
       "ema": {
-        "20": 1.6297271741407986,
-        "50": 1.6277453166511044,
-        "200": 1.6200152034877855
+        "20": 1.6298626813654844,
+        "50": 1.6278788336451788,
+        "200": 1.6201259846572649
       },
-      "ema20_change_5bars": 0.0007486359338810811,
-      "atr14": 0.001985585184725052,
+      "ema20_change_5bars": 0.00079067060684479,
+      "atr14": 0.0019309005286732624,
       "trend": "BUY"
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T17:45:00Z",
-      "close": 1.63104,
+      "last_closed_bar_utc": "2026-11-16T18:00:00Z",
+      "close": 1.6311499999999999,
       "ema": {
-        "20": 1.6309110239752407,
-        "50": 1.6303789775150601,
-        "200": 1.6278077918870544
+        "20": 1.6309337835966464,
+        "50": 1.63040921369094,
+        "200": 1.6278410585370768
       },
-      "ema20_change_5bars": 1.2130494687401239e-05,
-      "atr14": 0.0008763213680209117,
+      "ema20_change_5bars": 2.3356161860110802e-05,
+      "atr14": 0.0008572984131622752,
       "trend": "BUY"
     },
     "W1": {
@@ -234,21 +234,21 @@
   },
   "quote": {
     "broker_symbol": "EURAUD",
-    "tick_time_utc": "2026-11-16T17:46:06Z",
-    "bid": 1.6311200000000001,
-    "ask": 1.6312600000000002,
+    "tick_time_utc": "2026-11-16T18:01:07Z",
+    "bid": 1.63138,
+    "ask": 1.6315,
     "digits": 5,
     "point": 1e-05,
-    "spread_points": 14.0,
+    "spread_points": 12.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": -3e-12
+    "spread_rounding_deviation_points": 1e-11
   },
   "rtv": {
-    "value": 0.819672131147541,
-    "baseline_median": 1098.0,
+    "value": 0.7101515847496555,
+    "baseline_median": 1088.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-16T17:45:00Z"
+    "last_closed_bar_utc": "2026-11-16T18:00:00Z"
   }
 }
