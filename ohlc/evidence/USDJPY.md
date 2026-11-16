@@ -1,6 +1,6 @@
 # USDJPY candidate evidence
 
-JSON SHA-256: c7f038342b9ef6008d81e1b80c01ea18bf492f148e8c738fedf0f89d375d0f8e
+JSON SHA-256: 9c6503defdb04efe66210e0639dcfd2dca747cf17d25a0f91d3d8085920cfc2e
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "USDJPY",
-  "as_of_utc": "2026-11-16T22:45:00Z",
+  "as_of_utc": "2026-11-16T23:00:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
@@ -74,12 +74,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "path": "ohlc/pairs/USDJPY/H1.json",
-      "sha256": "7ddf61bbdeb87605c37bcaa75ca5ff67ab031605cfe7b0df62dd05d534300f4d",
+      "sha256": "41000503d49f31a3fafd1c04aa24f1df1e3e4686ce2e1e2b6f77047473d60ad4",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "USDJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-16T22:01:12Z",
+      "retrieved_at_utc": "2026-11-16T23:01:10Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -102,12 +102,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/USDJPY/M15.json",
-      "sha256": "adecbb6b0c8c006390100f08d315aa4ae72fb7fcd8409122f11a78ca8db33a63",
+      "sha256": "959fcf1a8f02d80465ade1306ba4a4c1bf4937ac53665545b7b86a739aff9d56",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "USDJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-16T22:46:08Z",
+      "retrieved_at_utc": "2026-11-16T23:01:10Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -186,28 +186,28 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T22:00:00Z",
-      "close": 159.419,
+      "last_closed_bar_utc": "2026-11-16T23:00:00Z",
+      "close": 159.41,
       "ema": {
-        "20": 159.56493462963942,
-        "50": 159.61479948169514,
-        "200": 159.03862331753334
+        "20": 159.55017895062613,
+        "50": 159.60676812947182,
+        "200": 159.04232055984303
       },
-      "ema20_change_5bars": -0.06357991030623111,
-      "atr14": 0.1601601796042511,
+      "ema20_change_5bars": -0.06657229980089596,
+      "atr14": 0.15322016677537723,
       "trend": "SELL"
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T22:45:00Z",
-      "close": 159.399,
+      "last_closed_bar_utc": "2026-11-16T23:00:00Z",
+      "close": 159.41,
       "ema": {
-        "20": 159.45673881176776,
-        "50": 159.5076282351023,
-        "200": 159.6048125274352
+        "20": 159.45228749636132,
+        "50": 159.503799676863,
+        "200": 159.60287381139668
       },
-      "ema20_change_5bars": -0.028683994783790467,
-      "atr14": 0.05729590171655525,
+      "ema20_change_5bars": -0.02890456670914432,
+      "atr14": 0.054417623022515293,
       "trend": "SELL"
     },
     "W1": {
@@ -241,22 +241,22 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "USDJPY",
-    "tick_time_utc": "2026-11-16T22:46:07Z",
-    "bid": 159.41,
-    "ask": 159.482,
+    "tick_time_utc": "2026-11-16T23:01:09Z",
+    "bid": 159.411,
+    "ask": 159.42,
     "digits": 3,
     "point": 0.001,
-    "spread_points": 72.0,
+    "spread_points": 9.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": -3e-12
+    "spread_rounding_deviation_points": 1.4e-11
   },
   "rtv": {
-    "value": 1.2455882352941177,
+    "value": 0.10294117647058823,
     "baseline_median": 680.0,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-16T22:45:00Z"
+    "last_closed_bar_utc": "2026-11-16T23:00:00Z"
   }
 }
 ```
