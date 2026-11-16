@@ -2,12 +2,12 @@
 
 Algorithm: zones-1.0; not backtested; all enabled=0.
 Read this index then individual evidence cards. No live execution authorization.
-as_of_utc: 2026-11-16T09:00:00Z
+as_of_utc: 2026-11-16T09:15:00Z
 
 | Symbol | Result | Direction | Mode | Zone | Invalidation | Evidence |
 |---|---|---|---|---|---|---|
 | EURUSD | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 1.10238 - 1.10268 | 1.10293 | [EURUSD](evidence/EURUSD.md) |
-| GBPUSD | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 1.32165 - 1.32201 | 1.32231 | [GBPUSD](evidence/GBPUSD.md) |
+| GBPUSD | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 1.32123 - 1.32159 | 1.32189 | [GBPUSD](evidence/GBPUSD.md) |
 | USDJPY | TECHNICAL_CANDIDATE  | BUY | PULLBACK | 159.298 - 159.352 | 159.253 | [USDJPY](evidence/USDJPY.md) |
 | USDCHF | TECHNICAL_CANDIDATE  | BUY | PULLBACK | 0.83808 - 0.83838 | 0.83784 | [USDCHF](evidence/USDCHF.md) |
 | USDCAD | TECHNICAL_CANDIDATE  | BUY | PULLBACK | 1.42696 - 1.42722 | 1.42675 | [USDCAD](evidence/USDCAD.md) |
