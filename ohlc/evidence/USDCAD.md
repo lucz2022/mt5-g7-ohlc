@@ -1,0 +1,295 @@
+# USDCAD candidate evidence
+
+JSON SHA-256: 05b748cb3782dd5d3988b029d8a850fd83a8ca4829ad68bf84f077534c9474ee
+
+Publisher-calculated, not independently recomputed by reader.
+
+```json
+{
+  "schema": "g7_candidate.v1",
+  "algorithm_version": "zones-1.0",
+  "symbol": "USDCAD",
+  "as_of_utc": "2026-11-16T05:30:00Z",
+  "price_basis": "BID",
+  "status": "TECHNICAL_CANDIDATE",
+  "reasons": [],
+  "sources": {
+    "D1": {
+      "path": "ohlc/pairs/USDCAD/D1.json",
+      "sha256": "74f748c287362e89403fd7d538502e41622f2bed6872601e09290bcb128a61dd",
+      "status": "OK",
+      "broker_server": "ICMarketsSC-MT5-6",
+      "broker_symbol": "USDCAD",
+      "digits": 5,
+      "retrieved_at_utc": "2026-11-16T02:38:22Z",
+      "bar_alignment": {
+        "time_source": "MT5_UNIX_UTC",
+        "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
+        "broker_timezone": null,
+        "broker_utc_offset_minutes_at_collection": 120,
+        "daily_rollover_server_time": "00:00:00",
+        "h4_anchor_server_hours": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20
+        ],
+        "week_start_server_day": "SUNDAY",
+        "dst_handling": "EXPLICIT_OFFSET_HISTORY",
+        "dst_reference_timezone": "America/New_York",
+        "source_evidence": "https://cdn.icmarkets.com/uploads/FSA/Forex-Product-Specificiation-Sheet.pdf"
+      }
+    },
+    "H4": {
+      "path": "ohlc/pairs/USDCAD/H4.json",
+      "sha256": "3d8c0b72349223728f45d1e43738e9b42eb07be59e7ae2df47582fe67ed4488b",
+      "status": "OK",
+      "broker_server": "ICMarketsSC-MT5-6",
+      "broker_symbol": "USDCAD",
+      "digits": 5,
+      "retrieved_at_utc": "2026-11-16T02:33:06Z",
+      "bar_alignment": {
+        "time_source": "MT5_UNIX_UTC",
+        "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
+        "broker_timezone": null,
+        "broker_utc_offset_minutes_at_collection": 120,
+        "daily_rollover_server_time": "00:00:00",
+        "h4_anchor_server_hours": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20
+        ],
+        "week_start_server_day": "SUNDAY",
+        "dst_handling": "EXPLICIT_OFFSET_HISTORY",
+        "dst_reference_timezone": "America/New_York",
+        "source_evidence": "https://cdn.icmarkets.com/uploads/FSA/Forex-Product-Specificiation-Sheet.pdf"
+      }
+    },
+    "H1": {
+      "path": "ohlc/pairs/USDCAD/H1.json",
+      "sha256": "58a818c5dd0ffe94ca98156d0cb1eae7ea657656eece49e8453e3c97e17cf75c",
+      "status": "OK",
+      "broker_server": "ICMarketsSC-MT5-6",
+      "broker_symbol": "USDCAD",
+      "digits": 5,
+      "retrieved_at_utc": "2026-11-16T05:01:13Z",
+      "bar_alignment": {
+        "time_source": "MT5_UNIX_UTC",
+        "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
+        "broker_timezone": null,
+        "broker_utc_offset_minutes_at_collection": 120,
+        "daily_rollover_server_time": "00:00:00",
+        "h4_anchor_server_hours": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20
+        ],
+        "week_start_server_day": "SUNDAY",
+        "dst_handling": "EXPLICIT_OFFSET_HISTORY",
+        "dst_reference_timezone": "America/New_York",
+        "source_evidence": "https://cdn.icmarkets.com/uploads/FSA/Forex-Product-Specificiation-Sheet.pdf"
+      }
+    },
+    "M15": {
+      "path": "ohlc/pairs/USDCAD/M15.json",
+      "sha256": "4daea3b213af4f1bed87e2e961aac52f7d6dcbe536b6eedf91886701d38255ce",
+      "status": "OK",
+      "broker_server": "ICMarketsSC-MT5-6",
+      "broker_symbol": "USDCAD",
+      "digits": 5,
+      "retrieved_at_utc": "2026-11-16T05:31:08Z",
+      "bar_alignment": {
+        "time_source": "MT5_UNIX_UTC",
+        "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
+        "broker_timezone": null,
+        "broker_utc_offset_minutes_at_collection": 120,
+        "daily_rollover_server_time": "00:00:00",
+        "h4_anchor_server_hours": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20
+        ],
+        "week_start_server_day": "SUNDAY",
+        "dst_handling": "EXPLICIT_OFFSET_HISTORY",
+        "dst_reference_timezone": "America/New_York",
+        "source_evidence": "https://cdn.icmarkets.com/uploads/FSA/Forex-Product-Specificiation-Sheet.pdf"
+      }
+    },
+    "W1": {
+      "path": "ohlc/pairs/USDCAD/W1.json",
+      "sha256": "57c78190aece8ccfba957e4391f6b7e8e9a4e7f85cc720e279a7f77768941a24",
+      "status": "OK",
+      "broker_server": "ICMarketsSC-MT5-6",
+      "broker_symbol": "USDCAD",
+      "digits": 5,
+      "retrieved_at_utc": "2026-11-16T02:33:08Z",
+      "bar_alignment": {
+        "time_source": "MT5_UNIX_UTC",
+        "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
+        "broker_timezone": null,
+        "broker_utc_offset_minutes_at_collection": 120,
+        "daily_rollover_server_time": "00:00:00",
+        "h4_anchor_server_hours": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20
+        ],
+        "week_start_server_day": "SUNDAY",
+        "dst_handling": "EXPLICIT_OFFSET_HISTORY",
+        "dst_reference_timezone": "America/New_York",
+        "source_evidence": "https://cdn.icmarkets.com/uploads/FSA/Forex-Product-Specificiation-Sheet.pdf"
+      }
+    }
+  },
+  "metrics": {
+    "D1": {
+      "bars_used": 500,
+      "last_closed_bar_utc": "2026-11-13T22:00:00Z",
+      "close": 1.42676,
+      "ema": {
+        "20": 1.4121669894715,
+        "50": 1.408249471969954,
+        "200": 1.3978003110810187
+      },
+      "ema20_change_5bars": 0.006612187128159253,
+      "atr14": 0.006603674618265439,
+      "trend": "BUY"
+    },
+    "H4": {
+      "bars_used": 500,
+      "last_closed_bar_utc": "2026-11-16T02:00:00Z",
+      "close": 1.42725,
+      "ema": {
+        "20": 1.4232818497154431,
+        "50": 1.4161776209197119,
+        "200": 1.409673888476813
+      },
+      "ema20_change_5bars": 0.0019745146352665444,
+      "atr14": 0.002254403708666412,
+      "trend": "BUY"
+    },
+    "H1": {
+      "bars_used": 1000,
+      "last_closed_bar_utc": "2026-11-16T05:00:00Z",
+      "close": 1.42779,
+      "ema": {
+        "20": 1.426641169218806,
+        "50": 1.4253718216528277,
+        "200": 1.4163087794759968
+      },
+      "ema20_change_5bars": 0.0005888320676281644,
+      "atr14": 0.0009028431156410514,
+      "trend": "BUY"
+    },
+    "M15": {
+      "bars_used": 1000,
+      "last_closed_bar_utc": "2026-11-16T05:30:00Z",
+      "close": 1.42724,
+      "ema": {
+        "20": 1.4275256857589755,
+        "50": 1.4270737559569016,
+        "200": 1.4254503911017704
+      },
+      "ema20_change_5bars": 5.802927435238914e-05,
+      "atr14": 0.00031525940281196176,
+      "trend": "BUY"
+    },
+    "W1": {
+      "bars_used": 300,
+      "last_closed_bar_utc": "2026-11-14T22:00:00Z",
+      "close": 1.42676,
+      "ema": {
+        "20": 1.4042381780396131,
+        "50": 1.3956302913862237,
+        "200": 1.3661890530135425
+      },
+      "ema20_change_5bars": 0.004570297066452511,
+      "atr14": 0.015118582720485647,
+      "trend": "BUY"
+    }
+  },
+  "candidates": [
+    {
+      "symbol": "USDCAD",
+      "enabled": 0,
+      "direction": "BUY",
+      "mode": "BREAKOUT",
+      "zone_low": 1.42693,
+      "zone_high": 1.42721,
+      "invalidation": 1.4267,
+      "tp1": 0,
+      "tp2": 0,
+      "rr1": 1.2,
+      "rr2": 2.5,
+      "risk_pct": 0.75,
+      "factor_group": "USD_LONG",
+      "status": "WAIT_CONFIRM",
+      "distance_atr": 0.0332,
+      "pivot": {
+        "side": "HIGH",
+        "level": 1.42707,
+        "index": 982,
+        "confirmed_index": 984,
+        "pivot_utc": "2026-11-13T12:00:00Z",
+        "confirmed_utc": "2026-11-13T14:00:00Z"
+      },
+      "breakout_close_utc": "2026-11-16T01:00:00Z",
+      "zone_rule": "pivot +/- 0.15 H1 ATR14; stop beyond zone by 0.25 ATR14",
+      "pending": [
+        "MACRO_REVIEW",
+        "EVENT_REVIEW",
+        "EA_LIVE_CHECKS"
+      ],
+      "m15_direction_confirmed": true,
+      "valid_until_utc": "2026-11-17T05:30:00Z"
+    }
+  ],
+  "enabled": 0,
+  "backtested": false,
+  "execution_checks": "PENDING_EA_LIVE_CHECKS",
+  "parameters": {
+    "zone_half_atr": 0.15,
+    "stop_buffer_atr": 0.25,
+    "max_distance_atr": 3,
+    "pivot_lookback_h1": 120,
+    "trend_rule": "close vs EMA50 + EMA20 vs EMA50 + EMA20 slope5",
+    "rr_defaults": [
+      1.2,
+      2.5
+    ]
+  },
+  "quote": {
+    "broker_symbol": "USDCAD",
+    "tick_time_utc": "2026-11-16T05:33:42Z",
+    "bid": 1.42713,
+    "ask": 1.42722,
+    "digits": 5,
+    "point": 1e-05,
+    "spread_points": 9.0,
+    "server_time_utc_offset_minutes_at_collection": 120,
+    "status": "OK",
+    "spread_rounding_deviation_points": 8e-12
+  },
+  "rtv": {
+    "value": 1.0147420147420148,
+    "baseline_median": 407.0,
+    "semantics": "MT5_TICK_VOLUME",
+    "session_adjusted": false,
+    "last_closed_bar_utc": "2026-11-16T05:30:00Z"
+  }
+}
+```

@@ -1,0 +1,254 @@
+{
+  "schema": "g7_candidate.v1",
+  "algorithm_version": "zones-1.0",
+  "symbol": "EURAUD",
+  "as_of_utc": "2026-11-16T05:30:00Z",
+  "price_basis": "BID",
+  "status": "REJECT",
+  "reasons": [
+    "D1_H4_TREND_CONFLICT"
+  ],
+  "sources": {
+    "D1": {
+      "path": "ohlc/pairs/EURAUD/D1.json",
+      "sha256": "c1b5ed5ff55d79b2aa02f3b20ecf8b2273111806c4b74e9d5a7cd72cc4004193",
+      "status": "OK",
+      "broker_server": "ICMarketsSC-MT5-6",
+      "broker_symbol": "EURAUD",
+      "digits": 5,
+      "retrieved_at_utc": "2026-11-16T02:47:21Z",
+      "bar_alignment": {
+        "time_source": "MT5_UNIX_UTC",
+        "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
+        "broker_timezone": null,
+        "broker_utc_offset_minutes_at_collection": 120,
+        "daily_rollover_server_time": "00:00:00",
+        "h4_anchor_server_hours": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20
+        ],
+        "week_start_server_day": "SUNDAY",
+        "dst_handling": "EXPLICIT_OFFSET_HISTORY",
+        "dst_reference_timezone": "America/New_York",
+        "source_evidence": "https://cdn.icmarkets.com/uploads/FSA/Forex-Product-Specificiation-Sheet.pdf"
+      }
+    },
+    "H4": {
+      "path": "ohlc/pairs/EURAUD/H4.json",
+      "sha256": "81ed02367f93fd0b31bda6882bd2ccdcffbbc9d7f386bb8e3f26fa24dd91950c",
+      "status": "OK",
+      "broker_server": "ICMarketsSC-MT5-6",
+      "broker_symbol": "EURAUD",
+      "digits": 5,
+      "retrieved_at_utc": "2026-11-16T02:51:49Z",
+      "bar_alignment": {
+        "time_source": "MT5_UNIX_UTC",
+        "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
+        "broker_timezone": null,
+        "broker_utc_offset_minutes_at_collection": 120,
+        "daily_rollover_server_time": "00:00:00",
+        "h4_anchor_server_hours": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20
+        ],
+        "week_start_server_day": "SUNDAY",
+        "dst_handling": "EXPLICIT_OFFSET_HISTORY",
+        "dst_reference_timezone": "America/New_York",
+        "source_evidence": "https://cdn.icmarkets.com/uploads/FSA/Forex-Product-Specificiation-Sheet.pdf"
+      }
+    },
+    "H1": {
+      "path": "ohlc/pairs/EURAUD/H1.json",
+      "sha256": "17e266dbea587bd78c14895e7c4311c3406e3ed25821386a7ccc2a0240b54cb0",
+      "status": "OK",
+      "broker_server": "ICMarketsSC-MT5-6",
+      "broker_symbol": "EURAUD",
+      "digits": 5,
+      "retrieved_at_utc": "2026-11-16T05:01:15Z",
+      "bar_alignment": {
+        "time_source": "MT5_UNIX_UTC",
+        "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
+        "broker_timezone": null,
+        "broker_utc_offset_minutes_at_collection": 120,
+        "daily_rollover_server_time": "00:00:00",
+        "h4_anchor_server_hours": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20
+        ],
+        "week_start_server_day": "SUNDAY",
+        "dst_handling": "EXPLICIT_OFFSET_HISTORY",
+        "dst_reference_timezone": "America/New_York",
+        "source_evidence": "https://cdn.icmarkets.com/uploads/FSA/Forex-Product-Specificiation-Sheet.pdf"
+      }
+    },
+    "M15": {
+      "path": "ohlc/pairs/EURAUD/M15.json",
+      "sha256": "a2b8853ca224cbc9170db7592763a8dfe245036430a3aff4c65b02b4d211fcb2",
+      "status": "OK",
+      "broker_server": "ICMarketsSC-MT5-6",
+      "broker_symbol": "EURAUD",
+      "digits": 5,
+      "retrieved_at_utc": "2026-11-16T05:31:10Z",
+      "bar_alignment": {
+        "time_source": "MT5_UNIX_UTC",
+        "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
+        "broker_timezone": null,
+        "broker_utc_offset_minutes_at_collection": 120,
+        "daily_rollover_server_time": "00:00:00",
+        "h4_anchor_server_hours": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20
+        ],
+        "week_start_server_day": "SUNDAY",
+        "dst_handling": "EXPLICIT_OFFSET_HISTORY",
+        "dst_reference_timezone": "America/New_York",
+        "source_evidence": "https://cdn.icmarkets.com/uploads/FSA/Forex-Product-Specificiation-Sheet.pdf"
+      }
+    },
+    "W1": {
+      "path": "ohlc/pairs/EURAUD/W1.json",
+      "sha256": "7d91527f95246550d91ae825fd66280c7d162f909679c80b84969f0cfbdfb4dd",
+      "status": "OK",
+      "broker_server": "ICMarketsSC-MT5-6",
+      "broker_symbol": "EURAUD",
+      "digits": 5,
+      "retrieved_at_utc": "2026-11-16T02:47:54Z",
+      "bar_alignment": {
+        "time_source": "MT5_UNIX_UTC",
+        "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
+        "broker_timezone": null,
+        "broker_utc_offset_minutes_at_collection": 120,
+        "daily_rollover_server_time": "00:00:00",
+        "h4_anchor_server_hours": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20
+        ],
+        "week_start_server_day": "SUNDAY",
+        "dst_handling": "EXPLICIT_OFFSET_HISTORY",
+        "dst_reference_timezone": "America/New_York",
+        "source_evidence": "https://cdn.icmarkets.com/uploads/FSA/Forex-Product-Specificiation-Sheet.pdf"
+      }
+    }
+  },
+  "metrics": {
+    "D1": {
+      "bars_used": 500,
+      "last_closed_bar_utc": "2026-11-13T22:00:00Z",
+      "close": 1.6266699999999998,
+      "ema": {
+        "20": 1.611624532922305,
+        "50": 1.6126773996861135,
+        "200": 1.641695958600369
+      },
+      "ema20_change_5bars": 0.007675821076567724,
+      "atr14": 0.01098485411010881,
+      "trend": "NEUTRAL"
+    },
+    "H4": {
+      "bars_used": 500,
+      "last_closed_bar_utc": "2026-11-16T02:00:00Z",
+      "close": 1.62927,
+      "ema": {
+        "20": 1.6244796687091037,
+        "50": 1.6184910336109501,
+        "200": 1.6110177137480293
+      },
+      "ema20_change_5bars": 0.001992911388609464,
+      "atr14": 0.003911114798244511,
+      "trend": "BUY"
+    },
+    "H1": {
+      "bars_used": 1000,
+      "last_closed_bar_utc": "2026-11-16T05:00:00Z",
+      "close": 1.63008,
+      "ema": {
+        "20": 1.6275061764080336,
+        "50": 1.625953461982331,
+        "200": 1.6186606318611039
+      },
+      "ema20_change_5bars": 0.0008075431085470264,
+      "atr14": 0.0019881228107649076,
+      "trend": "BUY"
+    },
+    "M15": {
+      "bars_used": 1000,
+      "last_closed_bar_utc": "2026-11-16T05:30:00Z",
+      "close": 1.6311499999999999,
+      "ema": {
+        "20": 1.628805661619865,
+        "50": 1.628030474855473,
+        "200": 1.6260005445413213
+      },
+      "ema20_change_5bars": 0.0007137553078180314,
+      "atr14": 0.0011059442736415536,
+      "trend": "BUY"
+    },
+    "W1": {
+      "bars_used": 300,
+      "last_closed_bar_utc": "2026-11-14T22:00:00Z",
+      "close": 1.6266699999999998,
+      "ema": {
+        "20": 1.6214024418192734,
+        "50": 1.6503709652694725,
+        "200": 1.6523590961035424
+      },
+      "ema20_change_5bars": -0.007352814354464776,
+      "atr14": 0.020906676969539625,
+      "trend": "SELL"
+    }
+  },
+  "candidates": [],
+  "enabled": 0,
+  "backtested": false,
+  "execution_checks": "PENDING_EA_LIVE_CHECKS",
+  "parameters": {
+    "zone_half_atr": 0.15,
+    "stop_buffer_atr": 0.25,
+    "max_distance_atr": 3,
+    "pivot_lookback_h1": 120,
+    "trend_rule": "close vs EMA50 + EMA20 vs EMA50 + EMA20 slope5",
+    "rr_defaults": [
+      1.2,
+      2.5
+    ]
+  },
+  "quote": {
+    "broker_symbol": "EURAUD",
+    "tick_time_utc": "2026-11-16T05:33:42Z",
+    "bid": 1.63032,
+    "ask": 1.63048,
+    "digits": 5,
+    "point": 1e-05,
+    "spread_points": 16.0,
+    "server_time_utc_offset_minutes_at_collection": 120,
+    "status": "OK",
+    "spread_rounding_deviation_points": 6e-12
+  },
+  "rtv": {
+    "value": 1.1099050203527816,
+    "baseline_median": 737.0,
+    "semantics": "MT5_TICK_VOLUME",
+    "session_adjusted": false,
+    "last_closed_bar_utc": "2026-11-16T05:30:00Z"
+  }
+}
