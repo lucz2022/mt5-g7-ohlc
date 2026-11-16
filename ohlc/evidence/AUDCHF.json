@@ -2,7 +2,7 @@
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "AUDCHF",
-  "as_of_utc": "2026-11-16T09:45:00Z",
+  "as_of_utc": "2026-11-16T10:00:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -37,12 +37,12 @@
     },
     "H4": {
       "path": "ohlc/pairs/AUDCHF/H4.json",
-      "sha256": "b1498fd97090713638a027cb687756a29608815c7d19f0dd82202de70321e48a",
+      "sha256": "68fcb9dcb55bc2167d7b918fc3e121da8b0d0b947a060f146a209af79900b5ca",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "AUDCHF",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-16T06:01:12Z",
+      "retrieved_at_utc": "2026-11-16T10:01:12Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -65,12 +65,12 @@
     },
     "H1": {
       "path": "ohlc/pairs/AUDCHF/H1.json",
-      "sha256": "4ac355c4e0d195a0c29067dc39f43f63a8d14e5497f213fafd2e504ed4652013",
+      "sha256": "a81b12170a7b49f7cdf38c004666df477e55a1a33ee189eeea92a170b88bf8bc",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "AUDCHF",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-16T09:01:16Z",
+      "retrieved_at_utc": "2026-11-16T10:01:12Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -93,12 +93,12 @@
     },
     "M15": {
       "path": "ohlc/pairs/AUDCHF/M15.json",
-      "sha256": "fff36d05eab8bb1dc77440329f8b6553fac6f3cbed1d8614abd091cac30a89e2",
+      "sha256": "ec96855a630231245c6f0de82f8c2843211ec5da4af6f063ff0f2e14f8ecf25b",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "AUDCHF",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-16T09:46:10Z",
+      "retrieved_at_utc": "2026-11-16T10:01:12Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -164,41 +164,41 @@
     },
     "H4": {
       "bars_used": 500,
-      "last_closed_bar_utc": "2026-11-16T06:00:00Z",
-      "close": 0.56637,
+      "last_closed_bar_utc": "2026-11-16T10:00:00Z",
+      "close": 0.5675,
       "ema": {
-        "20": 0.5682059382155766,
-        "50": 0.5692883016122409,
-        "200": 0.5745130628441731
+        "20": 0.5681387060045693,
+        "50": 0.5692181721378248,
+        "200": 0.574441581495755
       },
-      "ema20_change_5bars": -0.00022244168852825208,
-      "atr14": 0.0018568164861832222,
+      "ema20_change_5bars": -0.00036887581343036935,
+      "atr14": 0.0018449010228844185,
       "trend": "SELL"
     },
     "H1": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T09:00:00Z",
-      "close": 0.56742,
+      "last_closed_bar_utc": "2026-11-16T10:00:00Z",
+      "close": 0.5675,
       "ema": {
-        "20": 0.56780875456693,
-        "50": 0.5681572511062514,
-        "200": 0.569233757153722
+        "20": 0.5677793493700796,
+        "50": 0.5681314765530651,
+        "200": 0.5692165011257407
       },
-      "ema20_change_5bars": -0.00048025854423927594,
-      "atr14": 0.0009916886483945476,
+      "ema20_change_5bars": -0.0004116624924069834,
+      "atr14": 0.0009672823163663684,
       "trend": "SELL"
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T09:45:00Z",
-      "close": 0.56738,
+      "last_closed_bar_utc": "2026-11-16T10:00:00Z",
+      "close": 0.5675,
       "ema": {
-        "20": 0.5672509622371354,
-        "50": 0.567565557027075,
-        "200": 0.5681522261239652
+        "20": 0.567274680119313,
+        "50": 0.5675629861632682,
+        "200": 0.568145735146924
       },
-      "ema20_change_5bars": 7.014850406306117e-05,
-      "atr14": 0.000463302280812515,
+      "ema20_change_5bars": 7.394388462844681e-05,
+      "atr14": 0.000454494975040193,
       "trend": "NEUTRAL"
     },
     "W1": {
@@ -223,7 +223,7 @@
       "mode": "PULLBACK",
       "zone_low": 0.56882,
       "zone_high": 0.56912,
-      "invalidation": 0.56937,
+      "invalidation": 0.56936,
       "tp1": 0,
       "tp2": 0,
       "rr1": 1.2,
@@ -231,12 +231,12 @@
       "risk_pct": 0.5,
       "factor_group": "CHF_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 1.4521,
+      "distance_atr": 1.3646,
       "pivot": {
         "side": "HIGH",
         "level": 0.56897,
-        "index": 991,
-        "confirmed_index": 993,
+        "index": 990,
+        "confirmed_index": 992,
         "pivot_utc": "2026-11-16T01:00:00Z",
         "confirmed_utc": "2026-11-16T03:00:00Z"
       },
@@ -248,7 +248,7 @@
         "EA_LIVE_CHECKS"
       ],
       "m15_direction_confirmed": false,
-      "valid_until_utc": "2026-11-17T09:45:00Z"
+      "valid_until_utc": "2026-11-17T10:00:00Z"
     }
   ],
   "enabled": 0,
@@ -267,21 +267,21 @@
   },
   "quote": {
     "broker_symbol": "AUDCHF",
-    "tick_time_utc": "2026-11-16T09:46:06Z",
-    "bid": 0.56727,
-    "ask": 0.56739,
+    "tick_time_utc": "2026-11-16T10:01:07Z",
+    "bid": 0.56746,
+    "ask": 0.56758,
     "digits": 5,
     "point": 1e-05,
     "spread_points": 12.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": 1e-11
+    "spread_rounding_deviation_points": -1e-12
   },
   "rtv": {
-    "value": 1.0450236966824644,
-    "baseline_median": 844.0,
+    "value": 0.7868284228769498,
+    "baseline_median": 865.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-16T09:45:00Z"
+    "last_closed_bar_utc": "2026-11-16T10:00:00Z"
   }
 }
