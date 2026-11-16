@@ -1,6 +1,6 @@
 # EURCAD candidate evidence
 
-JSON SHA-256: c16ba7c78760c6ab93f93fcd5f8ec16be0e1d42bd78acf2fcb955bea75d97ece
+JSON SHA-256: c85be93d75acefa1d4eea81764eb27612fb22ceafa9b9580858c9807d586ad58
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "EURCAD",
-  "as_of_utc": "2026-11-16T13:15:00Z",
+  "as_of_utc": "2026-11-16T13:30:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
@@ -102,12 +102,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/EURCAD/M15.json",
-      "sha256": "51d8c89cde03e663b2c82505b1a234e1a849a9e4cd1adc7d74eb4736a55a9fcd",
+      "sha256": "425ed0f3e06ee95f2edaa2a37edeeee4485a2c89c8408c36effa0e05f8087781",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURCAD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-16T13:16:14Z",
+      "retrieved_at_utc": "2026-11-16T13:31:14Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -199,15 +199,15 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T13:15:00Z",
-      "close": 1.5732300000000001,
+      "last_closed_bar_utc": "2026-11-16T13:30:00Z",
+      "close": 1.57324,
       "ema": {
-        "20": 1.5728427493491008,
-        "50": 1.5729796791684227,
-        "200": 1.5750188113260515
+        "20": 1.5728805827444245,
+        "50": 1.5729898878284847,
+        "200": 1.5750011120161838
       },
-      "ema20_change_5bars": 0.00012580961469899066,
-      "atr14": 0.000649769571949012,
+      "ema20_change_5bars": 0.00016144679425145192,
+      "atr14": 0.0006626431739526459,
       "trend": "NEUTRAL"
     },
     "W1": {
@@ -241,22 +241,22 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "EURCAD",
-    "tick_time_utc": "2026-11-16T13:16:10Z",
-    "bid": 1.57335,
-    "ask": 1.57348,
+    "tick_time_utc": "2026-11-16T13:31:10Z",
+    "bid": 1.5747200000000001,
+    "ask": 1.5748600000000001,
     "digits": 5,
     "point": 1e-05,
-    "spread_points": 13.0,
+    "spread_points": 14.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": 4e-12
+    "spread_rounding_deviation_points": -3e-12
   },
   "rtv": {
-    "value": 1.3136574074074074,
+    "value": 1.1724537037037037,
     "baseline_median": 864.0,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-16T13:15:00Z"
+    "last_closed_bar_utc": "2026-11-16T13:30:00Z"
   }
 }
 ```
