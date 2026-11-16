@@ -2,7 +2,7 @@
 
 Algorithm: zones-1.0; not backtested; all enabled=0.
 Read this index then individual evidence cards. No live execution authorization.
-as_of_utc: 2026-11-16T22:15:00Z
+as_of_utc: 2026-11-16T22:30:00Z
 
 | Symbol | Result | Direction | Mode | Zone | Invalidation | Evidence |
 |---|---|---|---|---|---|---|
@@ -14,7 +14,7 @@ as_of_utc: 2026-11-16T22:15:00Z
 | AUDUSD | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 0.67405 - 0.67431 | 0.67453 | [AUDUSD](evidence/AUDUSD.md) |
 | EURJPY | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 175.482 - 175.536 | 175.582 | [EURJPY](evidence/EURJPY.md) |
 | GBPJPY | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [GBPJPY](evidence/GBPJPY.md) |
-| EURGBP | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 0.83479 - 0.83493 | 0.83505 | [EURGBP](evidence/EURGBP.md) |
+| EURGBP | WATCH NO_VALID_NEARBY_ZONE | - | - | - - - | - | [EURGBP](evidence/EURGBP.md) |
 | AUDJPY | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 107.481 - 107.533 | 107.576 | [AUDJPY](evidence/AUDJPY.md) |
 | CADJPY | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 111.576 - 111.612 | 111.642 | [CADJPY](evidence/CADJPY.md) |
 | GBPAUD | TECHNICAL_CANDIDATE  | BUY | BREAKOUT | 1.9563 - 1.95694 | 1.95576 | [GBPAUD](evidence/GBPAUD.md) |
