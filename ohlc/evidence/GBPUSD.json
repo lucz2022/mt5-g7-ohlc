@@ -2,7 +2,7 @@
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "GBPUSD",
-  "as_of_utc": "2026-11-17T02:00:00Z",
+  "as_of_utc": "2026-11-17T02:15:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -93,12 +93,12 @@
     },
     "M15": {
       "path": "ohlc/pairs/GBPUSD/M15.json",
-      "sha256": "1f8b96bc8c2642e86eb484aa8efd4333ebcf549400e8e7e98bc5206b7aa3b41c",
+      "sha256": "a73f3caef7fb5dc992733af7128911badf2533db592af3661cdca0b08842e163",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "GBPUSD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-17T02:01:08Z",
+      "retrieved_at_utc": "2026-11-17T02:16:08Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -190,15 +190,15 @@
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-17T02:00:00Z",
-      "close": 1.31789,
+      "last_closed_bar_utc": "2026-11-17T02:15:00Z",
+      "close": 1.31818,
       "ema": {
-        "20": 1.3181771476078004,
-        "50": 1.3186617595760366,
-        "200": 1.3211681117767209
+        "20": 1.3181774192642004,
+        "50": 1.318642867043643,
+        "200": 1.3211383759145932
       },
-      "ema20_change_5bars": -0.00028555831880638927,
-      "atr14": 0.0005057320528666925,
+      "ema20_change_5bars": -0.00028312419320575266,
+      "atr14": 0.0005117511919476336,
       "trend": "SELL"
     },
     "W1": {
@@ -231,7 +231,7 @@
       "risk_pct": 0.75,
       "factor_group": "USD_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 2.0407,
+      "distance_atr": 1.7992,
       "pivot": {
         "side": "LOW",
         "level": 1.3205200000000001,
@@ -248,7 +248,7 @@
         "EA_LIVE_CHECKS"
       ],
       "m15_direction_confirmed": true,
-      "valid_until_utc": "2026-11-18T02:00:00Z"
+      "valid_until_utc": "2026-11-18T02:15:00Z"
     }
   ],
   "enabled": 0,
@@ -267,21 +267,21 @@
   },
   "quote": {
     "broker_symbol": "GBPUSD",
-    "tick_time_utc": "2026-11-17T02:01:07Z",
-    "bid": 1.31779,
-    "ask": 1.31788,
+    "tick_time_utc": "2026-11-17T02:16:07Z",
+    "bid": 1.31819,
+    "ask": 1.3182800000000001,
     "digits": 5,
     "point": 1e-05,
     "spread_points": 9.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": 8e-12
+    "spread_rounding_deviation_points": -1.5e-11
   },
   "rtv": {
-    "value": 3.156794425087108,
+    "value": 3.250871080139373,
     "baseline_median": 287.0,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-17T02:00:00Z"
+    "last_closed_bar_utc": "2026-11-17T02:15:00Z"
   }
 }
