@@ -1,6 +1,6 @@
 # CADCHF candidate evidence
 
-JSON SHA-256: c6fa7ea30e7d749a4713778ffe448d12a03372cb7128936b78713eb550cf5e83
+JSON SHA-256: b8f52a0b98cf46e58a3d3f35104dfb16f948514cad623d4c7e8ec2c2f2dd1898
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "CADCHF",
-  "as_of_utc": "2026-11-16T23:45:00Z",
+  "as_of_utc": "2026-11-17T00:00:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -72,12 +72,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "path": "ohlc/pairs/CADCHF/H1.json",
-      "sha256": "34a977f37c6a076b90a871935b3a54d48a15d759f9b609f2143835166607d959",
+      "sha256": "5437beaeede76a7917be20deadad24424e89a37116a28b24bf958fa71600ed27",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "CADCHF",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-16T23:01:14Z",
+      "retrieved_at_utc": "2026-11-17T00:01:13Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -100,12 +100,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/CADCHF/M15.json",
-      "sha256": "ada284b0adf82f90eda28bb062ee0d74f279ab6eb6e01641d7ecb7e6f5dab668",
+      "sha256": "9410be229c06dc9342125b397f699d0d1d43b0c2cfdef58ffc1b7e8d78c4e5e1",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "CADCHF",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-16T23:46:11Z",
+      "retrieved_at_utc": "2026-11-17T00:01:13Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -184,28 +184,28 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T23:00:00Z",
-      "close": 0.58673,
+      "last_closed_bar_utc": "2026-11-17T00:00:00Z",
+      "close": 0.58752,
       "ema": {
-        "20": 0.587419943114112,
-        "50": 0.5869698519351246,
-        "200": 0.5852219200196856
+        "20": 0.5874294723413395,
+        "50": 0.5869914263690413,
+        "200": 0.5852447784249036
       },
-      "ema20_change_5bars": -4.42466506301864e-05,
-      "atr14": 0.0006336616835108732,
+      "ema20_change_5bars": -2.955649342728517e-05,
+      "atr14": 0.000664114420402958,
       "trend": "NEUTRAL"
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T23:45:00Z",
+      "last_closed_bar_utc": "2026-11-17T00:00:00Z",
       "close": 0.58752,
       "ema": {
-        "20": 0.5872971507051741,
-        "50": 0.5873720986305215,
-        "200": 0.5869752579062103
+        "20": 0.5873183744475384,
+        "50": 0.5873778986842265,
+        "200": 0.5869806767162371
       },
-      "ema20_change_5bars": -7.146468223639957e-05,
-      "atr14": 0.00030166835834767006,
+      "ema20_change_5bars": 2.867481130985894e-05,
+      "atr14": 0.0002865491898942675,
       "trend": "NEUTRAL"
     },
     "W1": {
@@ -230,7 +230,7 @@ Publisher-calculated, not independently recomputed by reader.
       "mode": "PULLBACK",
       "zone_low": 0.58607,
       "zone_high": 0.58627,
-      "invalidation": 0.58591,
+      "invalidation": 0.5859,
       "tp1": 0,
       "tp2": 0,
       "rr1": 1.2,
@@ -238,12 +238,12 @@ Publisher-calculated, not independently recomputed by reader.
       "risk_pct": 0.5,
       "factor_group": "CAD_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 1.9727,
+      "distance_atr": 1.8822,
       "pivot": {
         "side": "LOW",
         "level": 0.58617,
-        "index": 975,
-        "confirmed_index": 977,
+        "index": 974,
+        "confirmed_index": 976,
         "pivot_utc": "2026-11-15T23:00:00Z",
         "confirmed_utc": "2026-11-16T01:00:00Z"
       },
@@ -255,7 +255,7 @@ Publisher-calculated, not independently recomputed by reader.
         "EA_LIVE_CHECKS"
       ],
       "m15_direction_confirmed": false,
-      "valid_until_utc": "2026-11-17T23:45:00Z"
+      "valid_until_utc": "2026-11-18T00:00:00Z"
     }
   ],
   "enabled": 0,
@@ -274,22 +274,22 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "CADCHF",
-    "tick_time_utc": "2026-11-16T23:46:03Z",
-    "bid": 0.58747,
-    "ask": 0.5876,
+    "tick_time_utc": "2026-11-17T00:01:08Z",
+    "bid": 0.58744,
+    "ask": 0.58757,
     "digits": 5,
     "point": 1e-05,
     "spread_points": 13.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": 4e-12
+    "spread_rounding_deviation_points": -7e-12
   },
   "rtv": {
-    "value": 0.6319569120287253,
-    "baseline_median": 278.5,
+    "value": 0.8996282527881041,
+    "baseline_median": 269.0,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-16T23:45:00Z"
+    "last_closed_bar_utc": "2026-11-17T00:00:00Z"
   }
 }
 ```

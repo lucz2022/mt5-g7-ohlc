@@ -2,7 +2,7 @@
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "CHFJPY",
-  "as_of_utc": "2026-11-16T23:45:00Z",
+  "as_of_utc": "2026-11-17T00:00:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -65,12 +65,12 @@
     },
     "H1": {
       "path": "ohlc/pairs/CHFJPY/H1.json",
-      "sha256": "5a900be64d411374f302cf014398faae03b957cf6154debf0e51a53fccb8e319",
+      "sha256": "6e496481931c36a982535e4f49f2a4942ade91aafa9be2f5f20e30bb68b9be2e",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "CHFJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-16T23:01:15Z",
+      "retrieved_at_utc": "2026-11-17T00:01:13Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -93,12 +93,12 @@
     },
     "M15": {
       "path": "ohlc/pairs/CHFJPY/M15.json",
-      "sha256": "c021dccb97e495b47eb3a673be466aa3773e774ef78463a577519410a0c00ba0",
+      "sha256": "b4a55bbfd535a1e0be87ad38db03ac2f51fddca9983b0dcd0ee0e6a09051ec4b",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "CHFJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-16T23:46:11Z",
+      "retrieved_at_utc": "2026-11-17T00:01:13Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -177,29 +177,29 @@
     },
     "H1": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T23:00:00Z",
-      "close": 189.696,
+      "last_closed_bar_utc": "2026-11-17T00:00:00Z",
+      "close": 189.904,
       "ema": {
-        "20": 190.02732845563855,
-        "50": 190.47435986924802,
-        "200": 191.58814968905423
+        "20": 190.0155828884349,
+        "50": 190.45199281555202,
+        "200": 191.57139631665478
       },
-      "ema20_change_5bars": -0.15749392060806144,
-      "atr14": 0.1889574699924121,
+      "ema20_change_5bars": -0.13887545197871987,
+      "atr14": 0.19738907927866955,
       "trend": "SELL"
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-16T23:45:00Z",
-      "close": 189.834,
+      "last_closed_bar_utc": "2026-11-17T00:00:00Z",
+      "close": 189.904,
       "ema": {
-        "20": 189.81874526949517,
-        "50": 189.92458082215146,
-        "200": 190.46463451015396
+        "20": 189.82686476763848,
+        "50": 189.9237737310867,
+        "200": 190.45905621240345
       },
-      "ema20_change_5bars": -0.01962571239630506,
-      "atr14": 0.07968297152324737,
-      "trend": "SELL"
+      "ema20_change_5bars": 0.004624355450971507,
+      "atr14": 0.08127704498587283,
+      "trend": "NEUTRAL"
     },
     "W1": {
       "bars_used": 300,
@@ -221,9 +221,9 @@
       "enabled": 0,
       "direction": "SELL",
       "mode": "PULLBACK",
-      "zone_low": 190.395,
-      "zone_high": 190.451,
-      "invalidation": 190.498,
+      "zone_low": 190.393,
+      "zone_high": 190.453,
+      "invalidation": 190.502,
       "tp1": 0,
       "tp2": 0,
       "rr1": 1.2,
@@ -231,12 +231,12 @@
       "risk_pct": 0.5,
       "factor_group": "JPY_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 2.9689,
+      "distance_atr": 2.4773,
       "pivot": {
         "side": "HIGH",
         "level": 190.423,
-        "index": 992,
-        "confirmed_index": 994,
+        "index": 991,
+        "confirmed_index": 993,
         "pivot_utc": "2026-11-16T16:00:00Z",
         "confirmed_utc": "2026-11-16T18:00:00Z"
       },
@@ -247,8 +247,8 @@
         "EVENT_REVIEW",
         "EA_LIVE_CHECKS"
       ],
-      "m15_direction_confirmed": true,
-      "valid_until_utc": "2026-11-17T23:45:00Z"
+      "m15_direction_confirmed": false,
+      "valid_until_utc": "2026-11-18T00:00:00Z"
     }
   ],
   "enabled": 0,
@@ -267,21 +267,21 @@
   },
   "quote": {
     "broker_symbol": "CHFJPY",
-    "tick_time_utc": "2026-11-16T23:46:03Z",
-    "bid": 189.839,
-    "ask": 189.854,
+    "tick_time_utc": "2026-11-17T00:01:08Z",
+    "bid": 189.746,
+    "ask": 189.763,
     "digits": 3,
     "point": 0.001,
-    "spread_points": 15.0,
+    "spread_points": 17.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": -1.5e-11
+    "spread_rounding_deviation_points": 4e-12
   },
   "rtv": {
-    "value": 0.6230769230769231,
-    "baseline_median": 650.0,
+    "value": 0.8834870075440067,
+    "baseline_median": 596.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-16T23:45:00Z"
+    "last_closed_bar_utc": "2026-11-17T00:00:00Z"
   }
 }
