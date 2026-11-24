@@ -2,12 +2,10 @@
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "EURUSD",
-  "as_of_utc": "2026-11-24T13:45:00Z",
+  "as_of_utc": "2026-11-24T14:00:00Z",
   "price_basis": "BID",
-  "status": "WATCH",
-  "reasons": [
-    "NO_VALID_NEARBY_ZONE"
-  ],
+  "status": "TECHNICAL_CANDIDATE",
+  "reasons": [],
   "sources": {
     "D1": {
       "path": "ohlc/pairs/EURUSD/D1.json",
@@ -39,12 +37,12 @@
     },
     "H4": {
       "path": "ohlc/pairs/EURUSD/H4.json",
-      "sha256": "1605b86a7010f7f46b2f356a621499c3ec1ddf90fa25cb66e0a1abca3de3fd11",
+      "sha256": "b23dba6488499aea890541bf069a89ecebca4fba54064fd3e65bff842ca3f402",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURUSD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-24T10:01:08Z",
+      "retrieved_at_utc": "2026-11-24T14:01:10Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -67,12 +65,12 @@
     },
     "H1": {
       "path": "ohlc/pairs/EURUSD/H1.json",
-      "sha256": "91f342001b7aaea6cd77a4d4e5a14123594461285e636326785880e39640d9c5",
+      "sha256": "017e916c2aa3b1bb6c6a3a1f879d9d460ded737426c57b90f91f439e73945f48",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURUSD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-24T13:01:08Z",
+      "retrieved_at_utc": "2026-11-24T14:01:10Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -95,12 +93,12 @@
     },
     "M15": {
       "path": "ohlc/pairs/EURUSD/M15.json",
-      "sha256": "deeb87365dea1ce2a7edc0f66b459e6a15e2bd8ec2055017b88cfe03f253f414",
+      "sha256": "85738097ffc733f46e9dcdad9df35a7ba4125b29256903f7cbc1619d90899516",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURUSD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-24T13:46:11Z",
+      "retrieved_at_utc": "2026-11-24T14:01:10Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -166,41 +164,41 @@
     },
     "H4": {
       "bars_used": 500,
-      "last_closed_bar_utc": "2026-11-24T10:00:00Z",
-      "close": 1.09347,
+      "last_closed_bar_utc": "2026-11-24T14:00:00Z",
+      "close": 1.09651,
       "ema": {
-        "20": 1.095254026836973,
-        "50": 1.1000508467456245,
-        "200": 1.1143267621864952
+        "20": 1.0953736433286898,
+        "50": 1.099911990012464,
+        "200": 1.1141540281378624
       },
-      "ema20_change_5bars": -0.0026911496680492863,
-      "atr14": 0.0028377630513731216,
+      "ema20_change_5bars": -0.0016681830329969838,
+      "atr14": 0.0029214942619893323,
       "trend": "SELL"
     },
     "H1": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-24T13:00:00Z",
-      "close": 1.09603,
+      "last_closed_bar_utc": "2026-11-24T14:00:00Z",
+      "close": 1.09651,
       "ema": {
-        "20": 1.0927530976508086,
-        "50": 1.09400819418646,
-        "200": 1.099937403309775
+        "20": 1.0931108978745412,
+        "50": 1.0941063042183634,
+        "200": 1.099903294350276
       },
-      "ema20_change_5bars": 0.001083056950188288,
-      "atr14": 0.0012715876912178087,
+      "ema20_change_5bars": 0.0014399086692180596,
+      "atr14": 0.0012829028561308253,
       "trend": "NEUTRAL"
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-24T13:45:00Z",
-      "close": 1.09589,
+      "last_closed_bar_utc": "2026-11-24T14:00:00Z",
+      "close": 1.09651,
       "ema": {
-        "20": 1.0945602198811102,
-        "50": 1.0930655218403382,
-        "200": 1.0940392693025538
+        "20": 1.0947459132257664,
+        "50": 1.093200599415227,
+        "200": 1.0940638525112256
       },
-      "ema20_change_5bars": 0.0010144490227308456,
-      "atr14": 0.0006829212844539689,
+      "ema20_change_5bars": 0.000965453877708855,
+      "atr14": 0.0006877126212786874,
       "trend": "BUY"
     },
     "W1": {
@@ -217,7 +215,42 @@
       "trend": "SELL"
     }
   },
-  "candidates": [],
+  "candidates": [
+    {
+      "symbol": "EURUSD",
+      "enabled": 0,
+      "direction": "SELL",
+      "mode": "PULLBACK",
+      "zone_low": 1.09981,
+      "zone_high": 1.10019,
+      "invalidation": 1.10051,
+      "tp1": 0,
+      "tp2": 0,
+      "rr1": 1.2,
+      "rr2": 2.5,
+      "risk_pct": 0.75,
+      "factor_group": "USD_LONG",
+      "status": "WAIT_CONFIRM",
+      "distance_atr": 2.5723,
+      "pivot": {
+        "side": "HIGH",
+        "level": 1.1,
+        "index": 951,
+        "confirmed_index": 953,
+        "pivot_utc": "2026-11-20T14:00:00Z",
+        "confirmed_utc": "2026-11-20T16:00:00Z"
+      },
+      "breakout_close_utc": null,
+      "zone_rule": "pivot +/- 0.15 H1 ATR14; stop beyond zone by 0.25 ATR14",
+      "pending": [
+        "MACRO_REVIEW",
+        "EVENT_REVIEW",
+        "EA_LIVE_CHECKS"
+      ],
+      "m15_direction_confirmed": false,
+      "valid_until_utc": "2026-11-25T14:00:00Z"
+    }
+  ],
   "enabled": 0,
   "backtested": false,
   "execution_checks": "PENDING_EA_LIVE_CHECKS",
@@ -234,21 +267,21 @@
   },
   "quote": {
     "broker_symbol": "EURUSD",
-    "tick_time_utc": "2026-11-24T13:46:10Z",
-    "bid": 1.09602,
-    "ask": 1.0961,
+    "tick_time_utc": "2026-11-24T14:01:09Z",
+    "bid": 1.09656,
+    "ask": 1.09665,
     "digits": 5,
     "point": 1e-05,
-    "spread_points": 8.0,
+    "spread_points": 9.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": -8e-12
+    "spread_rounding_deviation_points": 8e-12
   },
   "rtv": {
-    "value": 1.1179422835633626,
+    "value": 1.1053952321204517,
     "baseline_median": 797.0,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-24T13:45:00Z"
+    "last_closed_bar_utc": "2026-11-24T14:00:00Z"
   }
 }
