@@ -1,6 +1,6 @@
 # USDCAD candidate evidence
 
-JSON SHA-256: df572bd8b83cbe31df99c882d47d63b8c6cc37d370f289b519248bffbc078c3c
+JSON SHA-256: 048903493db62e059581ffc2f35064b0b9a6adaedf20ca320d6ba3752bc6ce75
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "USDCAD",
-  "as_of_utc": "2026-11-24T07:00:00Z",
+  "as_of_utc": "2026-11-24T07:15:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -100,12 +100,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/USDCAD/M15.json",
-      "sha256": "95bb1a466c78995ccf814d2e3834b56cee4a88f6d222956b804236910b83ee3c",
+      "sha256": "bb16f4096e392850be3bb01a3b83c0f991f2790b069f05566bdc4d01d32ba551",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "USDCAD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-24T07:01:16Z",
+      "retrieved_at_utc": "2026-11-24T07:16:10Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -197,16 +197,16 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-24T07:00:00Z",
-      "close": 1.43618,
+      "last_closed_bar_utc": "2026-11-24T07:15:00Z",
+      "close": 1.43548,
       "ema": {
-        "20": 1.436020131456566,
-        "50": 1.4360726181956949,
-        "200": 1.4346259489997897
+        "20": 1.4359686903654645,
+        "50": 1.4360493782664518,
+        "200": 1.4346344471768138
       },
-      "ema20_change_5bars": -0.0001154980081248258,
-      "atr14": 0.0003763824748405676,
-      "trend": "NEUTRAL"
+      "ema20_change_5bars": -0.00014068867401761942,
+      "atr14": 0.0004166408694948244,
+      "trend": "SELL"
     },
     "W1": {
       "bars_used": 300,
@@ -238,7 +238,7 @@ Publisher-calculated, not independently recomputed by reader.
       "risk_pct": 0.75,
       "factor_group": "USD_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 0.6333,
+      "distance_atr": 0.0,
       "pivot": {
         "side": "LOW",
         "level": 1.43541,
@@ -255,7 +255,7 @@ Publisher-calculated, not independently recomputed by reader.
         "EA_LIVE_CHECKS"
       ],
       "m15_direction_confirmed": false,
-      "valid_until_utc": "2026-11-25T07:00:00Z"
+      "valid_until_utc": "2026-11-25T07:15:00Z"
     }
   ],
   "enabled": 0,
@@ -274,9 +274,9 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "USDCAD",
-    "tick_time_utc": "2026-11-24T07:01:11Z",
-    "bid": 1.43618,
-    "ask": 1.43628,
+    "tick_time_utc": "2026-11-24T07:16:08Z",
+    "bid": 1.43544,
+    "ask": 1.43554,
     "digits": 5,
     "point": 1e-05,
     "spread_points": 10.0,
@@ -285,11 +285,11 @@ Publisher-calculated, not independently recomputed by reader.
     "spread_rounding_deviation_points": 1e-12
   },
   "rtv": {
-    "value": 1.0727272727272728,
+    "value": 1.5795454545454546,
     "baseline_median": 440.0,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-24T07:00:00Z"
+    "last_closed_bar_utc": "2026-11-24T07:15:00Z"
   }
 }
 ```
