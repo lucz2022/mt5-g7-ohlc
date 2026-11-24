@@ -1,6 +1,6 @@
 # USDCHF candidate evidence
 
-JSON SHA-256: 598b036c8e43fc756eafeec66a9184324f1d0152979fea8a389ba0e736aef89a
+JSON SHA-256: 8b462b8bff96f7578bf5c961b02bf5773e5e769b1c13c5b1e575fd380be99983
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "USDCHF",
-  "as_of_utc": "2026-11-24T05:30:00Z",
+  "as_of_utc": "2026-11-24T05:45:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
@@ -102,12 +102,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/USDCHF/M15.json",
-      "sha256": "6a4b2f455113aabf5ed1cd44fcaf5fed0011677f4b91d7d1b93e579dad927d29",
+      "sha256": "c26e2b153eeb39cfe2dcbf7b2cf8a62ee86b04c7189c9bbb060dc357a5591efd",
       "status": "INSUFFICIENT_HISTORY",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "USDCHF",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-24T05:31:10Z",
+      "retrieved_at_utc": "2026-11-24T05:46:08Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -228,9 +228,9 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "USDCHF",
-    "tick_time_utc": "2026-11-24T05:31:04Z",
-    "bid": 0.84127,
-    "ask": 0.84136,
+    "tick_time_utc": "2026-11-24T05:46:07Z",
+    "bid": 0.84151,
+    "ask": 0.8416,
     "digits": 5,
     "point": 1e-05,
     "spread_points": 9.0,
