@@ -2,7 +2,7 @@
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "USDCAD",
-  "as_of_utc": "2026-11-24T14:00:00Z",
+  "as_of_utc": "2026-11-24T14:15:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -93,12 +93,12 @@
     },
     "M15": {
       "path": "ohlc/pairs/USDCAD/M15.json",
-      "sha256": "9b97edc26333441483b2898395bdde86b53cffe69ce4303c94217cc50d2ce1d2",
+      "sha256": "64495033b721f27f56bf4ffbd120e4939c606413cd600db835c1ea49016a5aed",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "USDCAD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-24T14:01:11Z",
+      "retrieved_at_utc": "2026-11-24T14:16:13Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -190,15 +190,15 @@
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-24T14:00:00Z",
-      "close": 1.43269,
+      "last_closed_bar_utc": "2026-11-24T14:15:00Z",
+      "close": 1.43192,
       "ema": {
-        "20": 1.4335257117051847,
-        "50": 1.4345614327671035,
-        "200": 1.4344998914151115
+        "20": 1.4333727867808814,
+        "50": 1.4344578471683935,
+        "200": 1.4344742249624085
       },
-      "ema20_change_5bars": -0.0005250314924241106,
-      "atr14": 0.0006268059699222725,
+      "ema20_change_5bars": -0.0005902665883836811,
+      "atr14": 0.0006834626863564101,
       "trend": "SELL"
     },
     "W1": {
@@ -231,7 +231,7 @@
       "risk_pct": 0.75,
       "factor_group": "USD_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 1.3001,
+      "distance_atr": 0.5747,
       "pivot": {
         "side": "LOW",
         "level": 1.43115,
@@ -248,7 +248,7 @@
         "EA_LIVE_CHECKS"
       ],
       "m15_direction_confirmed": false,
-      "valid_until_utc": "2026-11-25T14:00:00Z"
+      "valid_until_utc": "2026-11-25T14:15:00Z"
     }
   ],
   "enabled": 0,
@@ -267,21 +267,21 @@
   },
   "quote": {
     "broker_symbol": "USDCAD",
-    "tick_time_utc": "2026-11-24T14:01:09Z",
-    "bid": 1.43266,
-    "ask": 1.43275,
+    "tick_time_utc": "2026-11-24T14:16:12Z",
+    "bid": 1.4316900000000001,
+    "ask": 1.43179,
     "digits": 5,
     "point": 1e-05,
-    "spread_points": 9.0,
+    "spread_points": 10.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": 8e-12
+    "spread_rounding_deviation_points": 2.3e-11
   },
   "rtv": {
-    "value": 0.9292221443587947,
+    "value": 1.2711983181499649,
     "baseline_median": 713.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-24T14:00:00Z"
+    "last_closed_bar_utc": "2026-11-24T14:15:00Z"
   }
 }
