@@ -2,7 +2,7 @@
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "USDCHF",
-  "as_of_utc": "2026-11-24T11:45:00Z",
+  "as_of_utc": "2026-11-24T12:00:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
@@ -67,12 +67,12 @@
     },
     "H1": {
       "path": "ohlc/pairs/USDCHF/H1.json",
-      "sha256": "ff2e3f08ee8282976801436559f988544f9dd0f71b0f7e6f0ceec1f3ce738b66",
+      "sha256": "65682f445d1ec16a410051b10a203cf673622fc1ec92f75069084343b109441f",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "USDCHF",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-24T11:01:09Z",
+      "retrieved_at_utc": "2026-11-24T12:01:11Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -95,12 +95,12 @@
     },
     "M15": {
       "path": "ohlc/pairs/USDCHF/M15.json",
-      "sha256": "766dc6106fe19fafe663cf1d790dc369b7061c2f883b891c59f4b9925d2ba1a9",
+      "sha256": "d0bcf9c72b8c156931ffeab26aaa594a652d96f5b9987a6f66060836e24b8f8e",
       "status": "INSUFFICIENT_HISTORY",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "USDCHF",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-24T11:46:09Z",
+      "retrieved_at_utc": "2026-11-24T12:01:11Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -179,16 +179,16 @@
     },
     "H1": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-24T11:00:00Z",
-      "close": 0.84001,
+      "last_closed_bar_utc": "2026-11-24T12:00:00Z",
+      "close": 0.83887,
       "ema": {
-        "20": 0.8412760099208787,
-        "50": 0.8411802520290366,
-        "200": 0.8383554913260854
+        "20": 0.8410468661188902,
+        "50": 0.8410896539102508,
+        "200": 0.8383606155070363
       },
-      "ema20_change_5bars": 3.5738124851802944e-05,
-      "atr14": 0.0011128020993613405,
-      "trend": "NEUTRAL"
+      "ema20_change_5bars": -0.00030576074418176,
+      "atr14": 0.0011504590922641002,
+      "trend": "SELL"
     },
     "W1": {
       "bars_used": 300,
@@ -221,14 +221,14 @@
   },
   "quote": {
     "broker_symbol": "USDCHF",
-    "tick_time_utc": "2026-11-24T11:46:08Z",
-    "bid": 0.83934,
-    "ask": 0.83943,
+    "tick_time_utc": "2026-11-24T12:01:09Z",
+    "bid": 0.83872,
+    "ask": 0.83881,
     "digits": 5,
     "point": 1e-05,
     "spread_points": 9.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": -3e-12
+    "spread_rounding_deviation_points": 8e-12
   }
 }

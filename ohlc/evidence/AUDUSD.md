@@ -1,6 +1,6 @@
 # AUDUSD candidate evidence
 
-JSON SHA-256: a6ddd2ff608024bf1e18eb22d3d14eb0cb5b0f444b63b430d0d4c167d88baec0
+JSON SHA-256: 2f4742330e74763fc8588fefda5971b7b8fe4aa633f22957936d2fbeae2f871f
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "AUDUSD",
-  "as_of_utc": "2026-11-24T11:45:00Z",
+  "as_of_utc": "2026-11-24T12:00:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -72,12 +72,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "path": "ohlc/pairs/AUDUSD/H1.json",
-      "sha256": "a589f9c2c183a6fce39987c7c719b7547de05a26731e3c942efce81359cf9dc7",
+      "sha256": "c9fe6167f2ccf827190cbffddadfd13e9a8e8894b490083134e6d7cb67ad779a",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "AUDUSD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-24T11:01:09Z",
+      "retrieved_at_utc": "2026-11-24T12:01:12Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -100,12 +100,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/AUDUSD/M15.json",
-      "sha256": "80792bd714cbfe94db4abe790ba10d1f82b789174e85be3c9c16fc6cf2c41812",
+      "sha256": "6ffae05a9381ef8670430d16721d929ba22e07fe219a72591a3d3b03a65cf30e",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "AUDUSD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-24T11:46:10Z",
+      "retrieved_at_utc": "2026-11-24T12:01:12Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -184,28 +184,28 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-24T11:00:00Z",
-      "close": 0.66247,
+      "last_closed_bar_utc": "2026-11-24T12:00:00Z",
+      "close": 0.66405,
       "ema": {
-        "20": 0.6628919497111386,
-        "50": 0.663938930451038,
-        "200": 0.6716272330443271
+        "20": 0.6630022402148397,
+        "50": 0.6639432861196247,
+        "200": 0.6715518294148736
       },
-      "ema20_change_5bars": -0.00010429519959043176,
-      "atr14": 0.0011962806374167692,
-      "trend": "SELL"
+      "ema20_change_5bars": -2.3886132962780415e-05,
+      "atr14": 0.001254403449029862,
+      "trend": "NEUTRAL"
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-24T11:45:00Z",
-      "close": 0.66403,
+      "last_closed_bar_utc": "2026-11-24T12:00:00Z",
+      "close": 0.66405,
       "ema": {
-        "20": 0.6629233256890771,
-        "50": 0.6628836076361558,
-        "200": 0.6639542496767064
+        "20": 0.663030628004403,
+        "50": 0.6629293485131693,
+        "200": 0.663955199178075
       },
-      "ema20_change_5bars": 7.608482750987022e-05,
-      "atr14": 0.0005809944248682566,
+      "ema20_change_5bars": 0.0002155053201279289,
+      "atr14": 0.0005659233945205227,
       "trend": "BUY"
     },
     "W1": {
@@ -228,9 +228,9 @@ Publisher-calculated, not independently recomputed by reader.
       "enabled": 0,
       "direction": "SELL",
       "mode": "PULLBACK",
-      "zone_low": 0.66504,
-      "zone_high": 0.6654,
-      "invalidation": 0.6657,
+      "zone_low": 0.66503,
+      "zone_high": 0.66541,
+      "invalidation": 0.66572,
       "tp1": 0,
       "tp2": 0,
       "rr1": 1.2,
@@ -238,12 +238,12 @@ Publisher-calculated, not independently recomputed by reader.
       "risk_pct": 0.75,
       "factor_group": "USD_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 0.8443,
+      "distance_atr": 0.7812,
       "pivot": {
         "side": "HIGH",
         "level": 0.66522,
-        "index": 966,
-        "confirmed_index": 968,
+        "index": 965,
+        "confirmed_index": 967,
         "pivot_utc": "2026-11-23T02:00:00Z",
         "confirmed_utc": "2026-11-23T04:00:00Z"
       },
@@ -255,7 +255,7 @@ Publisher-calculated, not independently recomputed by reader.
         "EA_LIVE_CHECKS"
       ],
       "m15_direction_confirmed": false,
-      "valid_until_utc": "2026-11-25T11:45:00Z"
+      "valid_until_utc": "2026-11-25T12:00:00Z"
     }
   ],
   "enabled": 0,
@@ -274,9 +274,9 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "AUDUSD",
-    "tick_time_utc": "2026-11-24T11:46:08Z",
-    "bid": 0.66401,
-    "ask": 0.66409,
+    "tick_time_utc": "2026-11-24T12:01:09Z",
+    "bid": 0.66396,
+    "ask": 0.66404,
     "digits": 5,
     "point": 1e-05,
     "spread_points": 8.0,
@@ -285,11 +285,11 @@ Publisher-calculated, not independently recomputed by reader.
     "spread_rounding_deviation_points": 3e-12
   },
   "rtv": {
-    "value": 0.9287925696594427,
+    "value": 0.8173374613003096,
     "baseline_median": 807.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-24T11:45:00Z"
+    "last_closed_bar_utc": "2026-11-24T12:00:00Z"
   }
 }
 ```
