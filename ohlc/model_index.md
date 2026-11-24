@@ -2,14 +2,14 @@
 
 Algorithm: zones-1.0; not backtested; all enabled=0.
 Read this index then individual evidence cards. No live execution authorization.
-as_of_utc: 2026-11-24T13:30:00Z
+as_of_utc: 2026-11-24T13:45:00Z
 
 | Symbol | Result | Direction | Mode | Zone | Invalidation | Evidence |
 |---|---|---|---|---|---|---|
-| EURUSD | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 1.09981 - 1.10019 | 1.10051 | [EURUSD](evidence/EURUSD.md) |
-| GBPUSD | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 1.31414 - 1.31458 | 1.31494 | [GBPUSD](evidence/GBPUSD.md) |
+| EURUSD | WATCH NO_VALID_NEARBY_ZONE | - | - | - - - | - | [EURUSD](evidence/EURUSD.md) |
+| GBPUSD | WATCH NO_VALID_NEARBY_ZONE | - | - | - - - | - | [GBPUSD](evidence/GBPUSD.md) |
 | USDJPY | TECHNICAL_CANDIDATE  | BUY | BREAKOUT | 159.074 - 159.13 | 159.027 | [USDJPY](evidence/USDJPY.md) |
-| USDCHF | TECHNICAL_CANDIDATE  | BUY | PULLBACK | 0.8365 - 0.83686 | 0.83621 | [USDCHF](evidence/USDCHF.md) |
+| USDCHF | TECHNICAL_CANDIDATE  | BUY | PULLBACK | 0.83746 - 0.83782 | 0.83717 | [USDCHF](evidence/USDCHF.md) |
 | USDCAD | TECHNICAL_CANDIDATE  | BUY | PULLBACK | 1.43099 - 1.43131 | 1.43072 | [USDCAD](evidence/USDCAD.md) |
 | AUDUSD | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 0.66503 - 0.66541 | 0.66572 | [AUDUSD](evidence/AUDUSD.md) |
 | EURJPY | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 174.387 - 174.465 | 174.531 | [EURJPY](evidence/EURJPY.md) |
