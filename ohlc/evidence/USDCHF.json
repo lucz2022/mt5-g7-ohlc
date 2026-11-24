@@ -2,7 +2,7 @@
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "USDCHF",
-  "as_of_utc": "2026-11-24T07:30:00Z",
+  "as_of_utc": "2026-11-24T07:45:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
@@ -95,12 +95,12 @@
     },
     "M15": {
       "path": "ohlc/pairs/USDCHF/M15.json",
-      "sha256": "d1c7766eaf63b257c1d06917e130dba715cdcdb24fc89ab1eaabd12d19d666bb",
+      "sha256": "fc97efeb7284f21ee2ec9d392ce102e48ee1c8671ed485809e172196b0912b57",
       "status": "INSUFFICIENT_HISTORY",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "USDCHF",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-24T07:31:10Z",
+      "retrieved_at_utc": "2026-11-24T07:46:09Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -221,9 +221,9 @@
   },
   "quote": {
     "broker_symbol": "USDCHF",
-    "tick_time_utc": "2026-11-24T07:31:06Z",
-    "bid": 0.84222,
-    "ask": 0.84231,
+    "tick_time_utc": "2026-11-24T07:46:07Z",
+    "bid": 0.84234,
+    "ask": 0.84243,
     "digits": 5,
     "point": 1e-05,
     "spread_points": 9.0,
