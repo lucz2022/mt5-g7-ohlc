@@ -1,6 +1,6 @@
 # EURJPY candidate evidence
 
-JSON SHA-256: be1e6748ddb18670feec817c5411929b2d5207d341ad8a5ba11a6ed3179d557c
+JSON SHA-256: 36a4c1c05619450391892075d6081a6eef59f942777edee9b0210d83a8036527
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,12 +9,10 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "EURJPY",
-  "as_of_utc": "2026-11-24T06:15:00Z",
+  "as_of_utc": "2026-11-24T06:30:00Z",
   "price_basis": "BID",
-  "status": "WATCH",
-  "reasons": [
-    "NO_VALID_NEARBY_ZONE"
-  ],
+  "status": "TECHNICAL_CANDIDATE",
+  "reasons": [],
   "sources": {
     "D1": {
       "path": "ohlc/pairs/EURJPY/D1.json",
@@ -102,12 +100,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/EURJPY/M15.json",
-      "sha256": "ced6820e6ec524967b695078a449cc635a2e8fc0564567f03e9cb5c16bf103d3",
+      "sha256": "a4c9c9d2f532d98c2a345ce11cf19f34d32404fcc0777cb251daf7ee95d493d7",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-24T06:16:09Z",
+      "retrieved_at_utc": "2026-11-24T06:31:09Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -199,15 +197,15 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-24T06:15:00Z",
-      "close": 173.671,
+      "last_closed_bar_utc": "2026-11-24T06:30:00Z",
+      "close": 173.782,
       "ema": {
-        "20": 173.50142981761496,
-        "50": 173.5293819392891,
-        "200": 174.0708285852412
+        "20": 173.52815078736592,
+        "50": 173.5392885299052,
+        "200": 174.06795531048706
       },
-      "ema20_change_5bars": 0.083012577613232,
-      "atr14": 0.08736165129953027,
+      "ema20_change_5bars": 0.10253518926910488,
+      "atr14": 0.09076439049242235,
       "trend": "NEUTRAL"
     },
     "W1": {
@@ -224,7 +222,42 @@ Publisher-calculated, not independently recomputed by reader.
       "trend": "SELL"
     }
   },
-  "candidates": [],
+  "candidates": [
+    {
+      "symbol": "EURJPY",
+      "enabled": 0,
+      "direction": "SELL",
+      "mode": "PULLBACK",
+      "zone_low": 174.391,
+      "zone_high": 174.461,
+      "invalidation": 174.52,
+      "tp1": 0,
+      "tp2": 0,
+      "rr1": 1.2,
+      "rr2": 2.5,
+      "risk_pct": 0.5,
+      "factor_group": "JPY_LONG",
+      "status": "WAIT_CONFIRM",
+      "distance_atr": 2.5806,
+      "pivot": {
+        "side": "HIGH",
+        "level": 174.426,
+        "index": 984,
+        "confirmed_index": 986,
+        "pivot_utc": "2026-11-23T15:00:00Z",
+        "confirmed_utc": "2026-11-23T17:00:00Z"
+      },
+      "breakout_close_utc": null,
+      "zone_rule": "pivot +/- 0.15 H1 ATR14; stop beyond zone by 0.25 ATR14",
+      "pending": [
+        "MACRO_REVIEW",
+        "EVENT_REVIEW",
+        "EA_LIVE_CHECKS"
+      ],
+      "m15_direction_confirmed": false,
+      "valid_until_utc": "2026-11-25T06:30:00Z"
+    }
+  ],
   "enabled": 0,
   "backtested": false,
   "execution_checks": "PENDING_EA_LIVE_CHECKS",
@@ -241,22 +274,22 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "EURJPY",
-    "tick_time_utc": "2026-11-24T06:16:06Z",
-    "bid": 173.665,
-    "ask": 173.682,
+    "tick_time_utc": "2026-11-24T06:31:06Z",
+    "bid": 173.783,
+    "ask": 173.795,
     "digits": 3,
     "point": 0.001,
-    "spread_points": 17.0,
+    "spread_points": 12.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": 4e-12
+    "spread_rounding_deviation_points": -0.0
   },
   "rtv": {
-    "value": 1.124792013311148,
+    "value": 1.1259012756516917,
     "baseline_median": 901.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-24T06:15:00Z"
+    "last_closed_bar_utc": "2026-11-24T06:30:00Z"
   }
 }
 ```
