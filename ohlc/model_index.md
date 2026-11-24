@@ -2,7 +2,7 @@
 
 Algorithm: zones-1.0; not backtested; all enabled=0.
 Read this index then individual evidence cards. No live execution authorization.
-as_of_utc: 2026-11-24T14:30:00Z
+as_of_utc: 2026-11-24T14:45:00Z
 
 | Symbol | Result | Direction | Mode | Zone | Invalidation | Evidence |
 |---|---|---|---|---|---|---|
@@ -10,13 +10,13 @@ as_of_utc: 2026-11-24T14:30:00Z
 | GBPUSD | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 1.31414 - 1.31458 | 1.31495 | [GBPUSD](evidence/GBPUSD.md) |
 | USDJPY | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [USDJPY](evidence/USDJPY.md) |
 | USDCHF | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [USDCHF](evidence/USDCHF.md) |
-| USDCAD | TECHNICAL_CANDIDATE  | BUY | PULLBACK | 1.43099 - 1.43131 | 1.43072 | [USDCAD](evidence/USDCAD.md) |
+| USDCAD | TECHNICAL_CANDIDATE  | BUY | PULLBACK | 1.42976 - 1.43008 | 1.42949 | [USDCAD](evidence/USDCAD.md) |
 | AUDUSD | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 0.66503 - 0.66541 | 0.66572 | [AUDUSD](evidence/AUDUSD.md) |
 | EURJPY | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 174.915 - 174.993 | 175.058 | [EURJPY](evidence/EURJPY.md) |
 | GBPJPY | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 209.13 - 209.23 | 209.314 | [GBPJPY](evidence/GBPJPY.md) |
 | EURGBP | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [EURGBP](evidence/EURGBP.md) |
-| AUDJPY | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 105.759 - 105.837 | 105.902 | [AUDJPY](evidence/AUDJPY.md) |
-| CADJPY | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 111.235 - 111.283 | 111.322 | [CADJPY](evidence/CADJPY.md) |
+| AUDJPY | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 105.969 - 106.047 | 106.112 | [AUDJPY](evidence/AUDJPY.md) |
+| CADJPY | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 111.424 - 111.472 | 111.511 | [CADJPY](evidence/CADJPY.md) |
 | GBPAUD | TECHNICAL_CANDIDATE  | BUY | BREAKOUT | 1.96916 - 1.9701 | 1.96838 | [GBPAUD](evidence/GBPAUD.md) |
 | EURCHF | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 0.91992 - 0.92026 | 0.92054 | [EURCHF](evidence/EURCHF.md) |
 | EURAUD | TECHNICAL_CANDIDATE  | BUY | BREAKOUT | 1.64791 - 1.64879 | 1.64718 | [EURAUD](evidence/EURAUD.md) |

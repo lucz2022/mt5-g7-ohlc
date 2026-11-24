@@ -1,6 +1,6 @@
 # CADJPY candidate evidence
 
-JSON SHA-256: 541d7cd7686a014e9a1a60e59cd0ff21605c075137aa7a8383e87e903ea6fa13
+JSON SHA-256: 68086a4eae1c4b5077026d1ef72e23363cdf32d97db002d1d3237a32b6cbc024
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "CADJPY",
-  "as_of_utc": "2026-11-24T14:30:00Z",
+  "as_of_utc": "2026-11-24T14:45:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -100,12 +100,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/CADJPY/M15.json",
-      "sha256": "a330ba1dfdd7ac78861b32aa07abc093163765cad8bd8381a2dfc18db5ef1f90",
+      "sha256": "6a7ddb5cf5c26eb0ab1d3aeeedf48d5de364c09073f63de4a22139ffc5ef0a26",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "CADJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-24T14:31:10Z",
+      "retrieved_at_utc": "2026-11-24T14:46:12Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -197,15 +197,15 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-24T14:30:00Z",
-      "close": 111.267,
+      "last_closed_bar_utc": "2026-11-24T14:45:00Z",
+      "close": 111.333,
       "ema": {
-        "20": 111.09272538822844,
-        "50": 110.99138715758164,
-        "200": 110.93789283459616
+        "20": 111.11560868458764,
+        "50": 111.00478373963726,
+        "200": 110.94182411319049
       },
-      "ema20_change_5bars": 0.03891139501203611,
-      "atr14": 0.09640554914677757,
+      "ema20_change_5bars": 0.057015071677554374,
+      "atr14": 0.09823372420772201,
       "trend": "BUY"
     },
     "W1": {
@@ -228,9 +228,9 @@ Publisher-calculated, not independently recomputed by reader.
       "enabled": 0,
       "direction": "SELL",
       "mode": "PULLBACK",
-      "zone_low": 111.235,
-      "zone_high": 111.283,
-      "invalidation": 111.322,
+      "zone_low": 111.424,
+      "zone_high": 111.472,
+      "invalidation": 111.511,
       "tp1": 0,
       "tp2": 0,
       "rr1": 1.2,
@@ -238,14 +238,14 @@ Publisher-calculated, not independently recomputed by reader.
       "risk_pct": 0.5,
       "factor_group": "JPY_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 0.0,
+      "distance_atr": 0.5761,
       "pivot": {
         "side": "HIGH",
-        "level": 111.259,
-        "index": 995,
-        "confirmed_index": 997,
-        "pivot_utc": "2026-11-24T10:00:00Z",
-        "confirmed_utc": "2026-11-24T12:00:00Z"
+        "level": 111.448,
+        "index": 938,
+        "confirmed_index": 940,
+        "pivot_utc": "2026-11-20T01:00:00Z",
+        "confirmed_utc": "2026-11-20T03:00:00Z"
       },
       "breakout_close_utc": null,
       "zone_rule": "pivot +/- 0.15 H1 ATR14; stop beyond zone by 0.25 ATR14",
@@ -255,7 +255,7 @@ Publisher-calculated, not independently recomputed by reader.
         "EA_LIVE_CHECKS"
       ],
       "m15_direction_confirmed": false,
-      "valid_until_utc": "2026-11-25T14:30:00Z"
+      "valid_until_utc": "2026-11-25T14:45:00Z"
     }
   ],
   "enabled": 0,
@@ -274,9 +274,9 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "CADJPY",
-    "tick_time_utc": "2026-11-24T14:31:09Z",
-    "bid": 111.234,
-    "ask": 111.247,
+    "tick_time_utc": "2026-11-24T14:46:09Z",
+    "bid": 111.347,
+    "ask": 111.36,
     "digits": 3,
     "point": 0.001,
     "spread_points": 13.0,
@@ -285,11 +285,11 @@ Publisher-calculated, not independently recomputed by reader.
     "spread_rounding_deviation_points": -5e-12
   },
   "rtv": {
-    "value": 1.3375796178343948,
-    "baseline_median": 1177.5,
+    "value": 1.8565973695375477,
+    "baseline_median": 1178.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-24T14:30:00Z"
+    "last_closed_bar_utc": "2026-11-24T14:45:00Z"
   }
 }
 ```
