@@ -1,6 +1,6 @@
 # EURCHF candidate evidence
 
-JSON SHA-256: a73285f0a0be548a43b7c0860fe7b636cd09c13b3f3abe6d3996c68ab2b59e2d
+JSON SHA-256: dcba8d9976b368e08aff32aacdd6562766fb5223280797316f8441e10d3a2ff1
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "EURCHF",
-  "as_of_utc": "2026-11-24T09:15:00Z",
+  "as_of_utc": "2026-11-24T09:30:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -100,12 +100,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/EURCHF/M15.json",
-      "sha256": "728350314d950efc3e56d7e583e9b7dab04ceb6504e3fec195286ef33c99c1ed",
+      "sha256": "1ca40d08d69d9913ad85dd434e16dd677eb77846491e2337eee3f087a33c9968",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURCHF",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-24T09:16:10Z",
+      "retrieved_at_utc": "2026-11-24T09:31:10Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -197,15 +197,15 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-24T09:15:00Z",
-      "close": 0.91875,
+      "last_closed_bar_utc": "2026-11-24T09:30:00Z",
+      "close": 0.91919,
       "ema": {
-        "20": 0.918471139104579,
-        "50": 0.9183207778158162,
-        "200": 0.9201764792266374
+        "20": 0.918539602047,
+        "50": 0.9183548649602941,
+        "200": 0.9201666647851093
       },
-      "ema20_change_5bars": 0.0003204857792675764,
-      "atr14": 0.00041540649048970164,
+      "ema20_change_5bars": 0.0003452014193372488,
+      "atr14": 0.00043716316974043315,
       "trend": "BUY"
     },
     "W1": {
@@ -238,7 +238,7 @@ Publisher-calculated, not independently recomputed by reader.
       "risk_pct": 0.5,
       "factor_group": "CHF_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 2.2971,
+      "distance_atr": 1.8498,
       "pivot": {
         "side": "HIGH",
         "level": 0.92116,
@@ -255,7 +255,7 @@ Publisher-calculated, not independently recomputed by reader.
         "EA_LIVE_CHECKS"
       ],
       "m15_direction_confirmed": false,
-      "valid_until_utc": "2026-11-25T09:15:00Z"
+      "valid_until_utc": "2026-11-25T09:30:00Z"
     }
   ],
   "enabled": 0,
@@ -274,9 +274,9 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "EURCHF",
-    "tick_time_utc": "2026-11-24T09:16:07Z",
-    "bid": 0.91863,
-    "ask": 0.91875,
+    "tick_time_utc": "2026-11-24T09:31:05Z",
+    "bid": 0.91916,
+    "ask": 0.91928,
     "digits": 5,
     "point": 1e-05,
     "spread_points": 12.0,
@@ -285,11 +285,11 @@ Publisher-calculated, not independently recomputed by reader.
     "spread_rounding_deviation_points": -1e-12
   },
   "rtv": {
-    "value": 1.9936507936507937,
-    "baseline_median": 472.5,
+    "value": 1.4795918367346939,
+    "baseline_median": 490.0,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-24T09:15:00Z"
+    "last_closed_bar_utc": "2026-11-24T09:30:00Z"
   }
 }
 ```
