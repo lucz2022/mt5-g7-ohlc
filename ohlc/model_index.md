@@ -2,7 +2,7 @@
 
 Algorithm: zones-1.0; not backtested; all enabled=0.
 Read this index then individual evidence cards. No live execution authorization.
-as_of_utc: 2026-11-24T17:30:00Z
+as_of_utc: 2026-11-24T17:45:00Z
 
 | Symbol | Result | Direction | Mode | Zone | Invalidation | Evidence |
 |---|---|---|---|---|---|---|
@@ -10,7 +10,7 @@ as_of_utc: 2026-11-24T17:30:00Z
 | GBPUSD | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 1.31413 - 1.31459 | 1.31497 | [GBPUSD](evidence/GBPUSD.md) |
 | USDJPY | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [USDJPY](evidence/USDJPY.md) |
 | USDCHF | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [USDCHF](evidence/USDCHF.md) |
-| USDCAD | TECHNICAL_CANDIDATE  | BUY | PULLBACK | 1.4285 - 1.42892 | 1.42815 | [USDCAD](evidence/USDCAD.md) |
+| USDCAD | TECHNICAL_CANDIDATE  | BUY | PULLBACK | 1.428 - 1.42842 | 1.42765 | [USDCAD](evidence/USDCAD.md) |
 | AUDUSD | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 0.66502 - 0.66542 | 0.66576 | [AUDUSD](evidence/AUDUSD.md) |
 | EURJPY | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 174.778 - 174.858 | 174.925 | [EURJPY](evidence/EURJPY.md) |
 | GBPJPY | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 209.128 - 209.232 | 209.318 | [GBPJPY](evidence/GBPJPY.md) |
