@@ -1,6 +1,6 @@
 # CADJPY candidate evidence
 
-JSON SHA-256: b01f4a6f39b88e809056248ed48190a71169201c28a3f71bf057bea4295a046e
+JSON SHA-256: 541d7cd7686a014e9a1a60e59cd0ff21605c075137aa7a8383e87e903ea6fa13
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "CADJPY",
-  "as_of_utc": "2026-11-24T14:15:00Z",
+  "as_of_utc": "2026-11-24T14:30:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -100,12 +100,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/CADJPY/M15.json",
-      "sha256": "064b5db2a222a31ffc1dd95a79f7a388d1f244aa0333ee6388abd22a61361d6b",
+      "sha256": "a330ba1dfdd7ac78861b32aa07abc093163765cad8bd8381a2dfc18db5ef1f90",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "CADJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-24T14:16:15Z",
+      "retrieved_at_utc": "2026-11-24T14:31:10Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -197,15 +197,15 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-24T14:15:00Z",
-      "close": 111.172,
+      "last_closed_bar_utc": "2026-11-24T14:30:00Z",
+      "close": 111.267,
       "ema": {
-        "20": 111.07438069225249,
-        "50": 110.98013765380946,
-        "200": 110.93458530861047
+        "20": 111.09272538822844,
+        "50": 110.99138715758164,
+        "200": 110.93789283459616
       },
-      "ema20_change_5bars": 0.014902068171195992,
-      "atr14": 0.09289828369653,
+      "ema20_change_5bars": 0.03891139501203611,
+      "atr14": 0.09640554914677757,
       "trend": "BUY"
     },
     "W1": {
@@ -228,9 +228,9 @@ Publisher-calculated, not independently recomputed by reader.
       "enabled": 0,
       "direction": "SELL",
       "mode": "PULLBACK",
-      "zone_low": 111.166,
-      "zone_high": 111.214,
-      "invalidation": 111.253,
+      "zone_low": 111.235,
+      "zone_high": 111.283,
+      "invalidation": 111.322,
       "tp1": 0,
       "tp2": 0,
       "rr1": 1.2,
@@ -241,11 +241,11 @@ Publisher-calculated, not independently recomputed by reader.
       "distance_atr": 0.0,
       "pivot": {
         "side": "HIGH",
-        "level": 111.19,
-        "index": 970,
-        "confirmed_index": 972,
-        "pivot_utc": "2026-11-23T09:00:00Z",
-        "confirmed_utc": "2026-11-23T11:00:00Z"
+        "level": 111.259,
+        "index": 995,
+        "confirmed_index": 997,
+        "pivot_utc": "2026-11-24T10:00:00Z",
+        "confirmed_utc": "2026-11-24T12:00:00Z"
       },
       "breakout_close_utc": null,
       "zone_rule": "pivot +/- 0.15 H1 ATR14; stop beyond zone by 0.25 ATR14",
@@ -255,7 +255,7 @@ Publisher-calculated, not independently recomputed by reader.
         "EA_LIVE_CHECKS"
       ],
       "m15_direction_confirmed": false,
-      "valid_until_utc": "2026-11-25T14:15:00Z"
+      "valid_until_utc": "2026-11-25T14:30:00Z"
     }
   ],
   "enabled": 0,
@@ -274,22 +274,22 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "CADJPY",
-    "tick_time_utc": "2026-11-24T14:16:12Z",
-    "bid": 111.181,
-    "ask": 111.193,
+    "tick_time_utc": "2026-11-24T14:31:09Z",
+    "bid": 111.234,
+    "ask": 111.247,
     "digits": 3,
     "point": 0.001,
-    "spread_points": 12.0,
+    "spread_points": 13.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": -0.0
+    "spread_rounding_deviation_points": -5e-12
   },
   "rtv": {
-    "value": 1.4012738853503184,
+    "value": 1.3375796178343948,
     "baseline_median": 1177.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-24T14:15:00Z"
+    "last_closed_bar_utc": "2026-11-24T14:30:00Z"
   }
 }
 ```
