@@ -1,6 +1,6 @@
 # AUDCAD candidate evidence
 
-JSON SHA-256: 7fc5f59c93a33c34e6770dee9e4b36d7343c022186209c2c8e8d01505bbcba1c
+JSON SHA-256: c66c94428ef44562aec145457624e045698cc38416703b04b555bc64b080a94b
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "AUDCAD",
-  "as_of_utc": "2026-11-24T15:30:00Z",
+  "as_of_utc": "2026-11-24T15:45:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -100,12 +100,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/AUDCAD/M15.json",
-      "sha256": "8a59973aa8a3cf315c6a2ae2c58af32d149006cfe7ae66460b5753b68b6830fb",
+      "sha256": "a9427deb0d9c078b639b8fd469d2bda794cc71bb0fee7f45ee2a157796baa684",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "AUDCAD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-24T15:31:24Z",
+      "retrieved_at_utc": "2026-11-24T15:46:11Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -197,15 +197,15 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-24T15:30:00Z",
-      "close": 0.94952,
+      "last_closed_bar_utc": "2026-11-24T15:45:00Z",
+      "close": 0.94929,
       "ema": {
-        "20": 0.9509887695562135,
-        "50": 0.9512578462376994,
-        "200": 0.9522902502253171
+        "20": 0.9508269819794313,
+        "50": 0.9511806757970053,
+        "200": 0.9522603986061161
       },
-      "ema20_change_5bars": -0.00025494495330369293,
-      "atr14": 0.0008608379826416252,
+      "ema20_change_5bars": -0.0003811406720366506,
+      "atr14": 0.0008586352695957946,
       "trend": "SELL"
     },
     "W1": {
@@ -238,7 +238,7 @@ Publisher-calculated, not independently recomputed by reader.
       "risk_pct": 0.5,
       "factor_group": "CAD_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 1.9653,
+      "distance_atr": 2.1098,
       "pivot": {
         "side": "HIGH",
         "level": 0.95289,
@@ -255,7 +255,7 @@ Publisher-calculated, not independently recomputed by reader.
         "EA_LIVE_CHECKS"
       ],
       "m15_direction_confirmed": true,
-      "valid_until_utc": "2026-11-25T15:30:00Z"
+      "valid_until_utc": "2026-11-25T15:45:00Z"
     }
   ],
   "enabled": 0,
@@ -274,22 +274,22 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "AUDCAD",
-    "tick_time_utc": "2026-11-24T15:31:09Z",
-    "bid": 0.94958,
-    "ask": 0.94971,
+    "tick_time_utc": "2026-11-24T15:46:08Z",
+    "bid": 0.9493,
+    "ask": 0.94942,
     "digits": 5,
     "point": 1e-05,
-    "spread_points": 13.0,
+    "spread_points": 12.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": -7e-12
+    "spread_rounding_deviation_points": -1e-12
   },
   "rtv": {
-    "value": 1.8456896551724138,
-    "baseline_median": 1160.0,
+    "value": 1.7351328553353016,
+    "baseline_median": 1185.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-24T15:30:00Z"
+    "last_closed_bar_utc": "2026-11-24T15:45:00Z"
   }
 }
 ```
