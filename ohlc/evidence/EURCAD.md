@@ -1,6 +1,6 @@
 # EURCAD candidate evidence
 
-JSON SHA-256: ee18a237ebe2e9a500710cd09fe7dea7f7173274f5208aa7fe10859eea2eed0c
+JSON SHA-256: 55aa2cfb4c5f13f1e53b30f9aa25df70ee6af4c4cdcc381f3886de8eab8d0ca7
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "EURCAD",
-  "as_of_utc": "2026-11-24T15:45:00Z",
+  "as_of_utc": "2026-11-24T16:00:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -72,12 +72,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "path": "ohlc/pairs/EURCAD/H1.json",
-      "sha256": "d074a721c64d4609cb4c2656598a218c78f24894d9d3376ee29fcca212a42039",
+      "sha256": "d5b1e65f590bdfd4e41bd194c102054b3dca1f72c2da2c725e89541295f40ab1",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURCAD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-24T15:01:12Z",
+      "retrieved_at_utc": "2026-11-24T16:01:11Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -100,12 +100,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/EURCAD/M15.json",
-      "sha256": "a669e994104a3fa85f8a3d0e09c3b90a0832211a4dbb66f0d5e6dd7102e7830a",
+      "sha256": "34a837ecbc0579f106c39e14ee51566982632d2e6ae3c3a1fd9a814c8b7beb1d",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURCAD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-24T15:46:11Z",
+      "retrieved_at_utc": "2026-11-24T16:01:11Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -184,28 +184,28 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-24T15:00:00Z",
-      "close": 1.56822,
+      "last_closed_bar_utc": "2026-11-24T16:00:00Z",
+      "close": 1.56999,
       "ema": {
-        "20": 1.5682105545511231,
-        "50": 1.56927130539443,
-        "200": 1.5720059310258405
+        "20": 1.5683800255462543,
+        "50": 1.5692994894966092,
+        "200": 1.571985875533782
       },
-      "ema20_change_5bars": 0.0008997233312100228,
-      "atr14": 0.0015758540643217365,
+      "ema20_change_5bars": 0.0009054639663328423,
+      "atr14": 0.0017204359168701716,
       "trend": "NEUTRAL"
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-24T15:45:00Z",
-      "close": 1.56894,
+      "last_closed_bar_utc": "2026-11-24T16:00:00Z",
+      "close": 1.56999,
       "ema": {
-        "20": 1.569032340393288,
-        "50": 1.568320920370384,
-        "200": 1.5692882640281762
+        "20": 1.5691235460701176,
+        "50": 1.5683863744735063,
+        "200": 1.5692952481822302
       },
-      "ema20_change_5bars": -0.00033378920515203525,
-      "atr14": 0.0009826025258374818,
+      "ema20_change_5bars": -0.0002791426141852682,
+      "atr14": 0.001060988059706239,
       "trend": "NEUTRAL"
     },
     "W1": {
@@ -228,9 +228,9 @@ Publisher-calculated, not independently recomputed by reader.
       "enabled": 0,
       "direction": "SELL",
       "mode": "PULLBACK",
-      "zone_low": 1.57249,
-      "zone_high": 1.57297,
-      "invalidation": 1.57336,
+      "zone_low": 1.57247,
+      "zone_high": 1.57299,
+      "invalidation": 1.57342,
       "tp1": 0,
       "tp2": 0,
       "rr1": 1.2,
@@ -238,12 +238,12 @@ Publisher-calculated, not independently recomputed by reader.
       "risk_pct": 0.5,
       "factor_group": "CAD_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 2.2527,
+      "distance_atr": 1.4415,
       "pivot": {
         "side": "HIGH",
         "level": 1.57273,
-        "index": 973,
-        "confirmed_index": 975,
+        "index": 972,
+        "confirmed_index": 974,
         "pivot_utc": "2026-11-23T13:00:00Z",
         "confirmed_utc": "2026-11-23T15:00:00Z"
       },
@@ -255,7 +255,7 @@ Publisher-calculated, not independently recomputed by reader.
         "EA_LIVE_CHECKS"
       ],
       "m15_direction_confirmed": false,
-      "valid_until_utc": "2026-11-25T15:45:00Z"
+      "valid_until_utc": "2026-11-25T16:00:00Z"
     }
   ],
   "enabled": 0,
@@ -274,22 +274,22 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "EURCAD",
-    "tick_time_utc": "2026-11-24T15:46:07Z",
-    "bid": 1.5689899999999999,
-    "ask": 1.5691199999999998,
+    "tick_time_utc": "2026-11-24T16:01:07Z",
+    "bid": 1.5701,
+    "ask": 1.57024,
     "digits": 5,
     "point": 1e-05,
-    "spread_points": 13.0,
+    "spread_points": 14.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": 4e-12
+    "spread_rounding_deviation_points": -3e-12
   },
   "rtv": {
-    "value": 1.7451802179379714,
-    "baseline_median": 1193.0,
+    "value": 1.7942252948352988,
+    "baseline_median": 1229.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-24T15:45:00Z"
+    "last_closed_bar_utc": "2026-11-24T16:00:00Z"
   }
 }
 ```

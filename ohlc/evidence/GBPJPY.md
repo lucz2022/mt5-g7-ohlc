@@ -1,6 +1,6 @@
 # GBPJPY candidate evidence
 
-JSON SHA-256: 6ace45119ab643681257038397b7f9b74521e4deff8ba5fe547216cfcfeec2d2
+JSON SHA-256: 390edb823471815f6b8ce0ab8b0a0c20cd3a3a7d2f567ae11b4e5f667fea5b7f
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "GBPJPY",
-  "as_of_utc": "2026-11-24T15:45:00Z",
+  "as_of_utc": "2026-11-24T16:00:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -72,12 +72,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "path": "ohlc/pairs/GBPJPY/H1.json",
-      "sha256": "cfef2f9f1b7eabbf6df6d9ed12ad826adc2da53777bb2dc257a13698dab38631",
+      "sha256": "073645378c510ab589579b6c2e5288a5d74978733e26025c305094ce44ebf4e6",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "GBPJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-24T15:01:10Z",
+      "retrieved_at_utc": "2026-11-24T16:01:09Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -100,12 +100,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/GBPJPY/M15.json",
-      "sha256": "ae2d0a894e1df61629baf4df60194d9e4cf47811ec2a427049e870b35b40f570",
+      "sha256": "c5ff58a20fc8152c0088d0cc2b062b5e2f668d1f2e1b937da95dfeffb523a6d1",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "GBPJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-24T15:46:09Z",
+      "retrieved_at_utc": "2026-11-24T16:01:09Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -184,28 +184,28 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-24T15:00:00Z",
-      "close": 208.818,
+      "last_closed_bar_utc": "2026-11-24T16:00:00Z",
+      "close": 208.652,
       "ema": {
-        "20": 207.99382529631697,
-        "50": 208.08012236551951,
-        "200": 209.4140531653883
+        "20": 208.05650860142964,
+        "50": 208.1025489394207,
+        "200": 209.4064710620117
       },
-      "ema20_change_5bars": 0.3075097893386669,
-      "atr14": 0.34539475787534124,
+      "ema20_change_5bars": 0.32546123797308724,
+      "atr14": 0.345652275169961,
       "trend": "NEUTRAL"
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-24T15:45:00Z",
-      "close": 208.624,
+      "last_closed_bar_utc": "2026-11-24T16:00:00Z",
+      "close": 208.652,
       "ema": {
-        "20": 208.47066406035324,
-        "50": 208.140064467524,
-        "200": 208.07974341448752
+        "20": 208.4879341498434,
+        "50": 208.16014037075837,
+        "200": 208.0854367694856
       },
-      "ema20_change_5bars": 0.1753320249408432,
-      "atr14": 0.18241669746944877,
+      "ema20_change_5bars": 0.14663373685121428,
+      "atr14": 0.17974407622162972,
       "trend": "BUY"
     },
     "W1": {
@@ -238,12 +238,12 @@ Publisher-calculated, not independently recomputed by reader.
       "risk_pct": 0.5,
       "factor_group": "JPY_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 1.4592,
+      "distance_atr": 1.3771,
       "pivot": {
         "side": "HIGH",
         "level": 209.18,
-        "index": 969,
-        "confirmed_index": 971,
+        "index": 968,
+        "confirmed_index": 970,
         "pivot_utc": "2026-11-23T09:00:00Z",
         "confirmed_utc": "2026-11-23T11:00:00Z"
       },
@@ -255,7 +255,7 @@ Publisher-calculated, not independently recomputed by reader.
         "EA_LIVE_CHECKS"
       ],
       "m15_direction_confirmed": false,
-      "valid_until_utc": "2026-11-25T15:45:00Z"
+      "valid_until_utc": "2026-11-25T16:00:00Z"
     }
   ],
   "enabled": 0,
@@ -274,22 +274,22 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "GBPJPY",
-    "tick_time_utc": "2026-11-24T15:46:07Z",
+    "tick_time_utc": "2026-11-24T16:01:07Z",
     "bid": 208.617,
-    "ask": 208.638,
+    "ask": 208.632,
     "digits": 3,
     "point": 0.001,
-    "spread_points": 21.0,
+    "spread_points": 15.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
     "spread_rounding_deviation_points": -1.5e-11
   },
   "rtv": {
-    "value": 1.3411764705882352,
-    "baseline_median": 1785.0,
+    "value": 1.3459690336358783,
+    "baseline_median": 1873.0,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-24T15:45:00Z"
+    "last_closed_bar_utc": "2026-11-24T16:00:00Z"
   }
 }
 ```
