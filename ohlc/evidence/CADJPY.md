@@ -1,6 +1,6 @@
 # CADJPY candidate evidence
 
-JSON SHA-256: 0b081392c96a7257eea43056f92b8e76ac5d18f41055af80b8f18bcf51320d4c
+JSON SHA-256: 1cd3d6ce06b42a225ca3df4c1f4cd6ff6690c7b0c179b9c2f235591376826ac9
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "CADJPY",
-  "as_of_utc": "2026-11-24T04:45:00Z",
+  "as_of_utc": "2026-11-24T05:00:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -72,12 +72,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "path": "ohlc/pairs/CADJPY/H1.json",
-      "sha256": "fa67d7320262b04772d3ce45c726326545c03309a986f03333b1278035d5482c",
+      "sha256": "77255c118917f5b5bdec5842b2a04035f9b667bd29a2b0dd3d913b64748e61ac",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "CADJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-24T04:01:13Z",
+      "retrieved_at_utc": "2026-11-24T05:01:12Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -100,12 +100,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/CADJPY/M15.json",
-      "sha256": "7592eb1ccac3588ef40cc92f7b7ecfa79374b4b30425b39514852d5dfddfa3cf",
+      "sha256": "a83d34576dbbdcdc58506d5ef29b4e962f32c7efe005646202e1e190e115ee73",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "CADJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-24T04:46:08Z",
+      "retrieved_at_utc": "2026-11-24T05:01:12Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -184,28 +184,28 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-24T04:00:00Z",
-      "close": 110.719,
+      "last_closed_bar_utc": "2026-11-24T05:00:00Z",
+      "close": 110.708,
       "ema": {
-        "20": 110.75640632073286,
-        "50": 110.89556564717586,
-        "200": 111.39160957730013
+        "20": 110.75179619494878,
+        "50": 110.88821013160033,
+        "200": 111.38480684147504
       },
-      "ema20_change_5bars": -0.047492882373077805,
-      "atr14": 0.14586550618517433,
+      "ema20_change_5bars": -0.04239832214706496,
+      "atr14": 0.13951797002908958,
       "trend": "SELL"
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-24T04:45:00Z",
-      "close": 110.704,
+      "last_closed_bar_utc": "2026-11-24T05:00:00Z",
+      "close": 110.708,
       "ema": {
-        "20": 110.68333291180042,
-        "50": 110.71223393450776,
-        "200": 110.89022528171324
+        "20": 110.68568215829562,
+        "50": 110.71206789786041,
+        "200": 110.88841184340885
       },
-      "ema20_change_5bars": 0.013454857483125693,
-      "atr14": 0.05750383651533221,
+      "ema20_change_5bars": 0.01150677581806292,
+      "atr14": 0.055396419621380324,
       "trend": "NEUTRAL"
     },
     "W1": {
@@ -228,9 +228,9 @@ Publisher-calculated, not independently recomputed by reader.
       "enabled": 0,
       "direction": "SELL",
       "mode": "PULLBACK",
-      "zone_low": 110.741,
-      "zone_high": 110.785,
-      "invalidation": 110.821,
+      "zone_low": 110.742,
+      "zone_high": 110.784,
+      "invalidation": 110.819,
       "tp1": 0,
       "tp2": 0,
       "rr1": 1.2,
@@ -238,12 +238,12 @@ Publisher-calculated, not independently recomputed by reader.
       "risk_pct": 0.5,
       "factor_group": "JPY_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 0.2537,
+      "distance_atr": 0.2437,
       "pivot": {
         "side": "HIGH",
         "level": 110.763,
-        "index": 996,
-        "confirmed_index": 998,
+        "index": 995,
+        "confirmed_index": 997,
         "pivot_utc": "2026-11-24T01:00:00Z",
         "confirmed_utc": "2026-11-24T03:00:00Z"
       },
@@ -255,7 +255,7 @@ Publisher-calculated, not independently recomputed by reader.
         "EA_LIVE_CHECKS"
       ],
       "m15_direction_confirmed": false,
-      "valid_until_utc": "2026-11-25T04:45:00Z"
+      "valid_until_utc": "2026-11-25T05:00:00Z"
     }
   ],
   "enabled": 0,
@@ -274,22 +274,22 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "CADJPY",
-    "tick_time_utc": "2026-11-24T04:46:05Z",
-    "bid": 110.708,
-    "ask": 110.72,
+    "tick_time_utc": "2026-11-24T05:01:09Z",
+    "bid": 110.7,
+    "ask": 110.713,
     "digits": 3,
     "point": 0.001,
-    "spread_points": 12.0,
+    "spread_points": 13.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": -0.0
+    "spread_rounding_deviation_points": 9e-12
   },
   "rtv": {
-    "value": 0.4672897196261682,
+    "value": 0.5532710280373832,
     "baseline_median": 802.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-24T04:45:00Z"
+    "last_closed_bar_utc": "2026-11-24T05:00:00Z"
   }
 }
 ```
