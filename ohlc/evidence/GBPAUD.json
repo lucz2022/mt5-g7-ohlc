@@ -2,7 +2,7 @@
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "GBPAUD",
-  "as_of_utc": "2026-11-24T21:30:00Z",
+  "as_of_utc": "2026-11-24T21:45:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -93,12 +93,12 @@
     },
     "M15": {
       "path": "ohlc/pairs/GBPAUD/M15.json",
-      "sha256": "669e69e27b1c78f4b9595aa133374e1f640064f466f33a2af44ae3ca20be0741",
+      "sha256": "cebff570f88d1fee32e714b24fd48fbaefdd38c749d29416081cf352b9a02755",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "GBPAUD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-24T21:31:09Z",
+      "retrieved_at_utc": "2026-11-24T21:46:09Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -190,15 +190,15 @@
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-24T21:30:00Z",
-      "close": 1.9750100000000002,
+      "last_closed_bar_utc": "2026-11-24T21:45:00Z",
+      "close": 1.97472,
       "ema": {
-        "20": 1.9746670505010873,
-        "50": 1.9732097298380724,
-        "200": 1.9704371445754971
+        "20": 1.9746720933105075,
+        "50": 1.9732689561189323,
+        "200": 1.970479755169782
       },
-      "ema20_change_5bars": 0.00017299862410591338,
-      "atr14": 0.0011094946711032786,
+      "ema20_change_5bars": 0.00010318923133390001,
+      "atr14": 0.0010595307660244745,
       "trend": "BUY"
     },
     "W1": {
@@ -231,7 +231,7 @@
       "risk_pct": 0.5,
       "factor_group": "GBP_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 0.2586,
+      "distance_atr": 0.1612,
       "pivot": {
         "side": "HIGH",
         "level": 1.9737900000000002,
@@ -248,7 +248,7 @@
         "EA_LIVE_CHECKS"
       ],
       "m15_direction_confirmed": true,
-      "valid_until_utc": "2026-11-25T21:30:00Z"
+      "valid_until_utc": "2026-11-25T21:45:00Z"
     }
   ],
   "enabled": 0,
@@ -267,21 +267,21 @@
   },
   "quote": {
     "broker_symbol": "GBPAUD",
-    "tick_time_utc": "2026-11-24T21:31:03Z",
-    "bid": 1.9748700000000001,
-    "ask": 1.9750299999999998,
+    "tick_time_utc": "2026-11-24T21:46:05Z",
+    "bid": 1.97466,
+    "ask": 1.97507,
     "digits": 5,
     "point": 1e-05,
-    "spread_points": 16.0,
+    "spread_points": 41.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": 2.8e-11
+    "spread_rounding_deviation_points": -2e-12
   },
   "rtv": {
-    "value": 0.26635145784081954,
-    "baseline_median": 1269.0,
+    "value": 0.21915584415584416,
+    "baseline_median": 1232.0,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-24T21:30:00Z"
+    "last_closed_bar_utc": "2026-11-24T21:45:00Z"
   }
 }
