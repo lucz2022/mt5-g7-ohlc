@@ -2,7 +2,7 @@
 
 Algorithm: zones-1.0; not backtested; all enabled=0.
 Read this index then individual evidence cards. No live execution authorization.
-as_of_utc: 2026-11-24T11:30:00Z
+as_of_utc: 2026-11-24T11:45:00Z
 
 | Symbol | Result | Direction | Mode | Zone | Invalidation | Evidence |
 |---|---|---|---|---|---|---|
@@ -11,7 +11,7 @@ as_of_utc: 2026-11-24T11:30:00Z
 | USDJPY | TECHNICAL_CANDIDATE  | BUY | BREAKOUT | 159.073 - 159.131 | 159.025 | [USDJPY](evidence/USDJPY.md) |
 | USDCHF | REJECT M15:SOURCE_NOT_VALID | - | - | - - - | - | [USDCHF](evidence/USDCHF.md) |
 | USDCAD | TECHNICAL_CANDIDATE  | BUY | PULLBACK | 1.43099 - 1.43131 | 1.43073 | [USDCAD](evidence/USDCAD.md) |
-| AUDUSD | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 0.66355 - 0.66391 | 0.66421 | [AUDUSD](evidence/AUDUSD.md) |
+| AUDUSD | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 0.66504 - 0.6654 | 0.6657 | [AUDUSD](evidence/AUDUSD.md) |
 | EURJPY | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 174.386 - 174.466 | 174.532 | [EURJPY](evidence/EURJPY.md) |
 | GBPJPY | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 208.409 - 208.507 | 208.589 | [GBPJPY](evidence/GBPJPY.md) |
 | EURGBP | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [EURGBP](evidence/EURGBP.md) |
@@ -23,7 +23,7 @@ as_of_utc: 2026-11-24T11:30:00Z
 | EURCAD | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 1.57251 - 1.57295 | 1.57331 | [EURCAD](evidence/EURCAD.md) |
 | GBPCAD | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [GBPCAD](evidence/GBPCAD.md) |
 | GBPCHF | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [GBPCHF](evidence/GBPCHF.md) |
-| AUDCAD | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 0.95033 - 0.95079 | 0.95117 | [AUDCAD](evidence/AUDCAD.md) |
-| AUDCHF | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 0.55656 - 0.55692 | 0.55723 | [AUDCHF](evidence/AUDCHF.md) |
+| AUDCAD | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 0.95266 - 0.95312 | 0.9535 | [AUDCAD](evidence/AUDCAD.md) |
+| AUDCHF | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 0.5583 - 0.55866 | 0.55897 | [AUDCHF](evidence/AUDCHF.md) |
 | CADCHF | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [CADCHF](evidence/CADCHF.md) |
 | CHFJPY | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 189.732 - 189.808 | 189.872 | [CHFJPY](evidence/CHFJPY.md) |
