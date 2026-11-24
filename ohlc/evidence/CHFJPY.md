@@ -1,6 +1,6 @@
 # CHFJPY candidate evidence
 
-JSON SHA-256: 32c9dbe6539f05669d298065636b92f96b912b9dc9e3c31b86166416a54a3e58
+JSON SHA-256: 43df6ffcee23a3dc0f922a416cd9a2bb60b71ef2a98a5dc00c72edc2fb11cdb3
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "CHFJPY",
-  "as_of_utc": "2026-11-24T18:45:00Z",
+  "as_of_utc": "2026-11-24T19:00:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
@@ -74,12 +74,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "path": "ohlc/pairs/CHFJPY/H1.json",
-      "sha256": "2ab42f0d570c959321dcceb62060bb4ea9f54eaef7b5de677757eba0374d87c1",
+      "sha256": "b4aa25c940d41045a9a4904317fba599320203d7c2e2b40f01e72cfc9fff3b57",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "CHFJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-24T18:01:16Z",
+      "retrieved_at_utc": "2026-11-24T19:01:12Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -102,12 +102,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/CHFJPY/M15.json",
-      "sha256": "076f3e0f7325d2f0c382810115d2810b1b9c15b8a2b52a64df6dacc82ac9cb7c",
+      "sha256": "9b68f82fdcbd6bfd28c0896e1818cbcb7ab131e77063b8b3f764421da6a6add9",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "CHFJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-24T18:46:11Z",
+      "retrieved_at_utc": "2026-11-24T19:01:11Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -186,28 +186,28 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-24T18:00:00Z",
-      "close": 190.586,
+      "last_closed_bar_utc": "2026-11-24T19:00:00Z",
+      "close": 190.65,
       "ema": {
-        "20": 189.74850884324442,
-        "50": 189.43476345068686,
-        "200": 189.8824055373853
+        "20": 189.83436514388782,
+        "50": 189.48241978595405,
+        "200": 189.89004191489812
       },
-      "ema20_change_5bars": 0.44964490072706553,
-      "atr14": 0.2768547475517238,
+      "ema20_change_5bars": 0.4702501482768753,
+      "atr14": 0.26836512272659974,
       "trend": "BUY"
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-24T18:45:00Z",
-      "close": 190.678,
+      "last_closed_bar_utc": "2026-11-24T19:00:00Z",
+      "close": 190.65,
       "ema": {
-        "20": 190.44677269685585,
-        "50": 190.03132932925294,
-        "200": 189.4562477844865
+        "20": 190.46612767810768,
+        "50": 190.0555909241842,
+        "200": 189.46812463003818
       },
-      "ema20_change_5bars": 0.12111214693371153,
-      "atr14": 0.1366488105662911,
+      "ema20_change_5bars": 0.12148241865432396,
+      "atr14": 0.13138818124012863,
       "trend": "BUY"
     },
     "W1": {
@@ -241,9 +241,9 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "CHFJPY",
-    "tick_time_utc": "2026-11-24T18:46:05Z",
-    "bid": 190.661,
-    "ask": 190.673,
+    "tick_time_utc": "2026-11-24T19:01:06Z",
+    "bid": 190.658,
+    "ask": 190.67,
     "digits": 3,
     "point": 0.001,
     "spread_points": 12.0,
@@ -252,11 +252,11 @@ Publisher-calculated, not independently recomputed by reader.
     "spread_rounding_deviation_points": -0.0
   },
   "rtv": {
-    "value": 0.3983028374436489,
-    "baseline_median": 1885.5,
+    "value": 0.3613118399110617,
+    "baseline_median": 1799.0,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-24T18:45:00Z"
+    "last_closed_bar_utc": "2026-11-24T19:00:00Z"
   }
 }
 ```
