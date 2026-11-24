@@ -1,6 +1,6 @@
 # GBPCAD candidate evidence
 
-JSON SHA-256: 344f6196ae03959b0aae1f4b5bcd8267b9aa85ad77b521c60588ff0b86adaca8
+JSON SHA-256: 4e8715e35f2762dc5995022608888d6e399a21604f31bc146321ec9b35a3666c
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "GBPCAD",
-  "as_of_utc": "2026-11-24T06:30:00Z",
+  "as_of_utc": "2026-11-24T06:45:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
@@ -102,12 +102,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/GBPCAD/M15.json",
-      "sha256": "d34e52e33f6c4a353e82db25d8fb87da10498c2982e385cbdc0300baba5e17bc",
+      "sha256": "a6e9374ab2f36f76755a6086a2f2192adc4b45c9d3499b0d5e7614afc49ba46d",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "GBPCAD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-24T06:31:11Z",
+      "retrieved_at_utc": "2026-11-24T06:46:57Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -199,15 +199,15 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-24T06:30:00Z",
-      "close": 1.87269,
+      "last_closed_bar_utc": "2026-11-24T06:45:00Z",
+      "close": 1.87241,
       "ema": {
-        "20": 1.8724831427262725,
-        "50": 1.8728383545402176,
-        "200": 1.8757112547629058
+        "20": 1.8724761767523417,
+        "50": 1.8728215563229542,
+        "200": 1.875678410337817
       },
-      "ema20_change_5bars": 9.579023692873889e-05,
-      "atr14": 0.0005184434493236439,
+      "ema20_change_5bars": 2.000069055441145e-05,
+      "atr14": 0.0005185546315148176,
       "trend": "NEUTRAL"
     },
     "W1": {
@@ -241,22 +241,22 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "GBPCAD",
-    "tick_time_utc": "2026-11-24T06:31:07Z",
-    "bid": 1.87271,
-    "ask": 1.87282,
+    "tick_time_utc": "2026-11-24T06:46:20Z",
+    "bid": 1.87225,
+    "ask": 1.8723800000000002,
     "digits": 5,
     "point": 1e-05,
-    "spread_points": 11.0,
+    "spread_points": 13.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": 1.7e-11
+    "spread_rounding_deviation_points": -1.9e-11
   },
   "rtv": {
-    "value": 1.0804839558127302,
+    "value": 1.0478695423461337,
     "baseline_median": 950.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-24T06:30:00Z"
+    "last_closed_bar_utc": "2026-11-24T06:45:00Z"
   }
 }
 ```
