@@ -2,7 +2,7 @@
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "EURCHF",
-  "as_of_utc": "2026-11-25T05:30:00Z",
+  "as_of_utc": "2026-11-25T05:45:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -93,12 +93,12 @@
     },
     "M15": {
       "path": "ohlc/pairs/EURCHF/M15.json",
-      "sha256": "bb7e292038b0b3d294559348c0be766b0e576de2e455bb69fbe0446529ba7af2",
+      "sha256": "83388bdf5c44e884e346c018061d8f65f644a7f61e26f76debdb7e37aa4d6914",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURCHF",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-25T05:31:12Z",
+      "retrieved_at_utc": "2026-11-25T05:46:12Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -190,15 +190,15 @@
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T05:30:00Z",
-      "close": 0.91534,
+      "last_closed_bar_utc": "2026-11-25T05:45:00Z",
+      "close": 0.91537,
       "ema": {
-        "20": 0.9156687989723371,
-        "50": 0.9160990028267678,
-        "200": 0.9181415534537409
+        "20": 0.9156403419273527,
+        "50": 0.9160704144806201,
+        "200": 0.9181139778429401
       },
-      "ema20_change_5bars": -0.00023000491705538195,
-      "atr14": 0.0003274331982708754,
+      "ema20_change_5bars": -0.00022143302019295152,
+      "atr14": 0.00031618796982295594,
       "trend": "SELL"
     },
     "W1": {
@@ -231,7 +231,7 @@
       "risk_pct": 0.5,
       "factor_group": "CHF_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 1.1427,
+      "distance_atr": 1.1084,
       "pivot": {
         "side": "HIGH",
         "level": 0.91647,
@@ -248,7 +248,7 @@
         "EA_LIVE_CHECKS"
       ],
       "m15_direction_confirmed": true,
-      "valid_until_utc": "2026-11-26T05:30:00Z"
+      "valid_until_utc": "2026-11-26T05:45:00Z"
     }
   ],
   "enabled": 0,
@@ -267,21 +267,21 @@
   },
   "quote": {
     "broker_symbol": "EURCHF",
-    "tick_time_utc": "2026-11-25T05:31:08Z",
-    "bid": 0.91519,
-    "ask": 0.91535,
+    "tick_time_utc": "2026-11-25T05:46:08Z",
+    "bid": 0.91533,
+    "ask": 0.91546,
     "digits": 5,
     "point": 1e-05,
-    "spread_points": 16.0,
+    "spread_points": 13.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": -5e-12
+    "spread_rounding_deviation_points": -7e-12
   },
   "rtv": {
-    "value": 0.9045226130653267,
-    "baseline_median": 597.0,
+    "value": 0.9554585152838428,
+    "baseline_median": 572.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-25T05:30:00Z"
+    "last_closed_bar_utc": "2026-11-25T05:45:00Z"
   }
 }
