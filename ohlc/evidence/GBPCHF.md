@@ -1,6 +1,6 @@
 # GBPCHF candidate evidence
 
-JSON SHA-256: 73a5a169ed9008e318d0281f3963fd8352178cd7485d1e65cd90c249b275b734
+JSON SHA-256: e447a2be3e9351230dfa973a9b3cacccd862ef885f48e330530c516d05767442
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,20 +9,17 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "GBPCHF",
-  "as_of_utc": "2026-11-25T04:45:00Z",
+  "as_of_utc": "2026-11-25T05:15:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
-    "D1:SOURCE_NOT_VALID",
-    "H4:SOURCE_NOT_VALID",
-    "H1:SOURCE_NOT_VALID",
-    "M15:SOURCE_NOT_VALID"
+    "D1_H4_TREND_CONFLICT"
   ],
   "sources": {
     "D1": {
       "path": "ohlc/pairs/GBPCHF/D1.json",
       "sha256": "b005e08f90ba44347b6dc5335b3343c5338c5403a7dcc4c64151d03d0685b1fc",
-      "status": "STALE",
+      "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "GBPCHF",
       "digits": 5,
@@ -50,7 +47,7 @@ Publisher-calculated, not independently recomputed by reader.
     "H4": {
       "path": "ohlc/pairs/GBPCHF/H4.json",
       "sha256": "43607666fa010840ef7a019a54cf32b113cc08ff5726b7141824bdb578ac7ad2",
-      "status": "STALE",
+      "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "GBPCHF",
       "digits": 5,
@@ -77,12 +74,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "path": "ohlc/pairs/GBPCHF/H1.json",
-      "sha256": "6afaee8e473f57e444cfd31096ecfbc06b5cb18cc7e8ccde71fc286a0f8a5134",
-      "status": "STALE",
+      "sha256": "e7299c58f5772c6fe2dd39a819abf799247674cad341842386201d504ac21362",
+      "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "GBPCHF",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-25T04:01:12Z",
+      "retrieved_at_utc": "2026-11-25T05:16:11Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -105,12 +102,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/GBPCHF/M15.json",
-      "sha256": "34f6f2b99de3194c2a8a016a8bc750635c6b5fa10c4cd256c098e62babaaf7eb",
-      "status": "STALE",
+      "sha256": "db00cfcf40505a45fb911aa191ce8c8590271ed6351fa4bad4c9af994f9469e0",
+      "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "GBPCHF",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-25T04:31:11Z",
+      "retrieved_at_utc": "2026-11-25T05:16:11Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -134,7 +131,7 @@ Publisher-calculated, not independently recomputed by reader.
     "W1": {
       "path": "ohlc/pairs/GBPCHF/W1.json",
       "sha256": "a0ca6ab3e7419b31531a9a69bdf65cc3dd313dc8780b092997b0daba9bcd5e72",
-      "status": "STALE",
+      "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "GBPCHF",
       "digits": 5,
@@ -160,7 +157,73 @@ Publisher-calculated, not independently recomputed by reader.
       }
     }
   },
-  "metrics": {},
+  "metrics": {
+    "D1": {
+      "bars_used": 500,
+      "last_closed_bar_utc": "2026-11-24T22:00:00Z",
+      "close": 1.09578,
+      "ema": {
+        "20": 1.1021518208266583,
+        "50": 1.10031309812661,
+        "200": 1.086488869730344
+      },
+      "ema20_change_5bars": -0.0012450167513125,
+      "atr14": 0.00600506883832272,
+      "trend": "NEUTRAL"
+    },
+    "H4": {
+      "bars_used": 500,
+      "last_closed_bar_utc": "2026-11-25T02:00:00Z",
+      "close": 1.09563,
+      "ema": {
+        "20": 1.0994094687859612,
+        "50": 1.1021123375373687,
+        "200": 1.1019095503374277
+      },
+      "ema20_change_5bars": -0.0018849071813216156,
+      "atr14": 0.0027371420010688092,
+      "trend": "SELL"
+    },
+    "H1": {
+      "bars_used": 1000,
+      "last_closed_bar_utc": "2026-11-25T05:00:00Z",
+      "close": 1.09468,
+      "ema": {
+        "20": 1.0959843713980548,
+        "50": 1.097593241674821,
+        "200": 1.1019514005722022
+      },
+      "ema20_change_5bars": -0.00045302190938856235,
+      "atr14": 0.0011862583509841915,
+      "trend": "SELL"
+    },
+    "M15": {
+      "bars_used": 1000,
+      "last_closed_bar_utc": "2026-11-25T05:15:00Z",
+      "close": 1.09468,
+      "ema": {
+        "20": 1.095226136126312,
+        "50": 1.0956071563780356,
+        "200": 1.0975765450873818
+      },
+      "ema20_change_5bars": -0.00025365996407322733,
+      "atr14": 0.0004230875225175691,
+      "trend": "SELL"
+    },
+    "W1": {
+      "bars_used": 300,
+      "last_closed_bar_utc": "2026-11-21T22:00:00Z",
+      "close": 1.09907,
+      "ema": {
+        "20": 1.0935961986835838,
+        "50": 1.0839647025232106,
+        "200": 1.1133402108131258
+      },
+      "ema20_change_5bars": 0.005416982561843975,
+      "atr14": 0.012310776803593621,
+      "trend": "BUY"
+    }
+  },
   "candidates": [],
   "enabled": 0,
   "backtested": false,
@@ -177,15 +240,23 @@ Publisher-calculated, not independently recomputed by reader.
     ]
   },
   "quote": {
-    "broker_symbol": null,
-    "tick_time_utc": null,
-    "bid": null,
-    "ask": null,
-    "digits": null,
-    "point": null,
-    "spread_points": null,
-    "server_time_utc_offset_minutes_at_collection": null,
-    "status": "ERROR"
+    "broker_symbol": "GBPCHF",
+    "tick_time_utc": "2026-11-25T05:16:07Z",
+    "bid": 1.09444,
+    "ask": 1.09456,
+    "digits": 5,
+    "point": 1e-05,
+    "spread_points": 12.0,
+    "server_time_utc_offset_minutes_at_collection": 120,
+    "status": "OK",
+    "spread_rounding_deviation_points": 1e-11
+  },
+  "rtv": {
+    "value": 0.07357512953367876,
+    "baseline_median": 965.0,
+    "semantics": "MT5_TICK_VOLUME",
+    "session_adjusted": false,
+    "last_closed_bar_utc": "2026-11-25T05:15:00Z"
   }
 }
 ```
