@@ -2,7 +2,7 @@
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "EURJPY",
-  "as_of_utc": "2026-11-25T08:45:00Z",
+  "as_of_utc": "2026-11-25T09:00:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
@@ -67,12 +67,12 @@
     },
     "H1": {
       "path": "ohlc/pairs/EURJPY/H1.json",
-      "sha256": "531186af5a0655cc1b83b99052bbd1130259bbb4c9345550f0a094540d1a4db8",
+      "sha256": "aece4630ed4ab5b55b3c29df0a6375c8e96cf3b233eef4f0ee8488c67a911d6d",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-25T08:01:12Z",
+      "retrieved_at_utc": "2026-11-25T09:01:10Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -95,12 +95,12 @@
     },
     "M15": {
       "path": "ohlc/pairs/EURJPY/M15.json",
-      "sha256": "8f3122c1295c759b473a7e6d6a001868a6ee5a0ef9230e4e34ee5e76f10f1634",
+      "sha256": "bf23a275069ead4e1513009f625441bccba448d5614c4c722e19e18e15a5d5a1",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-25T08:46:11Z",
+      "retrieved_at_utc": "2026-11-25T09:01:10Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -179,28 +179,28 @@
     },
     "H1": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T08:00:00Z",
-      "close": 174.095,
+      "last_closed_bar_utc": "2026-11-25T09:00:00Z",
+      "close": 174.431,
       "ema": {
-        "20": 174.3555227414754,
-        "50": 174.29761843233686,
-        "200": 174.972926792351
+        "20": 174.36271105181106,
+        "50": 174.30284908204914,
+        "200": 174.96753337970745
       },
-      "ema20_change_5bars": -0.04831652907975581,
-      "atr14": 0.2184570628976877,
+      "ema20_change_5bars": -0.03638162154837232,
+      "atr14": 0.23278155840499654,
       "trend": "NEUTRAL"
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T08:45:00Z",
-      "close": 174.469,
+      "last_closed_bar_utc": "2026-11-25T09:00:00Z",
+      "close": 174.431,
       "ema": {
-        "20": 174.30519116083693,
-        "50": 174.38537911892357,
-        "200": 174.30225568138954
+        "20": 174.31717295504293,
+        "50": 174.38716817308344,
+        "200": 174.30353717675263
       },
-      "ema20_change_5bars": -0.04340467041427587,
-      "atr14": 0.13356343973819793,
+      "ema20_change_5bars": -0.0013661303748051523,
+      "atr14": 0.1300231940426126,
       "trend": "NEUTRAL"
     },
     "W1": {
@@ -234,21 +234,21 @@
   },
   "quote": {
     "broker_symbol": "EURJPY",
-    "tick_time_utc": "2026-11-25T08:46:08Z",
-    "bid": 174.468,
-    "ask": 174.479,
+    "tick_time_utc": "2026-11-25T09:01:07Z",
+    "bid": 174.413,
+    "ask": 174.424,
     "digits": 3,
     "point": 0.001,
     "spread_points": 11.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": -2.4e-11
+    "spread_rounding_deviation_points": 4e-12
   },
   "rtv": {
-    "value": 1.6110260336906586,
-    "baseline_median": 1306.0,
+    "value": 1.431943932128366,
+    "baseline_median": 1355.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-25T08:45:00Z"
+    "last_closed_bar_utc": "2026-11-25T09:00:00Z"
   }
 }
