@@ -2,7 +2,7 @@
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "GBPJPY",
-  "as_of_utc": "2026-11-25T09:15:00Z",
+  "as_of_utc": "2026-11-25T09:30:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
@@ -95,12 +95,12 @@
     },
     "M15": {
       "path": "ohlc/pairs/GBPJPY/M15.json",
-      "sha256": "c0fc55af16b1b40cd8246fe5de6b83c6e768b7afb6a53580a06e013d10bdfb5c",
+      "sha256": "b7100be97f93731a45c46bf92f86451bf52ac43e57444ddc6fa21ebb5f84ca6d",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "GBPJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-25T09:16:09Z",
+      "retrieved_at_utc": "2026-11-25T09:31:10Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -192,15 +192,15 @@
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T09:15:00Z",
-      "close": 208.407,
+      "last_closed_bar_utc": "2026-11-25T09:30:00Z",
+      "close": 208.137,
       "ema": {
-        "20": 208.4261049188001,
-        "50": 208.52424971615136,
-        "200": 208.36669282400464
+        "20": 208.3985711170096,
+        "50": 208.50906345277286,
+        "200": 208.36440767035717
       },
-      "ema20_change_5bars": -0.007482350923936565,
-      "atr14": 0.15804582792290678,
+      "ema20_change_5bars": -0.01115069845499761,
+      "atr14": 0.16932826878555648,
       "trend": "SELL"
     },
     "W1": {
@@ -234,21 +234,21 @@
   },
   "quote": {
     "broker_symbol": "GBPJPY",
-    "tick_time_utc": "2026-11-25T09:16:08Z",
-    "bid": 208.43,
-    "ask": 208.448,
+    "tick_time_utc": "2026-11-25T09:31:08Z",
+    "bid": 208.189,
+    "ask": 208.205,
     "digits": 3,
     "point": 0.001,
-    "spread_points": 18.0,
+    "spread_points": 16.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": -1e-12
+    "spread_rounding_deviation_points": -2e-11
   },
   "rtv": {
-    "value": 1.2334943639291465,
-    "baseline_median": 1552.5,
+    "value": 1.2463588472265261,
+    "baseline_median": 1613.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-25T09:15:00Z"
+    "last_closed_bar_utc": "2026-11-25T09:30:00Z"
   }
 }
