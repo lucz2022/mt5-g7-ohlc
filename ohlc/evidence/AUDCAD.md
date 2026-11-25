@@ -1,6 +1,6 @@
 # AUDCAD candidate evidence
 
-JSON SHA-256: a539b79ade034c0fcfd139991a35504b57a2c30a2308557eaddc393d11ca1517
+JSON SHA-256: d30c313e8613d0d98923f91fcd5c69b1da14b9121cea37387b70c04d27eb9095
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "AUDCAD",
-  "as_of_utc": "2026-11-25T10:30:00Z",
+  "as_of_utc": "2026-11-25T10:45:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [

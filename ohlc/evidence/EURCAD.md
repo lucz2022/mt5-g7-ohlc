@@ -1,6 +1,6 @@
 # EURCAD candidate evidence
 
-JSON SHA-256: 0ddcee826dc8d2162ef3d6c3f0fae6110ca2ddbed2f186b8fed1b7f4348ee4d6
+JSON SHA-256: 73c00cdf2a4486ac36b86ae491702fcc1e50d2a52dc15c8a4b9390014fb6943e
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "EURCAD",
-  "as_of_utc": "2026-11-25T10:30:00Z",
+  "as_of_utc": "2026-11-25T10:45:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [

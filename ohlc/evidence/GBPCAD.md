@@ -1,6 +1,6 @@
 # GBPCAD candidate evidence
 
-JSON SHA-256: 8713f30961861dc19924c8065350c297ad9ebcc4fb192b70545d96d15a58c785
+JSON SHA-256: 1490b8c671d684ce232a2909b2505a6f9ba9292af48e89032816bb0997cb2f4e
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "GBPCAD",
-  "as_of_utc": "2026-11-25T10:30:00Z",
+  "as_of_utc": "2026-11-25T10:45:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [

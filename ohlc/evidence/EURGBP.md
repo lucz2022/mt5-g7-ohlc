@@ -1,6 +1,6 @@
 # EURGBP candidate evidence
 
-JSON SHA-256: 0c02d4fa821a7bdc94be93f5e6041039888eb0b0c151ffa8f9af0e6e1995d06a
+JSON SHA-256: fa6b10f2490334609f5171a4f52fc15fbd75b67e0463961d383edb4c383e61c1
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "EURGBP",
-  "as_of_utc": "2026-11-25T10:30:00Z",
+  "as_of_utc": "2026-11-25T10:45:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [

@@ -1,6 +1,6 @@
 # CHFJPY candidate evidence
 
-JSON SHA-256: b56a27ed3fb69c8142d904a284927ea7b02bcd6392d591e9e4226b22b24c57e3
+JSON SHA-256: 0513e43eb5bdb61b1c15654eb9ef6524cff7519182c0112cc52628977357cab6
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "CHFJPY",
-  "as_of_utc": "2026-11-25T10:30:00Z",
+  "as_of_utc": "2026-11-25T10:45:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [

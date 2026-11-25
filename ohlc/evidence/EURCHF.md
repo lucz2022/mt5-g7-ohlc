@@ -1,6 +1,6 @@
 # EURCHF candidate evidence
 
-JSON SHA-256: 92d7107179119b09e9349bda22e39c8946787c79b7f608a6bf4cb95207d674a3
+JSON SHA-256: 91fb8df4c36dae3feab1bba3514546f71311332474689f8af2765bae7f8f84ef
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "EURCHF",
-  "as_of_utc": "2026-11-25T10:30:00Z",
+  "as_of_utc": "2026-11-25T10:45:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [

@@ -1,6 +1,6 @@
 # AUDCHF candidate evidence
 
-JSON SHA-256: ef0014df91b873ddce307bc3e0594e6651034d7d5eca36b863363063b9b9a491
+JSON SHA-256: c060c3faf9651c6f60796f123c6cacc6c7c39c592ec32a9aa984d36669490719
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "AUDCHF",
-  "as_of_utc": "2026-11-25T10:30:00Z",
+  "as_of_utc": "2026-11-25T10:45:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [

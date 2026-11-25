@@ -1,6 +1,6 @@
 # EURUSD candidate evidence
 
-JSON SHA-256: e05894f2c43f9cdded7e246ceeeead581eeb6be332cdefccaa21580c1d38ac18
+JSON SHA-256: 7eecdeea5a9c4f01b75885c9b857150806c38c437469f0719eb56aadb67c105d
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "EURUSD",
-  "as_of_utc": "2026-11-25T10:30:00Z",
+  "as_of_utc": "2026-11-25T10:45:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
