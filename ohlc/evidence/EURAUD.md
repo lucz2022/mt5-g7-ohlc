@@ -1,6 +1,6 @@
 # EURAUD candidate evidence
 
-JSON SHA-256: d76f635b8a7097ea2649bb7bfe54e0759e6822c042dac17c80c0bd5052fd2500
+JSON SHA-256: f8af651c87990e20e47e662fa9abf4f001daa2471740e788a19ef8a20055c0d8
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,20 +9,17 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "EURAUD",
-  "as_of_utc": "2026-11-25T12:00:00Z",
+  "as_of_utc": "2026-11-25T12:30:00Z",
   "price_basis": "BID",
-  "status": "REJECT",
+  "status": "WATCH",
   "reasons": [
-    "D1:SOURCE_NOT_VALID",
-    "H4:SOURCE_NOT_VALID",
-    "H1:SOURCE_NOT_VALID",
-    "M15:SOURCE_NOT_VALID"
+    "NO_VALID_NEARBY_ZONE"
   ],
   "sources": {
     "D1": {
       "path": "ohlc/pairs/EURAUD/D1.json",
       "sha256": "008800703d6472091e0451211be8ed519c22c1ec4a20a683cd556aa0d9edaada",
-      "status": "STALE",
+      "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURAUD",
       "digits": 5,
@@ -50,7 +47,7 @@ Publisher-calculated, not independently recomputed by reader.
     "H4": {
       "path": "ohlc/pairs/EURAUD/H4.json",
       "sha256": "dad89e13a2d3ccfde29e066144cfaac5e1b5bf8d79d0e771756c47574ec66de2",
-      "status": "STALE",
+      "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURAUD",
       "digits": 5,
@@ -77,12 +74,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "path": "ohlc/pairs/EURAUD/H1.json",
-      "sha256": "1269a25b2c26c7b1335bf92f6d9b2721941533fba97e6e61db47e4b0255227da",
-      "status": "STALE",
+      "sha256": "f701e4fed1f0db298c72bcda8fb35c093d4c3ea4a8443bbcde529089cf6461d6",
+      "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURAUD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-25T11:31:14Z",
+      "retrieved_at_utc": "2026-11-25T12:31:10Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -105,12 +102,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/EURAUD/M15.json",
-      "sha256": "6459bb31e26b7fadc98348d49e4b8eaa2fd051c2aad585e608925fa4bbd5b3ca",
-      "status": "STALE",
+      "sha256": "fc3819c272c4caa004563cdd35ff1f89b8f4a597d95a92d54ef6e9168335c8f0",
+      "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURAUD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-25T11:31:13Z",
+      "retrieved_at_utc": "2026-11-25T12:31:10Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -134,7 +131,7 @@ Publisher-calculated, not independently recomputed by reader.
     "W1": {
       "path": "ohlc/pairs/EURAUD/W1.json",
       "sha256": "5d90e2588c4f5ea38f8e8a8d503898d1f85f05ae1be5d40023ede1cec333e6ba",
-      "status": "STALE",
+      "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURAUD",
       "digits": 5,
@@ -160,7 +157,73 @@ Publisher-calculated, not independently recomputed by reader.
       }
     }
   },
-  "metrics": {},
+  "metrics": {
+    "D1": {
+      "bars_used": 500,
+      "last_closed_bar_utc": "2026-11-24T22:00:00Z",
+      "close": 1.65111,
+      "ema": {
+        "20": 1.6280172937765993,
+        "50": 1.620164464450577,
+        "200": 1.6418469332847465
+      },
+      "ema20_change_5bars": 0.01258823167920231,
+      "atr14": 0.011420826759450877,
+      "trend": "BUY"
+    },
+    "H4": {
+      "bars_used": 500,
+      "last_closed_bar_utc": "2026-11-25T10:00:00Z",
+      "close": 1.66605,
+      "ema": {
+        "20": 1.6506249630495566,
+        "50": 1.6418698059183063,
+        "200": 1.6227348497471883
+      },
+      "ema20_change_5bars": 0.00404852630140673,
+      "atr14": 0.005954011196054851,
+      "trend": "BUY"
+    },
+    "H1": {
+      "bars_used": 1000,
+      "last_closed_bar_utc": "2026-11-25T12:00:00Z",
+      "close": 1.66577,
+      "ema": {
+        "20": 1.6584285449730025,
+        "50": 1.653562353336722,
+        "200": 1.6419440652525563
+      },
+      "ema20_change_5bars": 0.004571729985886064,
+      "atr14": 0.0031379729160547964,
+      "trend": "BUY"
+    },
+    "M15": {
+      "bars_used": 1000,
+      "last_closed_bar_utc": "2026-11-25T12:30:00Z",
+      "close": 1.66631,
+      "ema": {
+        "20": 1.6646900302490564,
+        "50": 1.6611285675562715,
+        "200": 1.6536094599422804
+      },
+      "ema20_change_5bars": 0.0006067492452668244,
+      "atr14": 0.0013927981998621433,
+      "trend": "BUY"
+    },
+    "W1": {
+      "bars_used": 300,
+      "last_closed_bar_utc": "2026-11-21T22:00:00Z",
+      "close": 1.6565400000000001,
+      "ema": {
+        "20": 1.6247488759317235,
+        "50": 1.6506128853063595,
+        "200": 1.652351272763271
+      },
+      "ema20_change_5bars": -0.00296492727308717,
+      "atr14": 0.021842628613531617,
+      "trend": "NEUTRAL"
+    }
+  },
   "candidates": [],
   "enabled": 0,
   "backtested": false,
@@ -177,15 +240,23 @@ Publisher-calculated, not independently recomputed by reader.
     ]
   },
   "quote": {
-    "broker_symbol": null,
-    "tick_time_utc": null,
-    "bid": null,
-    "ask": null,
-    "digits": null,
-    "point": null,
-    "spread_points": null,
-    "server_time_utc_offset_minutes_at_collection": null,
-    "status": "ERROR"
+    "broker_symbol": "EURAUD",
+    "tick_time_utc": "2026-11-25T12:31:08Z",
+    "bid": 1.66665,
+    "ask": 1.6667999999999998,
+    "digits": 5,
+    "point": 1e-05,
+    "spread_points": 15.0,
+    "server_time_utc_offset_minutes_at_collection": 120,
+    "status": "OK",
+    "spread_rounding_deviation_points": 1.3e-11
+  },
+  "rtv": {
+    "value": 0.8915929203539823,
+    "baseline_median": 1808.0,
+    "semantics": "MT5_TICK_VOLUME",
+    "session_adjusted": false,
+    "last_closed_bar_utc": "2026-11-25T12:30:00Z"
   }
 }
 ```
