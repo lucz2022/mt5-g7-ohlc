@@ -1,6 +1,6 @@
 # CADCHF candidate evidence
 
-JSON SHA-256: 489c8ee75c3084da3968ad73f3a8526c254ae5a94276e8f8e30437ca3810e940
+JSON SHA-256: 1fb88c3dc5c3e737392b2ec159577e854425cb4561ec70301f2b2ae52092cc96
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "CADCHF",
-  "as_of_utc": "2026-11-25T00:30:00Z",
+  "as_of_utc": "2026-11-25T00:45:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
@@ -102,12 +102,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/CADCHF/M15.json",
-      "sha256": "deda5b2204a7d37ee1757774dd0675058f5981d0037d6712adbf6bedb76427c6",
+      "sha256": "74373119d0b2d682f0e298c7e282f816cb3b4404fb5826476f58ae03bb00f2ad",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "CADCHF",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-25T00:31:12Z",
+      "retrieved_at_utc": "2026-11-25T00:46:11Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -199,15 +199,15 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T00:30:00Z",
-      "close": 0.58575,
+      "last_closed_bar_utc": "2026-11-25T00:45:00Z",
+      "close": 0.58598,
       "ema": {
-        "20": 0.585353448530765,
-        "50": 0.5852761650500313,
-        "200": 0.5857879033240626
+        "20": 0.5854131200992636,
+        "50": 0.5853037664206183,
+        "200": 0.5857898137438075
       },
-      "ema20_change_5bars": 0.00016564390019657704,
-      "atr14": 0.00035820155090058323,
+      "ema20_change_5bars": 0.0001908206716064731,
+      "atr14": 0.0003519014401219696,
       "trend": "BUY"
     },
     "W1": {
@@ -241,9 +241,9 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "CADCHF",
-    "tick_time_utc": "2026-11-25T00:31:08Z",
-    "bid": 0.58594,
-    "ask": 0.58606,
+    "tick_time_utc": "2026-11-25T00:46:06Z",
+    "bid": 0.58596,
+    "ask": 0.58608,
     "digits": 5,
     "point": 1e-05,
     "spread_points": 12.0,
@@ -252,11 +252,11 @@ Publisher-calculated, not independently recomputed by reader.
     "spread_rounding_deviation_points": -1e-12
   },
   "rtv": {
-    "value": 2.0609579100145137,
+    "value": 2.3570391872278664,
     "baseline_median": 344.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-25T00:30:00Z"
+    "last_closed_bar_utc": "2026-11-25T00:45:00Z"
   }
 }
 ```
