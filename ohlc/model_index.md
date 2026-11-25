@@ -2,13 +2,13 @@
 
 Algorithm: zones-1.0; not backtested; all enabled=0.
 Read this index then individual evidence cards. No live execution authorization.
-as_of_utc: 2026-11-25T03:00:00Z
+as_of_utc: 2026-11-25T03:15:00Z
 
 | Symbol | Result | Direction | Mode | Zone | Invalidation | Evidence |
 |---|---|---|---|---|---|---|
 | EURUSD | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [EURUSD](evidence/EURUSD.md) |
 | GBPUSD | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [GBPUSD](evidence/GBPUSD.md) |
-| USDJPY | TECHNICAL_CANDIDATE  | BUY | PULLBACK | 159.007 - 159.055 | 158.967 | [USDJPY](evidence/USDJPY.md) |
+| USDJPY | TECHNICAL_CANDIDATE  | BUY | PULLBACK | 159.145 - 159.193 | 159.105 | [USDJPY](evidence/USDJPY.md) |
 | USDCHF | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [USDCHF](evidence/USDCHF.md) |
 | USDCAD | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [USDCAD](evidence/USDCAD.md) |
 | AUDUSD | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 0.66251 - 0.66295 | 0.66331 | [AUDUSD](evidence/AUDUSD.md) |
@@ -23,7 +23,7 @@ as_of_utc: 2026-11-25T03:00:00Z
 | EURCAD | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 1.56457 - 1.56501 | 1.56537 | [EURCAD](evidence/EURCAD.md) |
 | GBPCAD | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [GBPCAD](evidence/GBPCAD.md) |
 | GBPCHF | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [GBPCHF](evidence/GBPCHF.md) |
-| AUDCAD | WATCH NO_VALID_NEARBY_ZONE | - | - | - - - | - | [AUDCAD](evidence/AUDCAD.md) |
+| AUDCAD | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 0.94906 - 0.94962 | 0.95009 | [AUDCAD](evidence/AUDCAD.md) |
 | AUDCHF | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 0.55351 - 0.55393 | 0.55427 | [AUDCHF](evidence/AUDCHF.md) |
 | CADCHF | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [CADCHF](evidence/CADCHF.md) |
 | CHFJPY | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [CHFJPY](evidence/CHFJPY.md) |
