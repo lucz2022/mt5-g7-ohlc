@@ -2,7 +2,7 @@
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "CADCHF",
-  "as_of_utc": "2026-11-25T02:30:00Z",
+  "as_of_utc": "2026-11-25T02:45:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
@@ -95,12 +95,12 @@
     },
     "M15": {
       "path": "ohlc/pairs/CADCHF/M15.json",
-      "sha256": "dd4b0f36fc0ab40d299e3b6238956a556795678da7518daa5ac1c94671d28940",
+      "sha256": "1e9ca1c186230a329b3131527da9f4a47abfbe9e89c2054f7e734d9d11bbdba2",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "CADCHF",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-25T02:31:13Z",
+      "retrieved_at_utc": "2026-11-25T02:46:13Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -192,15 +192,15 @@
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T02:30:00Z",
-      "close": 0.5858,
+      "last_closed_bar_utc": "2026-11-25T02:45:00Z",
+      "close": 0.58582,
       "ema": {
-        "20": 0.5856629508778739,
-        "50": 0.5854540662325898,
-        "200": 0.585798879274073
+        "20": 0.585677907937124,
+        "50": 0.5854684165764098,
+        "200": 0.5857990871624063
       },
-      "ema20_change_5bars": 0.00014109973085763006,
-      "atr14": 0.0003093462943591974,
+      "ema20_change_5bars": 0.00010861404220452453,
+      "atr14": 0.00030010727333354534,
       "trend": "BUY"
     },
     "W1": {
@@ -234,21 +234,21 @@
   },
   "quote": {
     "broker_symbol": "CADCHF",
-    "tick_time_utc": "2026-11-25T02:31:08Z",
-    "bid": 0.58575,
-    "ask": 0.58587,
+    "tick_time_utc": "2026-11-25T02:46:09Z",
+    "bid": 0.58581,
+    "ask": 0.58593,
     "digits": 5,
     "point": 1e-05,
     "spread_points": 12.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": -1e-12
+    "spread_rounding_deviation_points": 1e-11
   },
   "rtv": {
-    "value": 1.467444120505345,
-    "baseline_median": 514.5,
+    "value": 1.6093023255813954,
+    "baseline_median": 537.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-25T02:30:00Z"
+    "last_closed_bar_utc": "2026-11-25T02:45:00Z"
   }
 }

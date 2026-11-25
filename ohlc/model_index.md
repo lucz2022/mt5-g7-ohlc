@@ -2,7 +2,7 @@
 
 Algorithm: zones-1.0; not backtested; all enabled=0.
 Read this index then individual evidence cards. No live execution authorization.
-as_of_utc: 2026-11-25T02:30:00Z
+as_of_utc: 2026-11-25T02:45:00Z
 
 | Symbol | Result | Direction | Mode | Zone | Invalidation | Evidence |
 |---|---|---|---|---|---|---|
@@ -19,7 +19,7 @@ as_of_utc: 2026-11-25T02:30:00Z
 | CADJPY | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [CADJPY](evidence/CADJPY.md) |
 | GBPAUD | TECHNICAL_CANDIDATE  | BUY | PULLBACK | 1.96945 - 1.97051 | 1.96857 | [GBPAUD](evidence/GBPAUD.md) |
 | EURCHF | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 0.91758 - 0.91786 | 0.9181 | [EURCHF](evidence/EURCHF.md) |
-| EURAUD | TECHNICAL_CANDIDATE  | BUY | PULLBACK | 1.64353 - 1.64447 | 1.64275 | [EURAUD](evidence/EURAUD.md) |
+| EURAUD | WATCH NO_VALID_NEARBY_ZONE | - | - | - - - | - | [EURAUD](evidence/EURAUD.md) |
 | EURCAD | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 1.56457 - 1.56501 | 1.56538 | [EURCAD](evidence/EURCAD.md) |
 | GBPCAD | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [GBPCAD](evidence/GBPCAD.md) |
 | GBPCHF | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [GBPCHF](evidence/GBPCHF.md) |
