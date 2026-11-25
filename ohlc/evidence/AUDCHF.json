@@ -2,7 +2,7 @@
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "AUDCHF",
-  "as_of_utc": "2026-11-25T08:30:00Z",
+  "as_of_utc": "2026-11-25T08:45:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -93,12 +93,12 @@
     },
     "M15": {
       "path": "ohlc/pairs/AUDCHF/M15.json",
-      "sha256": "24107e38c3d4740d149dda2753307acc3ee504e6c7b7a2f6f69cc36ca2695619",
+      "sha256": "8e1aac255e268def38a96e8120b48770cac52ab4ef86853d2fecaae0b925b430",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "AUDCHF",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-25T08:31:11Z",
+      "retrieved_at_utc": "2026-11-25T08:46:13Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -190,15 +190,15 @@
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T08:30:00Z",
-      "close": 0.54934,
+      "last_closed_bar_utc": "2026-11-25T08:45:00Z",
+      "close": 0.54938,
       "ema": {
-        "20": 0.550467515297244,
-        "50": 0.5523397111686841,
-        "200": 0.5556480896844086
+        "20": 0.5503639424117922,
+        "50": 0.5522236440640298,
+        "200": 0.5555857262305863
       },
-      "ema20_change_5bars": -0.0012573001939738537,
-      "atr14": 0.0008242140427977124,
+      "ema20_change_5bars": -0.001022319223119239,
+      "atr14": 0.0008303416111693099,
       "trend": "SELL"
     },
     "W1": {
@@ -231,7 +231,7 @@
       "risk_pct": 0.5,
       "factor_group": "CHF_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 2.912,
+      "distance_atr": 2.8841,
       "pivot": {
         "side": "LOW",
         "level": 0.55372,
@@ -248,7 +248,7 @@
         "EA_LIVE_CHECKS"
       ],
       "m15_direction_confirmed": true,
-      "valid_until_utc": "2026-11-26T08:30:00Z"
+      "valid_until_utc": "2026-11-26T08:45:00Z"
     }
   ],
   "enabled": 0,
@@ -267,21 +267,21 @@
   },
   "quote": {
     "broker_symbol": "AUDCHF",
-    "tick_time_utc": "2026-11-25T08:31:07Z",
-    "bid": 0.54954,
-    "ask": 0.54966,
+    "tick_time_utc": "2026-11-25T08:46:09Z",
+    "bid": 0.54915,
+    "ask": 0.54928,
     "digits": 5,
     "point": 1e-05,
-    "spread_points": 12.0,
+    "spread_points": 13.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": -1e-12
+    "spread_rounding_deviation_points": 4e-12
   },
   "rtv": {
-    "value": 1.438961038961039,
-    "baseline_median": 962.5,
+    "value": 1.5246819338422393,
+    "baseline_median": 982.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-25T08:30:00Z"
+    "last_closed_bar_utc": "2026-11-25T08:45:00Z"
   }
 }
