@@ -1,6 +1,6 @@
 # CHFJPY candidate evidence
 
-JSON SHA-256: 2df61ce5c2b3c14a37a47ea7187d2c279c99c42c2bc61620edb31bf4244f1b2e
+JSON SHA-256: 1edd95b31c24263ca1740edf29a8d44bcb67aa34c20a144fec235f933716e7fb
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,17 +9,20 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "CHFJPY",
-  "as_of_utc": "2026-11-25T10:00:00Z",
+  "as_of_utc": "2026-11-25T10:15:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
-    "D1_H4_TREND_CONFLICT"
+    "D1:SOURCE_NOT_VALID",
+    "H4:SOURCE_NOT_VALID",
+    "H1:SOURCE_NOT_VALID",
+    "M15:SOURCE_NOT_VALID"
   ],
   "sources": {
     "D1": {
       "path": "ohlc/pairs/CHFJPY/D1.json",
       "sha256": "14e8359478e6829392538dae083164d55c408a0afa2bd4b71f3eea6c66aef545",
-      "status": "OK",
+      "status": "STALE",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "CHFJPY",
       "digits": 3,
@@ -47,7 +50,7 @@ Publisher-calculated, not independently recomputed by reader.
     "H4": {
       "path": "ohlc/pairs/CHFJPY/H4.json",
       "sha256": "cea71b097736699b9995ae5e46c58029a0c388f00716b99f62de8e6638336c42",
-      "status": "OK",
+      "status": "STALE",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "CHFJPY",
       "digits": 3,
@@ -75,7 +78,7 @@ Publisher-calculated, not independently recomputed by reader.
     "H1": {
       "path": "ohlc/pairs/CHFJPY/H1.json",
       "sha256": "a97e9b187a7a67842d59dab72a58c09d587881efd253a7974166e5545f81a653",
-      "status": "OK",
+      "status": "STALE",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "CHFJPY",
       "digits": 3,
@@ -103,7 +106,7 @@ Publisher-calculated, not independently recomputed by reader.
     "M15": {
       "path": "ohlc/pairs/CHFJPY/M15.json",
       "sha256": "e77be8f1bd68d23873948c553386b3366b89991796c1668ca71e6644fd749253",
-      "status": "OK",
+      "status": "STALE",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "CHFJPY",
       "digits": 3,
@@ -131,7 +134,7 @@ Publisher-calculated, not independently recomputed by reader.
     "W1": {
       "path": "ohlc/pairs/CHFJPY/W1.json",
       "sha256": "3219665e078c0b7c18a3526e834a971485ea5bd1b42228f652f3313afef1d1ae",
-      "status": "OK",
+      "status": "STALE",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "CHFJPY",
       "digits": 3,
@@ -157,73 +160,7 @@ Publisher-calculated, not independently recomputed by reader.
       }
     }
   },
-  "metrics": {
-    "D1": {
-      "bars_used": 500,
-      "last_closed_bar_utc": "2026-11-24T22:00:00Z",
-      "close": 190.561,
-      "ema": {
-        "20": 190.5281113723003,
-        "50": 191.4458284183102,
-        "200": 194.29417081247647
-      },
-      "ema20_change_5bars": -0.7918849459902617,
-      "atr14": 1.2061720472513644,
-      "trend": "SELL"
-    },
-    "H4": {
-      "bars_used": 500,
-      "last_closed_bar_utc": "2026-11-25T10:00:00Z",
-      "close": 191.048,
-      "ema": {
-        "20": 189.85935279051915,
-        "50": 190.0112089846255,
-        "200": 190.99096340582403
-      },
-      "ema20_change_5bars": 0.5336858930679682,
-      "atr14": 0.5353788470368539,
-      "trend": "NEUTRAL"
-    },
-    "H1": {
-      "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T10:00:00Z",
-      "close": 191.048,
-      "ema": {
-        "20": 190.46285966454934,
-        "50": 189.99153774283332,
-        "200": 189.98850324636294
-      },
-      "ema20_change_5bars": 0.20375483681601736,
-      "atr14": 0.2624132046867427,
-      "trend": "BUY"
-    },
-    "M15": {
-      "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T10:00:00Z",
-      "close": 191.048,
-      "ema": {
-        "20": 190.75745176436916,
-        "50": 190.59135368927159,
-        "200": 189.97463715748
-      },
-      "ema20_change_5bars": 0.16923694973053216,
-      "atr14": 0.15300808090487758,
-      "trend": "BUY"
-    },
-    "W1": {
-      "bars_used": 300,
-      "last_closed_bar_utc": "2026-11-21T22:00:00Z",
-      "close": 188.664,
-      "ema": {
-        "20": 193.09590454106697,
-        "50": 193.88062865360095,
-        "200": 174.95206456286553
-      },
-      "ema20_change_5bars": -1.6577180467520805,
-      "atr14": 2.8955846156205403,
-      "trend": "SELL"
-    }
-  },
+  "metrics": {},
   "candidates": [],
   "enabled": 0,
   "backtested": false,
@@ -240,23 +177,15 @@ Publisher-calculated, not independently recomputed by reader.
     ]
   },
   "quote": {
-    "broker_symbol": "CHFJPY",
-    "tick_time_utc": "2026-11-25T10:01:08Z",
-    "bid": 191.045,
-    "ask": 191.06,
-    "digits": 3,
-    "point": 0.001,
-    "spread_points": 15.0,
-    "server_time_utc_offset_minutes_at_collection": 120,
-    "status": "OK",
-    "spread_rounding_deviation_points": -1.5e-11
-  },
-  "rtv": {
-    "value": 0.9405654933641084,
-    "baseline_median": 1733.0,
-    "semantics": "MT5_TICK_VOLUME",
-    "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-25T10:00:00Z"
+    "broker_symbol": null,
+    "tick_time_utc": null,
+    "bid": null,
+    "ask": null,
+    "digits": null,
+    "point": null,
+    "spread_points": null,
+    "server_time_utc_offset_minutes_at_collection": null,
+    "status": "ERROR"
   }
 }
 ```
