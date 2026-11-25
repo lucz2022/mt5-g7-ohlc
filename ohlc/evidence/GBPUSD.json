@@ -2,7 +2,7 @@
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "GBPUSD",
-  "as_of_utc": "2026-11-25T07:00:00Z",
+  "as_of_utc": "2026-11-25T07:15:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
@@ -95,12 +95,12 @@
     },
     "M15": {
       "path": "ohlc/pairs/GBPUSD/M15.json",
-      "sha256": "85f413f2a979c73ed029b264beeca8a2dec0ea5772016541c851244c71471e2c",
+      "sha256": "958e16e5784a745a48d7944949eab1032fd2dd9c8298e06ed4feb52d18dca047",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "GBPUSD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-25T07:01:09Z",
+      "retrieved_at_utc": "2026-11-25T07:16:09Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -192,15 +192,15 @@
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T07:00:00Z",
-      "close": 1.30799,
+      "last_closed_bar_utc": "2026-11-25T07:15:00Z",
+      "close": 1.30814,
       "ema": {
-        "20": 1.3090323761558427,
-        "50": 1.3096763214670066,
-        "200": 1.3089109103252738
+        "20": 1.3089473879505242,
+        "50": 1.3096160735663398,
+        "200": 1.3089032382917507
       },
-      "ema20_change_5bars": -0.0006627937910992365,
-      "atr14": 0.0004805714275732356,
+      "ema20_change_5bars": -0.0006330039062327764,
+      "atr14": 0.0005076734684608676,
       "trend": "SELL"
     },
     "W1": {
@@ -234,21 +234,21 @@
   },
   "quote": {
     "broker_symbol": "GBPUSD",
-    "tick_time_utc": "2026-11-25T07:01:07Z",
-    "bid": 1.30771,
-    "ask": 1.3078,
+    "tick_time_utc": "2026-11-25T07:16:07Z",
+    "bid": 1.30814,
+    "ask": 1.30823,
     "digits": 5,
     "point": 1e-05,
     "spread_points": 9.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": -1.5e-11
+    "spread_rounding_deviation_points": 8e-12
   },
   "rtv": {
-    "value": 1.3444360333081,
-    "baseline_median": 660.5,
+    "value": 1.6604338070306657,
+    "baseline_median": 668.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-25T07:00:00Z"
+    "last_closed_bar_utc": "2026-11-25T07:15:00Z"
   }
 }

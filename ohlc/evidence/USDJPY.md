@@ -1,6 +1,6 @@
 # USDJPY candidate evidence
 
-JSON SHA-256: d89fa3927768bee4f3f62c2616481f9bbb6828fdd3f9a54e78cc1ac071b971a0
+JSON SHA-256: 1b1ab345a40a35eb3478c88bbb1c94f5228c99bf6bb5c6eec7b08afa4c305b09
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "USDJPY",
-  "as_of_utc": "2026-11-25T07:00:00Z",
+  "as_of_utc": "2026-11-25T07:15:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -100,12 +100,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/USDJPY/M15.json",
-      "sha256": "b44e860c5255edf768cc59f4bc8b8c899df1ee603ae907e2b26769c16aa6319f",
+      "sha256": "54435c067b1c32db437213f9785e2d0edc7c3f1f3493019de70a8c9b62a49a5f",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "USDJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-25T07:01:09Z",
+      "retrieved_at_utc": "2026-11-25T07:16:10Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -197,16 +197,16 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T07:00:00Z",
-      "close": 159.277,
+      "last_closed_bar_utc": "2026-11-25T07:15:00Z",
+      "close": 159.297,
       "ema": {
-        "20": 159.3413784206768,
-        "50": 159.2934174447291,
-        "200": 159.19768337735067
+        "20": 159.33715190442186,
+        "50": 159.29355793709266,
+        "200": 159.19867216642524
       },
-      "ema20_change_5bars": 0.019341087248477606,
-      "atr14": 0.0761005506588088,
-      "trend": "NEUTRAL"
+      "ema20_change_5bars": 0.006451459891479772,
+      "atr14": 0.07837908275460846,
+      "trend": "BUY"
     },
     "W1": {
       "bars_used": 300,
@@ -238,7 +238,7 @@ Publisher-calculated, not independently recomputed by reader.
       "risk_pct": 0.75,
       "factor_group": "USD_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 0.5187,
+      "distance_atr": 0.6422,
       "pivot": {
         "side": "LOW",
         "level": 159.169,
@@ -254,8 +254,8 @@ Publisher-calculated, not independently recomputed by reader.
         "EVENT_REVIEW",
         "EA_LIVE_CHECKS"
       ],
-      "m15_direction_confirmed": false,
-      "valid_until_utc": "2026-11-26T07:00:00Z"
+      "m15_direction_confirmed": true,
+      "valid_until_utc": "2026-11-26T07:15:00Z"
     }
   ],
   "enabled": 0,
@@ -274,22 +274,22 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "USDJPY",
-    "tick_time_utc": "2026-11-25T07:01:07Z",
-    "bid": 159.248,
-    "ask": 159.257,
+    "tick_time_utc": "2026-11-25T07:16:08Z",
+    "bid": 159.279,
+    "ask": 159.287,
     "digits": 3,
     "point": 0.001,
-    "spread_points": 9.0,
+    "spread_points": 8.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": -1.5e-11
+    "spread_rounding_deviation_points": -1e-11
   },
   "rtv": {
-    "value": 1.3359375,
+    "value": 1.7486979166666667,
     "baseline_median": 768.0,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-25T07:00:00Z"
+    "last_closed_bar_utc": "2026-11-25T07:15:00Z"
   }
 }
 ```
