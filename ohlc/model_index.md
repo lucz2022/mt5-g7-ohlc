@@ -2,7 +2,7 @@
 
 Algorithm: zones-1.0; not backtested; all enabled=0.
 Read this index then individual evidence cards. No live execution authorization.
-as_of_utc: 2026-11-25T01:00:00Z
+as_of_utc: 2026-11-25T01:15:00Z
 
 | Symbol | Result | Direction | Mode | Zone | Invalidation | Evidence |
 |---|---|---|---|---|---|---|
@@ -11,7 +11,7 @@ as_of_utc: 2026-11-25T01:00:00Z
 | USDJPY | TECHNICAL_CANDIDATE  | BUY | PULLBACK | 159.145 - 159.193 | 159.106 | [USDJPY](evidence/USDJPY.md) |
 | USDCHF | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [USDCHF](evidence/USDCHF.md) |
 | USDCAD | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [USDCAD](evidence/USDCAD.md) |
-| AUDUSD | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 0.66544 - 0.66582 | 0.66614 | [AUDUSD](evidence/AUDUSD.md) |
+| AUDUSD | TECHNICAL_CANDIDATE  | SELL | PULLBACK | 0.66503 - 0.66541 | 0.66573 | [AUDUSD](evidence/AUDUSD.md) |
 | EURJPY | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [EURJPY](evidence/EURJPY.md) |
 | GBPJPY | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [GBPJPY](evidence/GBPJPY.md) |
 | EURGBP | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [EURGBP](evidence/EURGBP.md) |
