@@ -1,6 +1,6 @@
 # CADCHF candidate evidence
 
-JSON SHA-256: f1742013c307c79b2f84762a29c9c80eb1dfc8a1660c6983d4cc9826c281229e
+JSON SHA-256: 3124f2a5bad2b7bd439b8d6afe8f5a839d7beee5a0f3e8c6d2341b62587723df
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "CADCHF",
-  "as_of_utc": "2026-11-25T10:15:00Z",
+  "as_of_utc": "2026-11-25T10:30:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [

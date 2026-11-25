@@ -1,6 +1,6 @@
 # EURAUD candidate evidence
 
-JSON SHA-256: 866c99d3e7216c3b1127e2c7f3bdac88228e06a11e0fa00a5d5233d56a4a578d
+JSON SHA-256: e6944485a21d8678afab7c20750d721392375cffecf81ad4bae277dfed9f2ee2
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "EURAUD",
-  "as_of_utc": "2026-11-25T10:15:00Z",
+  "as_of_utc": "2026-11-25T10:30:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [

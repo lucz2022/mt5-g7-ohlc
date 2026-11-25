@@ -1,6 +1,6 @@
 # USDJPY candidate evidence
 
-JSON SHA-256: e2926ef954fe136bf3bbf61f0b39ef3b5db6f2cda3ac0d026696d04e5afc1d59
+JSON SHA-256: c5e251b8ca139d9b67963345ef752f8465c8060ea7d750baa09e7f7b9df7c807
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "USDJPY",
-  "as_of_utc": "2026-11-25T10:15:00Z",
+  "as_of_utc": "2026-11-25T10:30:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
