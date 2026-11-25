@@ -1,6 +1,6 @@
 # EURAUD candidate evidence
 
-JSON SHA-256: a80b55df9c007bb047f90140c068197655fdc022360ddc1d936cc8b9acd9a750
+JSON SHA-256: ea44b57afb523f5929d8da68590585b941ad3ba69fab7b377c16c77ee55213d4
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "EURAUD",
-  "as_of_utc": "2026-11-25T11:15:00Z",
+  "as_of_utc": "2026-11-25T11:30:00Z",
   "price_basis": "BID",
   "status": "WATCH",
   "reasons": [
@@ -74,12 +74,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "path": "ohlc/pairs/EURAUD/H1.json",
-      "sha256": "c0e656df3c205b3d1d09615ea18b54e36565aa2a29417e29be37ce3e8bfc38da",
+      "sha256": "1269a25b2c26c7b1335bf92f6d9b2721941533fba97e6e61db47e4b0255227da",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURAUD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-25T11:16:13Z",
+      "retrieved_at_utc": "2026-11-25T11:31:14Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -102,12 +102,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/EURAUD/M15.json",
-      "sha256": "90de764031d901dcc112f8f69931b2d3795da65a49c83aa2a868776115b936de",
+      "sha256": "6459bb31e26b7fadc98348d49e4b8eaa2fd051c2aad585e608925fa4bbd5b3ca",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURAUD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-25T11:16:13Z",
+      "retrieved_at_utc": "2026-11-25T11:31:13Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -187,27 +187,27 @@ Publisher-calculated, not independently recomputed by reader.
     "H1": {
       "bars_used": 1000,
       "last_closed_bar_utc": "2026-11-25T11:00:00Z",
-      "close": 1.6662,
+      "close": 1.66489,
       "ema": {
-        "20": 1.6577805221380804,
-        "50": 1.653115454593363,
-        "200": 1.6417176329153966
+        "20": 1.6576557602333186,
+        "50": 1.6530640820443434,
+        "200": 1.641704598089526
       },
-      "ema20_change_5bars": 0.004873516099688446,
-      "atr14": 0.003215179623883209,
+      "ema20_change_5bars": 0.004748754194926708,
+      "atr14": 0.0032408939095974884,
       "trend": "BUY"
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T10:45:00Z",
-      "close": 1.6662,
+      "last_closed_bar_utc": "2026-11-25T11:30:00Z",
+      "close": 1.66561,
       "ema": {
-        "20": 1.663918694812834,
-        "50": 1.659747874898493,
-        "200": 1.6527563491488075
+        "20": 1.6642286828129524,
+        "50": 1.6603517975313036,
+        "200": 1.6531203927453013
       },
-      "ema20_change_5bars": 0.0013698743885330877,
-      "atr14": 0.0014373970715322293,
+      "ema20_change_5bars": 0.0008071193435346125,
+      "atr14": 0.0014581322658836881,
       "trend": "BUY"
     },
     "W1": {
@@ -241,22 +241,22 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "EURAUD",
-    "tick_time_utc": "2026-11-25T11:16:08Z",
-    "bid": 1.6651,
-    "ask": 1.66524,
+    "tick_time_utc": "2026-11-25T11:31:10Z",
+    "bid": 1.66586,
+    "ask": 1.66601,
     "digits": 5,
     "point": 1e-05,
-    "spread_points": 14.0,
+    "spread_points": 15.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": -3e-12
+    "spread_rounding_deviation_points": -9e-12
   },
   "rtv": {
-    "value": 0.09510169006015469,
+    "value": 0.8564881122887424,
     "baseline_median": 1745.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-25T10:45:00Z"
+    "last_closed_bar_utc": "2026-11-25T11:30:00Z"
   }
 }
 ```

@@ -1,6 +1,6 @@
 # EURJPY candidate evidence
 
-JSON SHA-256: b7bb7f33d848f4f6c48e5e908a7b017c3b07bd9c5bf9dc6d6819d4cb40c3008c
+JSON SHA-256: 5f12d92bfe7e01a2626ff263d29b9f5769d4b27384452cbdfcbad3651d80139a
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "EURJPY",
-  "as_of_utc": "2026-11-25T11:15:00Z",
+  "as_of_utc": "2026-11-25T11:30:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
@@ -74,12 +74,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "path": "ohlc/pairs/EURJPY/H1.json",
-      "sha256": "58d3440dbcb87e19a9c37b26e0ba4198cdad6bd2eda310c8ea57661df61c7808",
+      "sha256": "3342e9e7a0bee67d49acbb55f0f26838149b2390e8c56ef524664e4e14b034df",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-25T11:16:11Z",
+      "retrieved_at_utc": "2026-11-25T11:31:12Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -102,12 +102,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/EURJPY/M15.json",
-      "sha256": "67ad3d77047d4a3b9692ffcffe6cfb15747009e439b8cb4e5292695e42e7751d",
+      "sha256": "16df104acb3b1760540572ede96e940332db2f26be89d4898023a5310558a900",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "EURJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-25T11:16:11Z",
+      "retrieved_at_utc": "2026-11-25T11:31:12Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -187,27 +187,27 @@ Publisher-calculated, not independently recomputed by reader.
     "H1": {
       "bars_used": 1000,
       "last_closed_bar_utc": "2026-11-25T11:00:00Z",
-      "close": 174.376,
+      "close": 174.303,
       "ema": {
-        "20": 174.36779294717414,
-        "50": 174.30964192464435,
-        "200": 174.95612333494262
+        "20": 174.36084056622175,
+        "50": 174.3067791795463,
+        "200": 174.9553969667834
       },
-      "ema20_change_5bars": -0.035568628977245,
-      "atr14": 0.22905654780839194,
+      "ema20_change_5bars": -0.04252100992962937,
+      "atr14": 0.23448511923696289,
       "trend": "NEUTRAL"
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T10:45:00Z",
-      "close": 174.376,
+      "last_closed_bar_utc": "2026-11-25T11:30:00Z",
+      "close": 174.325,
       "ema": {
-        "20": 174.33205179219004,
-        "50": 174.37610316741666,
-        "200": 174.305961816213
+        "20": 174.33371658977103,
+        "50": 174.37177348118902,
+        "200": 174.30689191851866
       },
-      "ema20_change_5bars": 0.02456100586238108,
-      "atr14": 0.1291582787702165,
+      "ema20_change_5bars": 0.011088223134436248,
+      "atr14": 0.13345815124985172,
       "trend": "NEUTRAL"
     },
     "W1": {
@@ -241,22 +241,22 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "EURJPY",
-    "tick_time_utc": "2026-11-25T11:16:07Z",
-    "bid": 174.357,
-    "ask": 174.368,
+    "tick_time_utc": "2026-11-25T11:31:10Z",
+    "bid": 174.301,
+    "ask": 174.312,
     "digits": 3,
     "point": 0.001,
     "spread_points": 11.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": 4e-12
+    "spread_rounding_deviation_points": -2.4e-11
   },
   "rtv": {
-    "value": 0.0858257477243173,
+    "value": 0.8332899869960988,
     "baseline_median": 1922.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-25T10:45:00Z"
+    "last_closed_bar_utc": "2026-11-25T11:30:00Z"
   }
 }
 ```

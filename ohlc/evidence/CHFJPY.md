@@ -1,6 +1,6 @@
 # CHFJPY candidate evidence
 
-JSON SHA-256: 7c249541e9444c8ff720cb57f7102286e689a4c4c3ad68b7b8fbdd43522169d4
+JSON SHA-256: 1aa2132f06bf9f0d91d2c621160439129a399e782daaa7109fa92bd844df4602
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "CHFJPY",
-  "as_of_utc": "2026-11-25T11:15:00Z",
+  "as_of_utc": "2026-11-25T11:30:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
@@ -74,12 +74,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "path": "ohlc/pairs/CHFJPY/H1.json",
-      "sha256": "1b6608f74c1ab1777b6d24ce472222f139f1e3672258f4a81cb5175e3a362e1a",
+      "sha256": "9dd2ad80ef7ceeeff35150258415664adcd3794a2f8fbd9ab1ba362898ccbd01",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "CHFJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-25T11:16:15Z",
+      "retrieved_at_utc": "2026-11-25T11:31:15Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -102,12 +102,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/CHFJPY/M15.json",
-      "sha256": "3fd18e6b6959f1d4795c52468bbd23ea6e35b267f5baddad867aed0c51d2e793",
+      "sha256": "0db8d6ca23eec2e12722f40e71b37819bb59175c26c9750ddb4378b34ea1e93d",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "CHFJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-25T11:16:15Z",
+      "retrieved_at_utc": "2026-11-25T11:31:15Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -187,27 +187,27 @@ Publisher-calculated, not independently recomputed by reader.
     "H1": {
       "bars_used": 1000,
       "last_closed_bar_utc": "2026-11-25T11:00:00Z",
-      "close": 191.334,
+      "close": 191.461,
       "ema": {
-        "20": 190.54582541078273,
-        "50": 190.04418332154575,
-        "200": 190.0018911054248
+        "20": 190.55792064887797,
+        "50": 190.0491637137026,
+        "200": 190.00315478701683
       },
-      "ema20_change_5bars": 0.2557781856906729,
-      "atr14": 0.27259797578054684,
+      "ema20_change_5bars": 0.2678734237859146,
+      "atr14": 0.2790979757805454,
       "trend": "BUY"
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T10:45:00Z",
-      "close": 191.334,
+      "last_closed_bar_utc": "2026-11-25T11:30:00Z",
+      "close": 191.395,
       "ema": {
-        "20": 190.91259039540094,
-        "50": 190.67796871632413,
-        "200": 190.01552270773408
+        "20": 191.05078198879664,
+        "50": 190.76550167553748,
+        "200": 190.0580782271905
       },
-      "ema20_change_5bars": 0.21321026219649752,
-      "atr14": 0.16214130967493404,
+      "ema20_change_5bars": 0.23042086865311262,
+      "atr14": 0.17226734701638904,
       "trend": "BUY"
     },
     "W1": {
@@ -241,22 +241,22 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "CHFJPY",
-    "tick_time_utc": "2026-11-25T11:16:08Z",
-    "bid": 191.393,
-    "ask": 191.404,
+    "tick_time_utc": "2026-11-25T11:31:10Z",
+    "bid": 191.405,
+    "ask": 191.419,
     "digits": 3,
     "point": 0.001,
-    "spread_points": 11.0,
+    "spread_points": 14.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": 4e-12
+    "spread_rounding_deviation_points": -1e-11
   },
   "rtv": {
-    "value": 0.10423087699635752,
+    "value": 0.9117399831885682,
     "baseline_median": 1784.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-25T10:45:00Z"
+    "last_closed_bar_utc": "2026-11-25T11:30:00Z"
   }
 }
 ```
