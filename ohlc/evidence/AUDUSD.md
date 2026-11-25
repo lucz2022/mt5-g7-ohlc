@@ -1,6 +1,6 @@
 # AUDUSD candidate evidence
 
-JSON SHA-256: 37cbe4d76d6afecff45eec619aed4d79f16fa7e3698e5581063ed0d3cd9ef848
+JSON SHA-256: f34ad0a31e2b33bc736d0562d39b0f0f2f6547ddc860eec07fab4a055ef2c0c6
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "AUDUSD",
-  "as_of_utc": "2026-11-25T11:45:00Z",
+  "as_of_utc": "2026-11-25T12:00:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [

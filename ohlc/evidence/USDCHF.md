@@ -1,6 +1,6 @@
 # USDCHF candidate evidence
 
-JSON SHA-256: 5a63d059873dd80c3e3b3a11f931a3a28e95a3c013c9dabd0680a24ffd59fb5a
+JSON SHA-256: 065bff2c9d72ac4fec16acfe1eb3b0d84c1ae075298275e9c229d9e96ca79579
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "USDCHF",
-  "as_of_utc": "2026-11-25T11:45:00Z",
+  "as_of_utc": "2026-11-25T12:00:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [

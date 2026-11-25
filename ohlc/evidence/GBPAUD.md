@@ -1,6 +1,6 @@
 # GBPAUD candidate evidence
 
-JSON SHA-256: 8ec9c6addc2d3e260eeed0af7e304e0b419dbc83bd6472bfbb9e0bc50c22fe58
+JSON SHA-256: 8eeaee4552697ad6bcb8b9a97702f77470cc26767062e7e28ef0baec4abb7437
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "GBPAUD",
-  "as_of_utc": "2026-11-25T11:45:00Z",
+  "as_of_utc": "2026-11-25T12:00:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [

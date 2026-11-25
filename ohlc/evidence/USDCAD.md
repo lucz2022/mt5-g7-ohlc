@@ -1,6 +1,6 @@
 # USDCAD candidate evidence
 
-JSON SHA-256: 72992074c22eb20dafffa6b8bf6c9eea6172aadc8fb2dededc1c7a3347ff7446
+JSON SHA-256: b902a9b30d8bc926d10d55f167fb1cda1d6451729c412a9b169cf6602d7dd907
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "USDCAD",
-  "as_of_utc": "2026-11-25T11:45:00Z",
+  "as_of_utc": "2026-11-25T12:00:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [

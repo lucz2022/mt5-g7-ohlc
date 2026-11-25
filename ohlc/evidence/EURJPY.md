@@ -1,6 +1,6 @@
 # EURJPY candidate evidence
 
-JSON SHA-256: 9a808a61583c018fda457def83dba9ee4567f89f55aee14537a93fc3f65170d2
+JSON SHA-256: dcf125bfc66c59be6d5bd3b7144266e2faf166a71cc039ab9365c90058638f37
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "EURJPY",
-  "as_of_utc": "2026-11-25T11:45:00Z",
+  "as_of_utc": "2026-11-25T12:00:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [

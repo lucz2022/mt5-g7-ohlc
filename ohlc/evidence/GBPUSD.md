@@ -1,6 +1,6 @@
 # GBPUSD candidate evidence
 
-JSON SHA-256: 0f196aa6c94fee84a2d45258f95446fc8f8aa41e2faf4d041345ccfef2e36023
+JSON SHA-256: 5349f9262bfccd5428dc7142b5aee3438ea3b413dd4d9462b0e17f3c8fa72ab9
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "GBPUSD",
-  "as_of_utc": "2026-11-25T11:45:00Z",
+  "as_of_utc": "2026-11-25T12:00:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [

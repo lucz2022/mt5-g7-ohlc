@@ -1,6 +1,6 @@
 # GBPCHF candidate evidence
 
-JSON SHA-256: 3f1722eb1c3325f9f552831b6b66b5aa44a2320d2c0fb7c85f748477f55680b8
+JSON SHA-256: c4329c727bf0a775979c9971ef26cb579fcfc4a78359616dcc36391a598a4be6
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "GBPCHF",
-  "as_of_utc": "2026-11-25T11:45:00Z",
+  "as_of_utc": "2026-11-25T12:00:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [

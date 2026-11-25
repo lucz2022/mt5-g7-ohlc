@@ -1,6 +1,6 @@
 # CADJPY candidate evidence
 
-JSON SHA-256: 1b4fd44692d4a9b6a3150084c0e0e1c4b66b5a5edb6f7f207a620d084abdef36
+JSON SHA-256: cbbb5b6aa71725a1aec8e3e40375690a82bedd5e8759f856c116b57e4dea5721
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "CADJPY",
-  "as_of_utc": "2026-11-25T11:45:00Z",
+  "as_of_utc": "2026-11-25T12:00:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [

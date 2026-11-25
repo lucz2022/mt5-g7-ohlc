@@ -1,6 +1,6 @@
 # GBPJPY candidate evidence
 
-JSON SHA-256: d496b443226e8f9aa9727aedaa96361705e13ab7221378079e3b6c323d948fbb
+JSON SHA-256: 10a0150742d2efb2fd184cd33f59d63605fef9d5f7a52145c59fa4284afae031
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "GBPJPY",
-  "as_of_utc": "2026-11-25T11:45:00Z",
+  "as_of_utc": "2026-11-25T12:00:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [

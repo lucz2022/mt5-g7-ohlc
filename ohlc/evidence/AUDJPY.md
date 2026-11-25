@@ -1,6 +1,6 @@
 # AUDJPY candidate evidence
 
-JSON SHA-256: 2f9dd4dccce1561d22001e1bb16830c6a604a670d0a13a94d51c085357a996ab
+JSON SHA-256: 92cba56c61d6e4d6d35db3ce6441901066b754bdddbf5f534dcb4b96301d33ae
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "AUDJPY",
-  "as_of_utc": "2026-11-25T11:45:00Z",
+  "as_of_utc": "2026-11-25T12:00:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
