@@ -2,7 +2,7 @@
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "AUDJPY",
-  "as_of_utc": "2026-11-25T06:15:00Z",
+  "as_of_utc": "2026-11-25T06:30:00Z",
   "price_basis": "BID",
   "status": "TECHNICAL_CANDIDATE",
   "reasons": [],
@@ -93,12 +93,12 @@
     },
     "M15": {
       "path": "ohlc/pairs/AUDJPY/M15.json",
-      "sha256": "bbcd9f8b6a42c5509ed2f0339cdef73f3a88017186fa147890dd61a3020cf11e",
+      "sha256": "db6f5ffd489c8be1d5cd3645b8feed2642aa7bb7193697002dcb2531393a7b6a",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "AUDJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-25T06:16:09Z",
+      "retrieved_at_utc": "2026-11-25T06:31:11Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -190,15 +190,15 @@
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T06:15:00Z",
-      "close": 105.023,
+      "last_closed_bar_utc": "2026-11-25T06:30:00Z",
+      "close": 104.913,
       "ema": {
-        "20": 105.26601935202004,
-        "50": 105.46318873950824,
-        "200": 105.61459011573054
+        "20": 105.23239846135147,
+        "50": 105.44161271050791,
+        "200": 105.60761000808697
       },
-      "ema20_change_5bars": -0.1340492557393418,
-      "atr14": 0.12215032362232676,
+      "ema20_change_5bars": -0.1340445647165467,
+      "atr14": 0.12256815764930343,
       "trend": "SELL"
     },
     "W1": {
@@ -231,7 +231,7 @@
       "risk_pct": 0.5,
       "factor_group": "JPY_LONG",
       "status": "WAIT_CONFIRM",
-      "distance_atr": 1.363,
+      "distance_atr": 1.7704,
       "pivot": {
         "side": "LOW",
         "level": 105.431,
@@ -248,7 +248,7 @@
         "EA_LIVE_CHECKS"
       ],
       "m15_direction_confirmed": true,
-      "valid_until_utc": "2026-11-26T06:15:00Z"
+      "valid_until_utc": "2026-11-26T06:30:00Z"
     }
   ],
   "enabled": 0,
@@ -267,21 +267,21 @@
   },
   "quote": {
     "broker_symbol": "AUDJPY",
-    "tick_time_utc": "2026-11-25T06:16:06Z",
-    "bid": 105.017,
-    "ask": 105.03,
+    "tick_time_utc": "2026-11-25T06:31:08Z",
+    "bid": 104.913,
+    "ask": 104.927,
     "digits": 3,
     "point": 0.001,
-    "spread_points": 13.0,
+    "spread_points": 14.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": -5e-12
+    "spread_rounding_deviation_points": -1e-11
   },
   "rtv": {
-    "value": 1.0674586338565974,
+    "value": 1.106491302503182,
     "baseline_median": 1178.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-25T06:15:00Z"
+    "last_closed_bar_utc": "2026-11-25T06:30:00Z"
   }
 }
