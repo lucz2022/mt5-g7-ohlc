@@ -1,6 +1,6 @@
 # USDCHF candidate evidence
 
-JSON SHA-256: 7a5d156005b3f334e788a42460440ab83e44db3ae0456e58f7d2e128efd5faf5
+JSON SHA-256: c7b38b16e864bf1ea5df41cbbe8c8ce6a7e34e6d756fd12be32205ca4a28a7a6
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "USDCHF",
-  "as_of_utc": "2026-11-25T01:30:00Z",
+  "as_of_utc": "2026-11-25T01:45:00Z",
   "price_basis": "BID",
   "status": "REJECT",
   "reasons": [
@@ -102,12 +102,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/USDCHF/M15.json",
-      "sha256": "545e87e8ca05658ae0cd83d45536823b1b6ed5b0431b1870b4bc7da4f3a571b9",
+      "sha256": "027773c0bdef26d300fcb22afee38d4a642160a2d1aab944bcd406c6e3a2acfc",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "USDCHF",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-25T01:31:08Z",
+      "retrieved_at_utc": "2026-11-25T01:46:11Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -198,16 +198,16 @@ Publisher-calculated, not independently recomputed by reader.
       "trend": "SELL"
     },
     "M15": {
-      "bars_used": 298,
-      "last_closed_bar_utc": "2026-11-25T01:30:00Z",
-      "close": 0.83633,
+      "bars_used": 299,
+      "last_closed_bar_utc": "2026-11-25T01:45:00Z",
+      "close": 0.83606,
       "ema": {
-        "20": 0.8357852237673736,
-        "50": 0.8363746732456409,
-        "200": 0.8388679584070913
+        "20": 0.8358113929323857,
+        "50": 0.8363623331183608,
+        "200": 0.8388400185224436
       },
-      "ema20_change_5bars": 0.00017905947686902568,
-      "atr14": 0.0004984150778684548,
+      "ema20_change_5bars": 0.00018486333621492435,
+      "atr14": 0.0004949568580207046,
       "trend": "NEUTRAL"
     },
     "W1": {
@@ -241,22 +241,22 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "USDCHF",
-    "tick_time_utc": "2026-11-25T01:31:06Z",
-    "bid": 0.83628,
-    "ask": 0.83636,
+    "tick_time_utc": "2026-11-25T01:46:08Z",
+    "bid": 0.83603,
+    "ask": 0.83612,
     "digits": 5,
     "point": 1e-05,
-    "spread_points": 8.0,
+    "spread_points": 9.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": 3e-12
+    "spread_rounding_deviation_points": 8e-12
   },
   "rtv": {
-    "value": 1.9655172413793103,
-    "baseline_median": 261.0,
+    "value": 2.007142857142857,
+    "baseline_median": 280.0,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-25T01:30:00Z"
+    "last_closed_bar_utc": "2026-11-25T01:45:00Z"
   }
 }
 ```
