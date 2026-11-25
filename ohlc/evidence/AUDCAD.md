@@ -1,6 +1,6 @@
 # AUDCAD candidate evidence
 
-JSON SHA-256: 1aff0e1dca55f8e7811a98803f20be0cadcde842acc51d330560b6fc12814f26
+JSON SHA-256: 0435ec1bdd701d12deca5a22d703ff3dcc289515cc2c41b6b602f12fbf017136
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "AUDCAD",
-  "as_of_utc": "2026-11-25T07:45:00Z",
+  "as_of_utc": "2026-11-25T08:00:00Z",
   "price_basis": "BID",
   "status": "WATCH",
   "reasons": [
@@ -74,12 +74,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "path": "ohlc/pairs/AUDCAD/H1.json",
-      "sha256": "77405d1235e284927106f6c5c780957a482036f23264a42b5670be3480cc1357",
+      "sha256": "4050a0fd51779dba79f16d044d617c0aecebd0525d4effb9c53a5005e6e2116d",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "AUDCAD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-25T07:01:12Z",
+      "retrieved_at_utc": "2026-11-25T08:01:15Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -102,12 +102,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/AUDCAD/M15.json",
-      "sha256": "82d273f7f2a474a8c303ab7e76779d9b5143c1fff502daa182a26577f0b4ea1b",
+      "sha256": "6b8ad5061cdbe630a4bcd861490412bbd9d0b489e2fe55e6b85cb5bbd2fa17e9",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "AUDCAD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-25T07:46:16Z",
+      "retrieved_at_utc": "2026-11-25T08:01:15Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -186,28 +186,28 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T07:00:00Z",
-      "close": 0.93927,
+      "last_closed_bar_utc": "2026-11-25T08:00:00Z",
+      "close": 0.93819,
       "ema": {
-        "20": 0.9460045503053754,
-        "50": 0.9490524414901402,
-        "200": 0.9574609191422923
+        "20": 0.9452603074191492,
+        "50": 0.9486264633924877,
+        "200": 0.9572691647794155
       },
-      "ema20_change_5bars": -0.003009762162233476,
-      "atr14": 0.0018582328214743864,
+      "ema20_change_5bars": -0.0032221657658302316,
+      "atr14": 0.0019012161913690743,
       "trend": "SELL"
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T07:45:00Z",
-      "close": 0.93832,
+      "last_closed_bar_utc": "2026-11-25T08:00:00Z",
+      "close": 0.93819,
       "ema": {
-        "20": 0.9411693496985716,
-        "50": 0.9440391659420502,
-        "200": 0.9488865892534196
+        "20": 0.9408856021082315,
+        "50": 0.9438097868854992,
+        "200": 0.9487801614509438
       },
-      "ema20_change_5bars": -0.0014955129556623037,
-      "atr14": 0.0009889557138225927,
+      "ema20_change_5bars": -0.0014816545789325675,
+      "atr14": 0.0009818874485495465,
       "trend": "SELL"
     },
     "W1": {
@@ -241,22 +241,22 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "AUDCAD",
-    "tick_time_utc": "2026-11-25T07:46:09Z",
-    "bid": 0.9382,
-    "ask": 0.93833,
+    "tick_time_utc": "2026-11-25T08:01:10Z",
+    "bid": 0.93838,
+    "ask": 0.9385,
     "digits": 5,
     "point": 1e-05,
-    "spread_points": 13.0,
+    "spread_points": 12.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": 4e-12
+    "spread_rounding_deviation_points": -1e-12
   },
   "rtv": {
-    "value": 1.6880363452801614,
+    "value": 1.5779909136799597,
     "baseline_median": 990.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-25T07:45:00Z"
+    "last_closed_bar_utc": "2026-11-25T08:00:00Z"
   }
 }
 ```

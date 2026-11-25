@@ -1,6 +1,6 @@
 # AUDUSD candidate evidence
 
-JSON SHA-256: abd6f73db504afeefd0077538b5ceffb7ac1981b09fff5f23ef2bff79b3c6f0b
+JSON SHA-256: ef675863a9fe697f75869e18a5701417cd4b5ffa8a274fbbb5870b6ab8d85293
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "AUDUSD",
-  "as_of_utc": "2026-11-25T07:45:00Z",
+  "as_of_utc": "2026-11-25T08:00:00Z",
   "price_basis": "BID",
   "status": "WATCH",
   "reasons": [
@@ -74,12 +74,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "path": "ohlc/pairs/AUDUSD/H1.json",
-      "sha256": "e1fc1d77afa0075c7b76b12f417d042f54fb6e9efec799dca9ca5f07dc795dd9",
+      "sha256": "9bbcd1ec0f1ddfca45e050a75d649065a9a05a2c93a1243770c8db3f8782fe31",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "AUDUSD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-25T07:01:09Z",
+      "retrieved_at_utc": "2026-11-25T08:01:12Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -102,12 +102,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/AUDUSD/M15.json",
-      "sha256": "4a42ba818ea5216e17611f4f36a8673c9d68c34d2d51aaadfaf4f37bd768796e",
+      "sha256": "87b3053b1c4df99f5e0a81a3aed6c65fcc104ade2c3e7d5ad16210b617a10b9d",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "AUDUSD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-25T07:46:12Z",
+      "retrieved_at_utc": "2026-11-25T08:01:12Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -186,28 +186,28 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T07:00:00Z",
-      "close": 0.65768,
+      "last_closed_bar_utc": "2026-11-25T08:00:00Z",
+      "close": 0.65635,
       "ema": {
-        "20": 0.6620903193543604,
-        "50": 0.6632016633324175,
-        "200": 0.6700446598848193
+        "20": 0.6615436222729927,
+        "50": 0.6629329706527148,
+        "200": 0.6699083862108898
       },
-      "ema20_change_5bars": -0.0017462888933156284,
-      "atr14": 0.0014304485519423434,
+      "ema20_change_5bars": -0.0020456899510951088,
+      "atr14": 0.0014654165125178927,
       "trend": "SELL"
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T07:45:00Z",
-      "close": 0.65683,
+      "last_closed_bar_utc": "2026-11-25T08:00:00Z",
+      "close": 0.65635,
       "ema": {
-        "20": 0.6591540651096703,
-        "50": 0.6610977487850087,
-        "200": 0.6630915923579688
+        "20": 0.6588870112897017,
+        "50": 0.6609115625581456,
+        "200": 0.663024514309823
       },
-      "ema20_change_5bars": -0.0012566794641412082,
-      "atr14": 0.0007373577779562204,
+      "ema20_change_5bars": -0.0012808052294610572,
+      "atr14": 0.00075397507953077,
       "trend": "SELL"
     },
     "W1": {
@@ -241,22 +241,22 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "AUDUSD",
-    "tick_time_utc": "2026-11-25T07:46:08Z",
-    "bid": 0.65681,
-    "ask": 0.6569,
+    "tick_time_utc": "2026-11-25T08:01:10Z",
+    "bid": 0.65651,
+    "ask": 0.6566,
     "digits": 5,
     "point": 1e-05,
     "spread_points": 9.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": -3e-12
+    "spread_rounding_deviation_points": 8e-12
   },
   "rtv": {
-    "value": 1.7101811367895066,
+    "value": 1.5840099937539038,
     "baseline_median": 800.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-25T07:45:00Z"
+    "last_closed_bar_utc": "2026-11-25T08:00:00Z"
   }
 }
 ```

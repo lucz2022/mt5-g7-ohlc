@@ -1,6 +1,6 @@
 # AUDJPY candidate evidence
 
-JSON SHA-256: c3bc94dc05502f49a3090c6ab278c7f3cacdbb96a401e5e460a7c4e797fc854b
+JSON SHA-256: c75ffcc85fd4301442f3cab85e1bee0e7a643bffa113dff03bc138cedcadccca
 
 Publisher-calculated, not independently recomputed by reader.
 
@@ -9,7 +9,7 @@ Publisher-calculated, not independently recomputed by reader.
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "AUDJPY",
-  "as_of_utc": "2026-11-25T07:45:00Z",
+  "as_of_utc": "2026-11-25T08:00:00Z",
   "price_basis": "BID",
   "status": "WATCH",
   "reasons": [
@@ -74,12 +74,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "path": "ohlc/pairs/AUDJPY/H1.json",
-      "sha256": "78e84973eefee2be9a0bee3af21f95ee8e8aeae3e884cb70d9b69fd67cb2ebd0",
+      "sha256": "53e327c8c5ba4182b2e9c9892af2d1ca92dd18568d2e6efc5176f228c1719120",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "AUDJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-25T07:01:10Z",
+      "retrieved_at_utc": "2026-11-25T08:01:13Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -102,12 +102,12 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "M15": {
       "path": "ohlc/pairs/AUDJPY/M15.json",
-      "sha256": "bc9a42aeaae5e1fdeeed07cf38a66968397fe15fe91d0f7ed1a00a223d07a7a4",
+      "sha256": "ede70862ce63e7bc5aec82efaa690cb1d8f36f50f7aac0fb29565a9bb521a6bb",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "AUDJPY",
       "digits": 3,
-      "retrieved_at_utc": "2026-11-25T07:46:13Z",
+      "retrieved_at_utc": "2026-11-25T08:01:12Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -186,28 +186,28 @@ Publisher-calculated, not independently recomputed by reader.
     },
     "H1": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T07:00:00Z",
-      "close": 104.753,
+      "last_closed_bar_utc": "2026-11-25T08:00:00Z",
+      "close": 104.499,
       "ema": {
-        "20": 105.43785698845377,
-        "50": 105.5771083266118,
-        "200": 106.65412764219033
+        "20": 105.34844203717246,
+        "50": 105.53482956870546,
+        "200": 106.63268247335543
       },
-      "ema20_change_5bars": -0.2544265189508508,
-      "atr14": 0.27499865448812955,
+      "ema20_change_5bars": -0.2988620885745803,
+      "atr14": 0.28578446488183473,
       "trend": "SELL"
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T07:45:00Z",
-      "close": 104.491,
+      "last_closed_bar_utc": "2026-11-25T08:00:00Z",
+      "close": 104.499,
       "ema": {
-        "20": 104.99827121311495,
-        "50": 105.29809947836046,
-        "200": 105.56121029771816
+        "20": 104.95072157377066,
+        "50": 105.26676224391495,
+        "200": 105.55064182465291
       },
-      "ema20_change_5bars": -0.23412724823651843,
-      "atr14": 0.14143258753436613,
+      "ema20_change_5bars": -0.24535322459495035,
+      "atr14": 0.13954454556762635,
       "trend": "SELL"
     },
     "W1": {
@@ -241,9 +241,9 @@ Publisher-calculated, not independently recomputed by reader.
   },
   "quote": {
     "broker_symbol": "AUDJPY",
-    "tick_time_utc": "2026-11-25T07:46:09Z",
-    "bid": 104.463,
-    "ask": 104.476,
+    "tick_time_utc": "2026-11-25T08:01:10Z",
+    "bid": 104.526,
+    "ask": 104.539,
     "digits": 3,
     "point": 0.001,
     "spread_points": 13.0,
@@ -252,11 +252,11 @@ Publisher-calculated, not independently recomputed by reader.
     "spread_rounding_deviation_points": -5e-12
   },
   "rtv": {
-    "value": 1.4942723801442512,
+    "value": 1.467967755621553,
     "baseline_median": 1178.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-25T07:45:00Z"
+    "last_closed_bar_utc": "2026-11-25T08:00:00Z"
   }
 }
 ```
