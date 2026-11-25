@@ -2,10 +2,12 @@
   "schema": "g7_candidate.v1",
   "algorithm_version": "zones-1.0",
   "symbol": "GBPUSD",
-  "as_of_utc": "2026-11-25T01:45:00Z",
+  "as_of_utc": "2026-11-25T02:00:00Z",
   "price_basis": "BID",
-  "status": "TECHNICAL_CANDIDATE",
-  "reasons": [],
+  "status": "REJECT",
+  "reasons": [
+    "D1_H4_TREND_CONFLICT"
+  ],
   "sources": {
     "D1": {
       "path": "ohlc/pairs/GBPUSD/D1.json",
@@ -37,12 +39,12 @@
     },
     "H4": {
       "path": "ohlc/pairs/GBPUSD/H4.json",
-      "sha256": "30429541f8950d58764eddac110506ec8275993075f23e41fc24b009df36ab6d",
+      "sha256": "d8554c2591e5f06a8e68ceaa58e3be8c698f5122919b46f4d35ae3d1afb98461",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "GBPUSD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-24T22:01:12Z",
+      "retrieved_at_utc": "2026-11-25T02:01:07Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -65,12 +67,12 @@
     },
     "H1": {
       "path": "ohlc/pairs/GBPUSD/H1.json",
-      "sha256": "2ebda7754daf45ca608e35880b8c60c6ef431c3a036b8d9039990cb560d7c1a0",
+      "sha256": "08e2d7a47858f76609fb967bae09368460d2caaf3d8880343a043e72217632cf",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "GBPUSD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-25T01:01:08Z",
+      "retrieved_at_utc": "2026-11-25T02:01:07Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -93,12 +95,12 @@
     },
     "M15": {
       "path": "ohlc/pairs/GBPUSD/M15.json",
-      "sha256": "e0fed33da2245128c5851d880e12d9f333c54e23f10390ed474fc8559c1d109c",
+      "sha256": "7e63ae4f4d06cd0277026a80febc236704f54e4bfd07b9c1c7b43edd299e2fd7",
       "status": "OK",
       "broker_server": "ICMarketsSC-MT5-6",
       "broker_symbol": "GBPUSD",
       "digits": 5,
-      "retrieved_at_utc": "2026-11-25T01:46:11Z",
+      "retrieved_at_utc": "2026-11-25T02:01:07Z",
       "bar_alignment": {
         "time_source": "MT5_UNIX_UTC",
         "source_encoding": "IC_MARKETS_SERVER_WALL_TIME",
@@ -164,41 +166,41 @@
     },
     "H4": {
       "bars_used": 500,
-      "last_closed_bar_utc": "2026-11-24T22:00:00Z",
-      "close": 1.31144,
+      "last_closed_bar_utc": "2026-11-25T02:00:00Z",
+      "close": 1.31068,
       "ema": {
-        "20": 1.3096969165039876,
-        "50": 1.3154293039608493,
-        "200": 1.3275019213984645
+        "20": 1.309790543503608,
+        "50": 1.3152430567456752,
+        "200": 1.3273376525057292
       },
-      "ema20_change_5bars": -0.00029886885469654345,
-      "atr14": 0.003033500035926284,
-      "trend": "SELL"
+      "ema20_change_5bars": 0.00035530913146519794,
+      "atr14": 0.002895392890502985,
+      "trend": "NEUTRAL"
     },
     "H1": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T01:00:00Z",
-      "close": 1.31143,
+      "last_closed_bar_utc": "2026-11-25T02:00:00Z",
+      "close": 1.31068,
       "ema": {
-        "20": 1.309705722755554,
-        "50": 1.3088449310862327,
-        "200": 1.3153125022427092
+        "20": 1.309798511064549,
+        "50": 1.3089168945730472,
+        "200": 1.3152664050441376
       },
-      "ema20_change_5bars": 0.0010077961897418941,
-      "atr14": 0.0011859637292009348,
+      "ema20_change_5bars": 0.000841339409766606,
+      "atr14": 0.0011662520342580085,
       "trend": "BUY"
     },
     "M15": {
       "bars_used": 1000,
-      "last_closed_bar_utc": "2026-11-25T01:45:00Z",
-      "close": 1.31071,
+      "last_closed_bar_utc": "2026-11-25T02:00:00Z",
+      "close": 1.31068,
       "ema": {
-        "20": 1.3110880698693579,
-        "50": 1.3105014023137063,
-        "200": 1.3088386495062092
+        "20": 1.3110492060722763,
+        "50": 1.3105084061445413,
+        "200": 1.308856976762622
       },
-      "ema20_change_5bars": -0.0001166819606432945,
-      "atr14": 0.00047652377473767036,
+      "ema20_change_5bars": -0.00011699796439157417,
+      "atr14": 0.0004617720765421219,
       "trend": "NEUTRAL"
     },
     "W1": {
@@ -215,42 +217,7 @@
       "trend": "SELL"
     }
   },
-  "candidates": [
-    {
-      "symbol": "GBPUSD",
-      "enabled": 0,
-      "direction": "SELL",
-      "mode": "PULLBACK",
-      "zone_low": 1.31222,
-      "zone_high": 1.31258,
-      "invalidation": 1.31288,
-      "tp1": 0,
-      "tp2": 0,
-      "rr1": 1.2,
-      "rr2": 2.5,
-      "risk_pct": 0.75,
-      "factor_group": "USD_LONG",
-      "status": "WAIT_CONFIRM",
-      "distance_atr": 1.2732,
-      "pivot": {
-        "side": "HIGH",
-        "level": 1.3124,
-        "index": 993,
-        "confirmed_index": 995,
-        "pivot_utc": "2026-11-24T19:00:00Z",
-        "confirmed_utc": "2026-11-24T21:00:00Z"
-      },
-      "breakout_close_utc": null,
-      "zone_rule": "pivot +/- 0.15 H1 ATR14; stop beyond zone by 0.25 ATR14",
-      "pending": [
-        "MACRO_REVIEW",
-        "EVENT_REVIEW",
-        "EA_LIVE_CHECKS"
-      ],
-      "m15_direction_confirmed": false,
-      "valid_until_utc": "2026-11-26T01:45:00Z"
-    }
-  ],
+  "candidates": [],
   "enabled": 0,
   "backtested": false,
   "execution_checks": "PENDING_EA_LIVE_CHECKS",
@@ -267,21 +234,21 @@
   },
   "quote": {
     "broker_symbol": "GBPUSD",
-    "tick_time_utc": "2026-11-25T01:46:10Z",
-    "bid": 1.3106900000000001,
-    "ask": 1.31079,
+    "tick_time_utc": "2026-11-25T02:01:05Z",
+    "bid": 1.31066,
+    "ask": 1.31076,
     "digits": 5,
     "point": 1e-05,
     "spread_points": 10.0,
     "server_time_utc_offset_minutes_at_collection": 120,
     "status": "OK",
-    "spread_rounding_deviation_points": 2.3e-11
+    "spread_rounding_deviation_points": 1e-12
   },
   "rtv": {
-    "value": 2.399366085578447,
+    "value": 2.0950871632329635,
     "baseline_median": 315.5,
     "semantics": "MT5_TICK_VOLUME",
     "session_adjusted": false,
-    "last_closed_bar_utc": "2026-11-25T01:45:00Z"
+    "last_closed_bar_utc": "2026-11-25T02:00:00Z"
   }
 }
