@@ -2,7 +2,7 @@
 
 Algorithm: zones-1.0; not backtested; all enabled=0.
 Read this index then individual evidence cards. No live execution authorization.
-as_of_utc: 2026-11-25T08:15:00Z
+as_of_utc: 2026-11-25T08:30:00Z
 
 | Symbol | Result | Direction | Mode | Zone | Invalidation | Evidence |
 |---|---|---|---|---|---|---|
@@ -24,6 +24,6 @@ as_of_utc: 2026-11-25T08:15:00Z
 | GBPCAD | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [GBPCAD](evidence/GBPCAD.md) |
 | GBPCHF | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [GBPCHF](evidence/GBPCHF.md) |
 | AUDCAD | WATCH NO_VALID_NEARBY_ZONE | - | - | - - - | - | [AUDCAD](evidence/AUDCAD.md) |
-| AUDCHF | WATCH NO_VALID_NEARBY_ZONE | - | - | - - - | - | [AUDCHF](evidence/AUDCHF.md) |
+| AUDCHF | TECHNICAL_CANDIDATE  | SELL | BREAKOUT | 0.55351 - 0.55393 | 0.55429 | [AUDCHF](evidence/AUDCHF.md) |
 | CADCHF | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [CADCHF](evidence/CADCHF.md) |
 | CHFJPY | REJECT D1_H4_TREND_CONFLICT | - | - | - - - | - | [CHFJPY](evidence/CHFJPY.md) |
